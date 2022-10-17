@@ -8,8 +8,7 @@ class Solution:
             index[i] += 1
             if index[i] <= index[least_freq]: least_freq = i
         
-        print(index)
-        if min(index['l'], index['o']) // 2 == index[least_freq]: return index[least_freq]
+        # if min(index['l'], index['o']) // 2 == index[least_freq]: return index[least_freq]
         
         return min(min(index['l'], index['o']) // 2, index[least_freq])
     
