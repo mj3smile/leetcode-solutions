@@ -1,11 +1,9 @@
 class Solution:
     def countSubstrings(self, s: str) -> int:
-        # result = []
         result = 0
         
         def find_palindrome(left, right, result):
             while left >= 0 and right < len(s) and s[left] == s[right]:
-                # substring = s[left:right + 1]
                 result += 1
                 left -= 1
                 right += 1
@@ -18,6 +16,5 @@ class Solution:
             
             ## even
             result = find_palindrome(i, i + 1, result)
-            
         
         return result
