@@ -23,7 +23,8 @@ class Solution:
         
         for x in range(rowlen):
             for y in range(collen):
-                if board[x][y] != word[0] or found: continue
+                if board[x][y] != word[0]: continue
+                if found: return found
                 visited_coord = set()
                 find_character(x, y, 0)
         
