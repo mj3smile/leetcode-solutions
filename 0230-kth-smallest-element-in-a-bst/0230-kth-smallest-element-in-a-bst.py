@@ -17,5 +17,4 @@ class Solution:
             dfs(root.right)
         
         dfs(root)
-        print(smallest)
         return smallest[k - 1]
