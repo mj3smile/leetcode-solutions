@@ -24,9 +24,3 @@ class Solution:
                     queue.append(curr.left)
         
         return result
-                        
-#         if not root:
-#             return []
-        
-#         print("root:", root.val, "left:", root.left, "right:", root.right)
-#         return [root.val] + self.rightSideView(root.right) if root.right else [root.val] + self.rightSideView(root.left)
