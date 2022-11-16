@@ -20,19 +20,3 @@ class Solution:
             return True
         
         return False
-        
-#         def calculate(root, total, targetSum):
-#             if total == targetSum:
-#                 return True
-            
-#             if not root or total > targetSum:
-#                 return False
-            
-#             if calculate(root.left, total + root.val, targetSum):
-#                 return True
-#             if calculate(root.right, total + root.val, targetSum):
-#                 return True
-            
-#             return False
-        
-#         return calculate(root, 0, targetSum)
