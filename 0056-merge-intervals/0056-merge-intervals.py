@@ -4,7 +4,7 @@ class Solution:
         result = [intervals[0]]
         
         for i in intervals[1:]:
-            first, last = result[-1]
+            last = result[-1][1]
             if i[0] <= last:
                 result[-1][1] = max(last, i[1])
             else:
