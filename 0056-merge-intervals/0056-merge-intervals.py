@@ -7,7 +7,6 @@ class Solution:
         while f < len(intervals):
             back, front = intervals[b], intervals[f]
             if front[0] in range(back[0], back[1] + 1):
-                back[0] = min(back[0], front[0])
                 back[1] = max(back[1], front[1])
             else:
                 result.append(back)
