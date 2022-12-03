@@ -17,12 +17,13 @@ class Solution:
             'M': 1000
         }
         
+        # find range index in symbols to use as a result
         limit_index = 0
         for i in range(len(symbols)):
             if symbolToInt[symbols[i]] > num: break
             limit_index = i
         
-        # print(symbols[:limit_index + 1])
+        # arrange result
         result = ''
         while num > 0:
             sym = symbols[limit_index]
