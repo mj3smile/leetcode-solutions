@@ -29,11 +29,13 @@ class LRUCache:
         if len(self.cache) > self.capacity:
             self.remove(self.cache.pop(self.lru.next.key))
     
+    # insert to right
     def insert(self, node):
         pr, nx = self.mru.prev, self.mru
         pr.next = nx.prev = node
         node.prev, node.next = pr, nx
     
+    # remove from list
     def remove(self, node):
         pr, nx = node.prev, node.next
         pr.next, nx.prev = nx, pr
