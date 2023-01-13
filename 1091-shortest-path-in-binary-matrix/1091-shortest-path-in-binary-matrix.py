@@ -3,14 +3,14 @@ class Solution:
         rowlen = collen = len(grid)
         queue = deque()
         visited = set()
-        queue.append((0, 0))
-        visited.add((0, 0))
+        if grid[0][0] == 0:
+            queue.append((0, 0))
+            visited.add((0, 0))
         
         length = 0
         while queue:
             for _ in range(len(queue)):
                 row, col = queue.popleft()
-                if grid[row][col] == 1: break
                 if row == rowlen - 1 and col == collen - 1:
                     return length + 1
                 
