@@ -10,22 +10,20 @@ class Solution:
     def orangesRotting(self, grid: List[List[int]]) -> int:
         rowlen = len(grid)
         collen = len(grid[0])
-        visited = set()
         queue = deque()
         
-        
-        # find fresh orange
-        fresh_orange = self.findInGrid(grid, 1)
-        if not fresh_orange: return 0
-        
-        # find rotten
-        for i in self.findInGrid(grid, 2):
-            queue.append(i)
-            visited.add(i)
+        # count fresh orange and find rotten orange
+        fresh_orange = 0
+        for r in range(len(grid)):
+            for c in range(len(grid[r])):
+                if grid[r][c] == 1:
+                    fresh_orange += 1
+                if grid[r][c] == 2:
+                    queue.append((r, c))
         
         # count minutes
-        minutes = -1
-        while queue:
+        minutes = 0
+        while queue and fresh_orange > 0:
             for _ in range(len(queue)):
                 row, col = queue.popleft()
                 directions = {
@@ -39,14 +37,11 @@ class Solution:
                     r = row + dr
                     c = col + dc
                     
-                    if min(r, c) < 0 or r == rowlen or c == collen or (r, c) in visited or grid[r][c] != 1:
-                        continue
-                    
-                    grid[r][c] = 2
-                    queue.append((r, c))
-                    visited.add((r, c))
-                    fresh_orange.remove((r, c))
+                    if r in range(rowlen) and c in range(collen) and grid[r][c] == 1:
+                        grid[r][c] = 2
+                        queue.append((r, c))
+                        fresh_orange -= 1
             
             minutes += 1
         
-        return minutes if not fresh_orange else -1
+        return minutes if fresh_orange == 0 else -1
