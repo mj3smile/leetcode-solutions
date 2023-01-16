@@ -13,15 +13,18 @@ class Solution:
         visited = set()
         queue = deque()
         
-        # find rotten
+        
+        # find fresh orange
         fresh_orange = self.findInGrid(grid, 1)
         if not fresh_orange: return 0
+        
+        # find rotten
         for i in self.findInGrid(grid, 2):
             queue.append(i)
             visited.add(i)
         
-        # bfs
-        result = -1
+        # count minutes
+        minutes = -1
         while queue:
             for _ in range(len(queue)):
                 row, col = queue.popleft()
@@ -44,6 +47,6 @@ class Solution:
                     visited.add((r, c))
                     fresh_orange.remove((r, c))
             
-            result += 1
+            minutes += 1
         
-        return result if not fresh_orange else -1
+        return minutes if not fresh_orange else -1
