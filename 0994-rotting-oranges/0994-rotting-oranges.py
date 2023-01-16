@@ -23,7 +23,6 @@ class Solution:
         # bfs
         result = -1
         while queue:
-            # print(queue)
             for _ in range(len(queue)):
                 row, col = queue.popleft()
                 directions = {
