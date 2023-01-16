@@ -1,12 +1,4 @@
 class Solution:
-    def findInGrid(self, grid, val):
-        indexes = set()
-        for r in range(len(grid)):
-            for c in range(len(grid[r])):
-                if grid[r][c] == val:
-                    indexes.add((r, c))
-        return indexes
-                    
     def orangesRotting(self, grid: List[List[int]]) -> int:
         rowlen = len(grid)
         collen = len(grid[0])
