@@ -5,8 +5,6 @@ class Solution:
         
         counts = [nums[0], nums[1]]
         for i in range(2, len(nums)):
-            # first = 0 if i - 3 < 0 else counts[i - 3]
-            # second = 0 if i - 2 < 0 else counts[i - 2]
             tmp = counts[1]
             counts[1] = nums[i] + counts[0]
             counts[0] = max(tmp, counts[0])
