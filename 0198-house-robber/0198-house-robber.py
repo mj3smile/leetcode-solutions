@@ -1,5 +1,6 @@
 class Solution:
     def rob(self, nums: List[int]) -> int:
+        # dp bottom up
         if len(nums) <= 2:
             return max(nums)
         
@@ -11,19 +12,20 @@ class Solution:
         
         return max(counts)
     
-
-#         visited = set()
-#         cache = dict()
-#         def count(n):
-#             if n >= len(nums):
-#                 return 0
-#             if n in cache:
-#                 return cache[n]
+    
+        # dp top down
+        visited = set()
+        cache = dict()
+        def count(n):
+            if n >= len(nums):
+                return 0
+            if n in cache:
+                return cache[n]
             
-#             total = nums[n]
-#             total += max(count(n + 2), count(n + 3))
-#             cache[n] = total
+            total = nums[n]
+            total += max(count(n + 2), count(n + 3))
+            cache[n] = total
             
-#             return total
+            return total
         
-#         return max(count(0), count(1))
+        return max(count(0), count(1))
