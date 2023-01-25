@@ -7,18 +7,18 @@ class Solution:
         return min(cost[0], cost[1])
     
         # top down
-#         cache = dict()
-#         def climb(staircase):
-#             if staircase >= len(cost):
-#                 return 0
-#             if staircase in cache:
-#                 return cache[staircase]
+        cache = dict()
+        def climb(staircase):
+            if staircase >= len(cost):
+                return 0
+            if staircase in cache:
+                return cache[staircase]
             
-#             total = cost[staircase]
-#             total += min(climb(staircase + 1), climb(staircase + 2))
-#             cache[staircase] = total
+            total = cost[staircase]
+            total += min(climb(staircase + 1), climb(staircase + 2))
+            cache[staircase] = total
             
-#             return total
+            return total
         
-#         return min(climb(0), climb(1))
+        return min(climb(0), climb(1))
             
