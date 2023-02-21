@@ -16,7 +16,6 @@ class Solution:
             previous_sum += arr[r]
             average = previous_sum / k
             if average >= threshold:
-                print(average, l, r)
                 result += 1
             l += 1
         
