@@ -7,7 +7,6 @@ class Solution:
         modified = [[0 for i in range(C)] for j in range(R)]
         
         def modify(row, col):
-            print(row, col)
             for i in range(C):
                 if i != col and not modified[row][i] and matrix[row][i] != 0:
                     matrix[row][i] = 0
