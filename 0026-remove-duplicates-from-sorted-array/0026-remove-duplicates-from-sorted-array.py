@@ -8,7 +8,6 @@ class Solution:
                 
             left += 1
             nums[left] = nums[right]
-            continue
         
         return left + 1
             
