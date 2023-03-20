@@ -1,20 +1,19 @@
-class TrieNode:
+class Character:
     def __init__(self):
-        self.children = {}  # a : TrieNode
+        self.children = {}
         self.word = False
-
 
 class WordDictionary:
     def __init__(self):
-        self.root = TrieNode()
+        self.root = Character()
 
     def addWord(self, word: str) -> None:
-        cur = self.root
+        curr = self.root
         for c in word:
-            if c not in cur.children:
-                cur.children[c] = TrieNode()
-            cur = cur.children[c]
-        cur.word = True
+            if c not in curr.children:
+                curr.children[c] = Character()
+            curr = curr.children[c]
+        curr.word = True
 
     def search(self, word: str) -> bool:
         def dfs(j, root):
