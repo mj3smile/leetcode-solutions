@@ -1,6 +1,6 @@
 class Character:
     def __init__(self):
-        self.children = {}
+        self.children = dict()
         self.word = False
 
 class WordDictionary:
