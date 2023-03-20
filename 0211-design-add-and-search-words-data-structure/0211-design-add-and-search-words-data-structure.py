@@ -16,22 +16,21 @@ class WordDictionary:
         curr.word = True
 
     def search(self, word: str) -> bool:
-        def dfs(j, root):
-            cur = root
-
-            for i in range(j, len(word)):
-                c = word[i]
-                if c == ".":
-                    for child in cur.children.values():
-                        if dfs(i + 1, child):
+        def dfs(i, node):
+            curr = node
+            
+            for c in range(i, len(word)):
+                char = word[c]
+                if char == ".":
+                    for child in curr.children.values():
+                        if dfs(c + 1, child):
                             return True
                     return False
                 else:
-                    if c not in cur.children:
+                    if char not in curr.children:
                         return False
-                    cur = cur.children[c]
-            return cur.word
-
+                    curr = curr.children[char]
+            return curr.word
         return dfs(0, self.root)
 
 
