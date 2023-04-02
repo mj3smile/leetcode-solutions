@@ -1,6 +1,8 @@
 class Solution:
     def numUniqueEmails(self, emails: List[str]) -> int:
         def removeSign(local_name):
+            if '.' not in local_name and '+' not in local_name:
+                return local_name
             name = ''
             for c in local_name:
                 if c == '+': break
