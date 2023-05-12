@@ -9,8 +9,6 @@ var map = function(arr, fn) {
             arr[i] = fn(arr[i])
         } else if (fn.length == 2) {
             arr[i] = fn(arr[i], i)
-        } else if (fn.length == 3) {
-            arr[i] = fn(arr[i], i, arr)
         } else {
             arr[i] = fn()
         }
