@@ -8,7 +8,7 @@ class Codec:
         baseUrl = 'https://tinyurl.com/'
         shortUrl = ''.join(random.choices(string.ascii_letters + string.digits, k=6))
         while baseUrl + shortUrl in self.index:
-            shortUrl = ''.join(random.choices(string.ascii_letters + string.digits, k=N))
+            shortUrl = ''.join(random.choices(string.ascii_letters + string.digits, k=6))
         self.index[baseUrl + shortUrl] = longUrl
         return baseUrl + shortUrl
         
