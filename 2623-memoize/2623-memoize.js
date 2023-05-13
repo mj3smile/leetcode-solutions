@@ -2,19 +2,13 @@
  * @param {Function} fn
  */
 function memoize(fn) {
-    const cache = new Map([
-        [1, new Map()],
-        [2, new Map()]
-    ]);
+    const cache = new Map();
     return function(...args) {
         key = args[0].toString() + (args.length > 1 ? ',' + args[1].toString() : '')
-        if (cache.get(args.length).has(key)) {
-            return cache.get(args.length).get(key)
+        if (!cache.has(key)) {
+            cache.set(key, fn(...args))   
         }
-        
-        result = fn(...args)
-        cache.get(args.length).set(key, result)
-        return result
+        return cache.get(key)
     }
 }
 
