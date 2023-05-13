@@ -4,7 +4,7 @@
 function memoize(fn) {
     const cache = new Map();
     return function(...args) {
-        key = args[0].toString() + (args.length > 1 ? ',' + args[1].toString() : '')
+        key = args.toString()
         if (!cache.has(key)) {
             cache.set(key, fn(...args))   
         }
