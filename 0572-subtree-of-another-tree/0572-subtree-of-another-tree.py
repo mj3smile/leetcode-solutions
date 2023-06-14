@@ -6,13 +6,15 @@
 #         self.right = right
 class Solution:
     def isSubtree(self, root: Optional[TreeNode], subRoot: Optional[TreeNode]) -> bool:
-        s = []
+        result = False
         def dfs(root):
+            nonlocal result
             if not root:
                 return
             
-            if root.val == subRoot.val:
-                s.append(root)
+            if root.val == subRoot.val and isIdentical(root, subRoot):
+                result = True
+                return
             
             dfs(root.left)
             dfs(root.right)
@@ -25,13 +27,8 @@ class Solution:
                 return isIdentical(root.left, subRoot.left) and isIdentical(root.right, subRoot.right)
             else:
                 return False
-                
         
         dfs(root)
-        for sub in s:
-            if isIdentical(sub, subRoot):
-                return True
-        
-        return False
+        return result
             
         
