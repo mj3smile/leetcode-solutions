@@ -1,25 +1,22 @@
 class Solution:
     def evalRPN(self, tokens: List[str]) -> int:
-        numbers  = []
+        operators = {'+', '-', '*', '/'}
+        operator = tokens.pop()
+        if operator not in operators:
+            return int(operator)
         
-        for t in tokens:
-            if t not in ['+', '-', '*', '/']:
-                numbers.append(int(t))
-                continue
-            
-            second = numbers.pop()
-            first = numbers.pop()
-            result = 0
-            
-            if t == '+':
-                result = first + second
-            elif t == '-':
-                result = first - second
-            elif t == '*':
-                result = first * second
-            else:
-                result = int(first / second)
-            
-            numbers.append(result)
+        operand2 = int(tokens.pop()) if tokens[-1] not in operators else self.evalRPN(tokens)
+        operand1 = int(tokens.pop()) if tokens[-1] not in operators else self.evalRPN(tokens)
         
-        return numbers[0]
+        return self.calculate(operand1, operand2, operator)
+                
+        
+    def calculate(self, operand1, operand2, operator):
+        if operator == '+':
+            return operand1 + operand2
+        elif operator == '-':
+            return operand1 - operand2
+        elif operator == '*':
+            return operand1 * operand2
+        elif operator == '/':
+            return int(operand1 / operand2)
