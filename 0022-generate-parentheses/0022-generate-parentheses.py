@@ -1,23 +1,24 @@
 class Solution:
+    def __init__(self):
+        self.result = list()
+        self.n = 0
+    
     def generateParenthesis(self, n: int) -> List[str]:
-        result = []
+        self.n = n
+        self.backtrack('', 0, 0)
+        return self.result
+    
+    def backtrack(self, combination, openCount, closeCount):
+        if openCount == closeCount == self.n:
+            self.result.append(combination)
+            return
         
-        def dfs(parentheses, pair, open_parentheses, close_parentheses):
-            pair += parentheses
-            if len(pair) == n * 2:
-                result.append(pair)
-                return
-            
-            if parentheses == "(": 
-                open_parentheses += 1
-            else:
-                close_parentheses += 1
-                        
-            if open_parentheses < n:
-                dfs("(", pair, open_parentheses, close_parentheses)
-            if close_parentheses < open_parentheses:
-                dfs(")", pair, open_parentheses, close_parentheses)
+        if openCount < self.n:
+            combination += '('
+            self.backtrack(combination, openCount+1, closeCount)
+            combination = combination[:len(combination)-1]
         
-        dfs("(", "", 0, 0)
-        return result
+        if closeCount < openCount:
+            combination += ')'
+            self.backtrack(combination, openCount, closeCount+1)
         
