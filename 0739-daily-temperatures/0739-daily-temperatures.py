@@ -1,12 +1,12 @@
 class Solution:
     def dailyTemperatures(self, temperatures: List[int]) -> List[int]:
         result = [0] * len(temperatures)
-        stack = []
+        previous_days = list()
         
-        for i in range(len(temperatures)):
-            while stack and temperatures[i] > temperatures[stack[-1]]:
-                result[stack[-1]] = i - stack[-1]
-                stack.pop()
-            stack.append(i)
-        
+        for today in range(len(temperatures)):
+            while previous_days and temperatures[today] > temperatures[previous_days[-1]]:
+                result[previous_days[-1]] = today - previous_days[-1]
+                previous_days.pop()            
+            previous_days.append(today)
+
         return result
