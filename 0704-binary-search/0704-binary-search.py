@@ -3,13 +3,13 @@ class Solution:
         left, right = 0, len(nums) - 1
         
         while left <= right:
-            mid = (left + right) // 2
+            middle = (left + right) // 2
             
-            if nums[mid] == target:
-                return mid
-            elif nums[mid] > target:
-                right = mid - 1
-            elif nums[mid] < target:
-                left = mid + 1
+            if nums[middle] == target:
+                return middle
+            elif nums[middle] < target:
+                left = middle + 1
+            else:
+                right = middle - 1
         
         return -1
