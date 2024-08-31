@@ -24,6 +24,6 @@ class Solution:
                 elif target < target_list[middle]:
                     right = middle - 1
             
-            return False
+            break
         
         return False
