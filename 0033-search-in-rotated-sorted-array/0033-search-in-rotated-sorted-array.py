@@ -1,17 +1,11 @@
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
         left, right = 0, len(nums) - 1
-        if nums[0] > nums[-1]:
-            for i in range(len(nums) - 1):
-                if nums[i] < nums[i + 1]:
-                    continue
-                
-                if target < nums[left]:
-                    left = i + 1
-                else:
-                    right = i
-                    
-                break
+        while nums[left] > nums[right]:
+            if target < nums[left]:
+                left += 1
+            else:
+                right -= 1
         
         while left <= right:
             mid = (left + right) // 2
