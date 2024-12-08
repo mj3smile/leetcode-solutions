@@ -1,15 +1,14 @@
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
-        result = dict()
-        
+        result = list()
+        group_index = dict()
+
         for word in strs:
-            indices = [0] * 26
-            for char in word:
-                indices[ord(char) - ord('a')] += 1
-            
-            key = tuple(indices)
-            result[key] = result.get(key, [])
-            result[key].append(word)
-        
-        return result.values()
-            
+            sorted_word = tuple(sorted(word))
+            if sorted_word in group_index:
+                result[group_index[sorted_word]].append(word)
+            else:
+                group_index[sorted_word] = len(result)
+                result.append([word])
+
+        return result
