@@ -1,22 +1,18 @@
 class Solution:
     def isPalindrome(self, s: str) -> bool:
-        left, right = 0, len(s)-1
+        sentence = ""
+        for c in s:
+            unicode_decimal = ord(c)
+            if ((unicode_decimal < 48 or unicode_decimal > 57) 
+            and (unicode_decimal < 65 or unicode_decimal > 90)
+            and (unicode_decimal < 97 or unicode_decimal > 122)):
+                continue
+
+            sentence += c.lower()
         
-        while left < right:
-            lchar = s[left].lower()
-            if not lchar.isalnum():
-                left += 1
-                continue
-            
-            rchar = s[right].lower()
-            if not rchar.isalnum():
-                right -= 1
-                continue
-            
-            if lchar != rchar:
+        for i in range(len(sentence) // 2):
+            left, right = sentence[i], sentence[len(sentence) - i - 1]
+            if left != right:
                 return False
-            
-            left += 1
-            right -= 1
         
         return True
