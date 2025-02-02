@@ -1,12 +1,11 @@
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
-        index = dict()
-        most_freq = nums[0]
+        result = nums[0]
+        frequency = dict()
+
+        for n in nums:
+            frequency[n] = frequency.get(n, 0) + 1
+            if frequency[n] > frequency[result]:
+                result = n
         
-        for i in nums:
-            index[i] = index.get(i, 0) + 1
-            if index[i] > index[most_freq]:
-                most_freq = i
-        
-        return most_freq
-        
+        return result
