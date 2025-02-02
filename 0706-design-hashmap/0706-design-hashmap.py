@@ -1,6 +1,6 @@
 class MyHashMap:
     def __init__(self):
-        self.items = list()
+        self.items = [-1] * 2
 
     def put(self, key: int, value: int) -> None:
         if key + 1 > len(self.items):
