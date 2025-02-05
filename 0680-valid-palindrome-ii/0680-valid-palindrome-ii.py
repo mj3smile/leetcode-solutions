@@ -10,7 +10,8 @@ class Solution:
             if s[left] != s[right]:
                 return self.validWithoutDeletePalindrome(left + 1, right) or self.validWithoutDeletePalindrome(left, right - 1)
             
-            left, right = left + 1, right - 1
+            left += 1
+            right -= 1
         
         return True
     
@@ -18,7 +19,8 @@ class Solution:
         while left < right:
             if self.s[left] != self.s[right]:
                 return False
-                
-            left, right = left + 1, right - 1
+
+            left += 1
+            right -= 1
 
         return True
