@@ -6,7 +6,7 @@ class Solution:
 
         nums.sort()
         for n1 in range(len(nums)):
-            if nums[n1] > target and len(result) > 0:
+            if target > 0 and nums[n1] > target and len(result) > 0:
                 break
             
             if n1 > 0 and nums[n1] == nums[n1 - 1]:
