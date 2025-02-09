@@ -2,11 +2,10 @@ class Solution:
     def fourSum(self, nums: List[int], target: int) -> List[List[int]]:
         result = list()
         cache = set()
-        combination = dict() # key: index of nums, val: map(key: 3sum, val: arr of second and third index)
 
         nums.sort()
         for n1 in range(len(nums)):
-            if target > 0 and nums[n1] > target and len(result) > 0:
+            if target > 0 and nums[n1] > target:
                 break
             
             if n1 > 0 and nums[n1] == nums[n1 - 1]:
