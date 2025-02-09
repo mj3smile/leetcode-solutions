@@ -8,9 +8,6 @@ class Solution:
             if target > 0 and nums[n1] > target:
                 break
             
-            if n1 > 0 and nums[n1] == nums[n1 - 1]:
-                continue
-
             for n2 in range(n1 + 1, len(nums)):
                 total = target - nums[n1] - nums[n2]
                 n3, n4 = n2 + 1, len(nums) - 1
