@@ -29,8 +29,6 @@ class Solution:
         total += self.candidates[index]
         combination.append(self.candidates[index])
         self.findCombination(index, combination, total)
-        for i in range(index - 1, -1, -1):
-            self.findCombination(i, combination, total)
         for i in range(index + 1, length):
             self.findCombination(i, combination, total)
         combination.pop()
