@@ -19,7 +19,7 @@ class Solution:
             return
         
         if total == self.target:
-            item = sorted(combination.copy())
+            item = combination.copy()
             key = tuple(item)
             if key not in self.cache:
                 self.result.append(item)
