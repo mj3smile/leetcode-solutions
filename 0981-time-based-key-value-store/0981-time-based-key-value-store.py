@@ -1,41 +1,36 @@
 class Value:
     def __init__(self):
         self.values = dict()
-        self.timestamps = list()
-        self.timestamps_cache = set()
+        self.min_timestamp = 0
+        self.max_timestamp = 0
+        # self.timestamps = list()
+        # self.timestamps_cache = set()
     
     def set(self, value, timestamp):
         self.values[timestamp] = value
-        if timestamp in self.timestamps_cache:
-            return
-        self.timestamps_cache.add(timestamp)
-        self.timestamps.append(timestamp)
-        self.timestamps.sort()
+        self.min_timestamp = min(self.min_timestamp, timestamp)
+        self.max_timestamp = max(self.max_timestamp, timestamp)
+        # if timestamp in self.timestamps_cache:
+        #     return
+        # self.timestamps_cache.add(timestamp)
+        # self.timestamps.append(timestamp)
+        # self.timestamps.sort()
     
     def get(self, timestamp):
-        # print(self.values)
         if timestamp in self.values:
             return self.values[timestamp]
-
-        left, right = 0, len(self.timestamps) - 1
-        if timestamp < self.timestamps[left]:
+        
+        if timestamp < self.min_timestamp:
             return ""
         
-        if timestamp > self.timestamps[right]:
-            return self.values[self.timestamps[right]]
+        if timestamp > self.max_timestamp:
+            return self.values[self.max_timestamp]
 
-        while left < right:
-            mid = (left + right) // 2
-
-            if self.timestamps[mid] == timestamp:
-                return self.values[self.timestamps[mid]]
-            elif self.timestamps[mid] < timestamp:
-                left = mid + 1
-            else:
-                right = mid - 1
+        for i in range(timestamp - 1, self.min_timestamp - 1, -1):
+            if i in self.values:
+                return self.values[i]
         
-        # print("final:", left)
-        return self.values[self.timestamps[left - 1]]
+        return ""
 
 class TimeMap:
     def __init__(self):
@@ -51,7 +46,7 @@ class TimeMap:
     def get(self, key: str, timestamp: int) -> str:
         if key not in self.storage:
             return ""
-        print(key, timestamp)
+        # print(key, timestamp)
         return self.storage[key].get(timestamp)
         
 
