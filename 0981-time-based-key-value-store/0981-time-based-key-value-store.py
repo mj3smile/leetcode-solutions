@@ -1,38 +1,59 @@
-class TimeMap:
+class Value:
     def __init__(self):
-        self.values = dict()        # k: key, v: {timestamp: value}
-        self.timestamps = dict()    # k: key, v: [timestamp1, timestampN...]
+        self.values = dict()
+        self.timestamps = list()
+        self.timestamps_cache = set()
+    
+    def set(self, value, timestamp):
+        self.values[timestamp] = value
+        if timestamp in self.timestamps_cache:
+            return
+        self.timestamps_cache.add(timestamp)
+        self.timestamps.append(timestamp)
+        self.timestamps.sort()
+    
+    def get(self, timestamp):
+        # print(self.values)
+        if timestamp in self.values:
+            return self.values[timestamp]
 
-    def set(self, key: str, value: str, timestamp: int) -> None:
-        self.values[key] = self.values.get(key, {})
-        self.values[key][timestamp] = value
-        self.timestamps[key] = self.timestamps.get(key, [])
-        self.timestamps[key].append(timestamp)
-
-    def get(self, key: str, timestamp: int) -> str:
-        if key not in self.values:
+        left, right = 0, len(self.timestamps) - 1
+        if timestamp < self.timestamps[left]:
             return ""
         
-        timestamp = self.get_timestamp(key, timestamp)
-        return self.values[key].get(timestamp, "")
-    
-    def get_timestamp(self, key, timestamp):
-        if timestamp in self.values[key]:
-            return timestamp
-        
-        if timestamp < self.timestamps[key][0]:
-            return timestamp
-        
-        left, right = 0, len(self.timestamps[key]) - 1
-        while left <= right:
+        if timestamp > self.timestamps[right]:
+            return self.values[self.timestamps[right]]
+
+        while left < right:
             mid = (left + right) // 2
-            
-            if self.timestamps[key][mid] > timestamp:
-                right = mid - 1
-            else:
+
+            if self.timestamps[mid] == timestamp:
+                return self.values[self.timestamps[mid]]
+            elif self.timestamps[mid] < timestamp:
                 left = mid + 1
+            else:
+                right = mid - 1
         
-        return self.timestamps[key][right]
+        # print("final:", left)
+        return self.values[self.timestamps[left - 1]]
+
+class TimeMap:
+    def __init__(self):
+        self.storage = dict()
+
+    def set(self, key: str, value: str, timestamp: int) -> None:
+        value_obj = Value()
+        if key in self.storage:
+            value_obj = self.storage[key]
+        value_obj.set(value, timestamp)
+        self.storage[key] = value_obj
+
+    def get(self, key: str, timestamp: int) -> str:
+        if key not in self.storage:
+            return ""
+        print(key, timestamp)
+        return self.storage[key].get(timestamp)
+        
 
 
 # Your TimeMap object will be instantiated and called as such:
