@@ -1,24 +1,30 @@
 class Solution:
-    def __init__(self):
-        self.result = list()
-        self.n = 0
-    
     def generateParenthesis(self, n: int) -> List[str]:
         self.n = n
-        self.backtrack('', 0, 0)
+        self.cache = set()
+        self.result = list()
+        self.generatePairs("(", "", [], 0)
+
         return self.result
     
-    def backtrack(self, combination, openCount, closeCount):
-        if openCount == closeCount == self.n:
-            self.result.append(combination)
+    def generatePairs(self, char, pairs, stack, count):
+        if len(pairs) == self.n * 2:
+            if pairs not in self.cache: 
+                self.result.append(pairs)
+                self.cache.add(pairs)
             return
         
-        if openCount < self.n:
-            combination += '('
-            self.backtrack(combination, openCount+1, closeCount)
-            combination = combination[:len(combination)-1]
+        if (char == "(" and count == self.n) or (char == ")" and len(stack) == 0):
+            return
+
+        stack = stack.copy()
+        if char == "(":
+            stack.append(char)
+            count += 1
+        else:
+            stack.pop()
         
-        if closeCount < openCount:
-            combination += ')'
-            self.backtrack(combination, openCount, closeCount+1)
-        
+        pairs += char
+        self.generatePairs("(", pairs, stack, count)
+        self.generatePairs(")", pairs, stack, count)
+            
