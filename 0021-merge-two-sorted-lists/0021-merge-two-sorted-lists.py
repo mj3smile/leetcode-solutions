@@ -9,19 +9,7 @@ class Solution:
         head = result
 
         while list1 or list2:
-            if list1 and not list2:
-                head.next = list1
-                head = head.next
-                list1 = list1.next
-                continue
-
-            if list2 and not list1:
-                head.next = list2
-                head = head.next
-                list2 = list2.next
-                continue
-
-            if list1.val <= list2.val:
+            if list1 and not list2 or list1 and list2 and list1.val <= list2.val:
                 head.next = list1
                 list1 = list1.next
             else:
