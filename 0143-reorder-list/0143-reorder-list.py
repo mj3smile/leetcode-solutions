@@ -8,33 +8,28 @@ class Solution:
         """
         Do not return anything, modify head in-place instead.
         """
-        ## steps:
-        ## 1. split the list in half
-        ## 2. reverse the second half
-        ## 3. reorder list
+        if not head.next:
+            return
+
+        nodes = list()
+        node = head
+        while node:
+            nodes.append(node)
+            node = node.next
         
-        ## step 1 split the list by find the center element of the list
-        slow = fast = head
-        while fast and fast.next:
-            slow = slow.next
-            fast = fast.next.next
+        prev, curr = head, head.next
+        while curr:
+            last = nodes.pop()
+            if prev == last:
+                prev.next = None
+                break
+            if curr == last:
+                curr.next = None
+                break
+            
+            print(curr.val, last.val)
+            prev.next = last
+            last.next = curr
+            prev, curr = curr, curr.next
         
-        ## reverse the second half
-        second = slow.next
-        prev = None
-        while second:
-            tmp = second.next
-            second.next = prev
-            prev = second
-            second = tmp
-        
-        ## reorder list
-        slow.next = None # cut the link in the center item so that the list is splitted
-        first, second = head, prev
-        while second:
-            tmp1, tmp2 = first.next, second.next
-            first.next = second
-            second.next = tmp1
-            first = tmp1
-            second = tmp2
-        
+        return
