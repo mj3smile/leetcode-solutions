@@ -29,8 +29,7 @@ class Solution:
                 if nodes[index] == node.random:
                     randoms.append(index)
                     break
-        
-        print("randoms:", randoms)
+
         result = Node(0)
         curr = result
         new_nodes = [None] * len(nodes)
