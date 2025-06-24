@@ -2,12 +2,19 @@ class Solution:
     def rob(self, nums: List[int]) -> int:
         self.nums = nums
         
-        result = 0
-        for i in range(len(nums)):
-            robbed_house = [False] * len(nums)
-            self.cache = dict()
-            profit = self.countMaxProfit(i, robbed_house)
-            result = max(result, profit)
+        # result = 0
+        # for i in range(len(nums)):
+        #     robbed_house = [False] * len(nums)
+        #     self.cache = dict()
+        #     profit = self.countMaxProfit(i, robbed_house)
+        #     result = max(result, profit)
+        self.cache = dict()
+        one = self.countMaxProfit(0, [False] * len(nums))
+        self.cache = dict()
+        two = self.countMaxProfit(1, [False] * len(nums))
+        self.cache = dict()
+        three = self.countMaxProfit(len(nums) - 1, [False] * len(nums))
+        result = max(one, two, three)
         
         return result
     
