@@ -6,9 +6,7 @@ class Solution:
         for i in range(len(nums)):
             robbed_house = [False] * len(nums)
             self.cache = dict()
-            # print("house", i)
             profit = self.countMaxProfit(i, robbed_house)
-            # print("profit:", profit)
             result = max(result, profit)
         
         return result
@@ -23,22 +21,13 @@ class Solution:
         if robbed_house[house]:
             return 0
         
-        print(self.nums[house], robbed_house)
         if house in self.cache:
             return self.cache[house]
         
         robbed_house[house] = True
         one = self.countMaxProfit(house + 2, robbed_house)
         two = self.countMaxProfit(house + 3, robbed_house)
-        max_profit = max(one, two)
-        # if one > two:
-        #     max_profit = one
-        #     robbed_house[(house + 3) % len(self.nums)] = False
-        # else:
-        #     max_profit = two
-        #     robbed_house[(house + 2) % len(self.nums)] = False
-
         robbed_house[house] = False
         
-        self.cache[house] = self.nums[house] + max_profit
+        self.cache[house] = self.nums[house] + max(one, two)
         return self.cache[house]
