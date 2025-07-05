@@ -1,23 +1,23 @@
 class Solution:
     def numDecodings(self, s: str) -> int:
-        dp = {len(s) : 1}
+        self.s = s
+        self.dp = {len(s) : 1}
+        return self.dfs(0)
+    
+    def dfs(self, i):
+        if i in self.dp:
+            return self.dp[i]
+        if self.s[i] == "0":
+            return 0
 
-        def dfs(i):
-            if i in dp:
-                return dp[i]
-            if s[i] == "0":
-                return 0
-
-            res = dfs(i + 1)
-            if i + 1 < len(s) and (
-                s[i] == "1" or s[i] == "2" and
-                s[i + 1] in "0123456"
-            ):
-                res += dfs(i + 2)
-            dp[i] = res
-            return res
-
-        return dfs(0)
+        res = self.dfs(i + 1)
+        if i + 1 < len(self.s) and (
+            self.s[i] == "1" or self.s[i] == "2" and
+            self.s[i + 1] in "0123456"
+        ):
+            res += self.dfs(i + 2)
+        self.dp[i] = res
+        return res
     #     self.message = s
     #     return self.decodeWays(0)
         
