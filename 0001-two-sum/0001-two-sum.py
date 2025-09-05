@@ -1,9 +1,11 @@
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
-        substractions = dict()
+        result = list()
+        subs = dict() # key: result of target-items in nums, value: index of items
 
-        for i in range(len(nums)):
-            if nums[i] in substractions:
-                return [substractions[nums[i]], i]
+        for n in range(len(nums)):
+            if nums[n] in subs:
+                return [n, subs[nums[n]]]
             
-            substractions[target - nums[i]] = i
+            subs[target - nums[n]] = n
+        
