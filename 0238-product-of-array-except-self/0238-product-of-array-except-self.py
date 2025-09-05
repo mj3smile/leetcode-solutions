@@ -1,28 +1,31 @@
 class Solution:
     def productExceptSelf(self, nums: List[int]) -> List[int]:
-        left_to_right = list()
-        right_to_left = [0] * len(nums)
+        l_to_r = [1] * len(nums)
+        r_to_l = [1] * len(nums)
 
-        for left in range(len(nums)):
-            right = len(nums) - 1 - left
+        for l in range(len(nums)):
+            r = len(nums) - 1 - l
 
-            if left == 0:
-                left_to_right.append(nums[left])
-                right_to_left[right] = nums[right]
+            if l == 0:
+                l_to_r[l] = nums[l]
+                r_to_l[r] = nums[r]
                 continue
             
-            left_to_right.append(left_to_right[left - 1] * nums[left])
-            right_to_left[right] = right_to_left[right + 1] * nums[right]
+            l_to_r[l] = nums[l] * l_to_r[l - 1]
+            r_to_l[r] = nums[r] * r_to_l[r + 1]
         
         result = list()
         for i in range(len(nums)):
-            left, right = 1, 1
-            if i > 0:
-                left = left_to_right[i - 1]
+            if i == 0:
+                result.append(r_to_l[i + 1])
+                continue
             
-            if i < len(nums) - 1:
-                right = right_to_left[i + 1]
+            if i == len(nums) - 1:
+                result.append(l_to_r[i - 1])
+                continue
             
-            result.append(left * right)
+            l = l_to_r[i - 1]
+            r = r_to_l[i + 1]
+            result.append(l * r)
         
         return result
