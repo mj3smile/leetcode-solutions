@@ -1,26 +1,33 @@
 class Solution:
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
-        prereq = {i: [] for i in range(numCourses)}
-        for c1, c2 in prerequisites:
-            prereq[c1].append(c2)
+        self.pairs = [[] for _ in range(numCourses)]
+        self.cache = dict()
+
+        for p in prerequisites:
+            self.pairs[p[0]].append(p[1])
         
-        visited = set()
-        def dfs(course):
-            if course in visited:
+        # print("pairs:", self.pairs)
+        for course in range(len(self.pairs)):
+            # print("================")
+            # print("course:", course)
+            if not self.isCompletable(course, set()):
                 return False
-            if prereq[course] == []:
-                return True
-            
-            visited.add(course)
-            for req in prereq[course]:
-                if not dfs(req):
-                    return False
-            visited.remove(course)
-            prereq[course] = []
-            return True
-        
-        for c in range(numCourses):
-            if not dfs(c):
-                return False
-        
+                
         return True
+    
+    def isCompletable(self, course, visited_course) -> bool:
+        if course in visited_course:
+            return False
+        
+        if course in self.cache:
+            return self.cache[course]
+        
+        result = True
+        visited_course.add(course)
+        for prerequisite in self.pairs[course]:
+            result = result and self.isCompletable(prerequisite, visited_course)
+        visited_course.remove(course)
+        self.cache[course] = result
+        
+        # print("course:", course, "visited:", visited_course, "result", result)
+        return result
