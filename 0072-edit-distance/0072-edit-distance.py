@@ -1,30 +1,23 @@
 class Solution:
     def minDistance(self, word1: str, word2: str) -> int:
-        self.word1, self.word2 = word1, word2
-        return self.countMinDistance(0, 0, dict())
-    
-    def countMinDistance(self, w1, w2, cache):
-        if w1 == len(self.word1) and w2 == len(self.word2):
-            return 0
+        rows, cols = len(word1), len(word2)
+        dp = [[0 for _ in range(cols + 1)] for _ in range(rows + 1)]
+
+        for row in range(len(dp)):
+            dp[row][-1] = rows - row
         
-        if w1 == len(self.word1):
-            return len(self.word2) - w2
+        for col in range(len(dp[-1])):
+            dp[-1][col] = cols - col
         
-        if w2 == len(self.word2):
-            return len(self.word1) - w1
+        for row in range(rows - 1, -1, -1):
+            for col in range(cols - 1, -1, -1):
+                if word1[row] == word2[col]:
+                    dp[row][col] = dp[row + 1][col + 1]
+                else:
+                    dp[row][col] = 1 + min(
+                        dp[row + 1][col + 1],
+                        dp[row][col + 1],
+                        dp[row + 1][col]
+                    )
         
-        if (w1, w2) in cache:
-            return cache[(w1, w2)]
-        
-        result = 0
-        if self.word1[w1] == self.word2[w2]:
-            result = self.countMinDistance(w1 + 1, w2 + 1, cache)
-        else:
-            result = 1 + min(
-                self.countMinDistance(w1 + 1, w2 + 1, cache),
-                self.countMinDistance(w1, w2 + 1, cache),
-                self.countMinDistance(w1 + 1, w2, cache)
-            )
-        
-        cache[(w1, w2)] = result
-        return result
+        return dp[0][0]
