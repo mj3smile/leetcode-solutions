@@ -25,4 +25,4 @@ class Solution:
         right = self.countMaxDepth(root.right)
 
         self.result = max(self.result, left + right)        
-        return 1 + max(self.countMaxDepth(root.left), self.countMaxDepth(root.right))
+        return 1 + max(left, right)
