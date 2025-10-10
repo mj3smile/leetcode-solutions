@@ -1,26 +1,22 @@
 class Solution:
-    def __init__(self):
-        self.s = ""
-
     def validPalindrome(self, s: str) -> bool:
-        self.s = s
+        left, right = 0, len(s) - 1
+        while left < right and s[left] == s[right]:
+            left, right = left+1, right-1
+        
+        if left == right:
+            return True
+        
+        deletion_1 = s[:left] + s[left+1:] if left > 0 else s[left+1:]
+        deletion_2 = s[:right] + s[right+1:] if right < len(s)-1 else s[:right]
 
+        return self.isPalindrome(deletion_1) or self.isPalindrome(deletion_2)
+        
+    def isPalindrome(self, s):
         left, right = 0, len(s) - 1
         while left < right:
             if s[left] != s[right]:
-                return self.validWithoutDeletePalindrome(left + 1, right) or self.validWithoutDeletePalindrome(left, right - 1)
-            
-            left += 1
-            right -= 1
-        
-        return True
-    
-    def validWithoutDeletePalindrome(self, left: int, right: int) -> bool:
-        while left < right:
-            if self.s[left] != self.s[right]:
                 return False
-
-            left += 1
-            right -= 1
-
+            left, right = left+1, right-1
         return True
+
