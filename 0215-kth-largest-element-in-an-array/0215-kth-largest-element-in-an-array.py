@@ -1,8 +1,58 @@
+class MinHeap:
+    def __init__(self, capacity):
+        self.capacity = capacity
+        self.nodes = [0]
+    
+    def push(self, val):
+        # print("=======")
+        # print("push:", val)
+        # print("push before:", self.nodes)
+        if len(self.nodes) - 1 == self.capacity:
+            if val < self.getRoot():
+                return
+            self.pop()
+        
+        self.nodes.append(val)
+        child_index = len(self.nodes) - 1
+        parent_index = child_index // 2
+        while parent_index > 0 and self.nodes[parent_index] > self.nodes[child_index]:
+            self.nodes[parent_index], self.nodes[child_index] = self.nodes[child_index], self.nodes[parent_index]
+            child_index = parent_index
+            parent_index = parent_index // 2
+        # print("push after:", self.nodes)
+        # print("=======")
+    
+    def pop(self):
+        if len(self.nodes) < 2:
+            return 0
+        
+        if len(self.nodes) == 2:
+            return self.nodes.pop()
+        
+        root = self.nodes[1]
+        self.nodes[1] = self.nodes.pop()
+        parent_index = 1
+        left_child_index = 2
+        right_child_index = 3
+        while (left_child_index < len(self.nodes) and self.nodes[parent_index] > self.nodes[left_child_index]) or (right_child_index < len(self.nodes) and self.nodes[parent_index] > self.nodes[right_child_index]):
+            if right_child_index >= len(self.nodes) or self.nodes[left_child_index] < self.nodes[right_child_index]:
+                self.nodes[parent_index], self.nodes[left_child_index] = self.nodes[left_child_index], self.nodes[parent_index]
+                parent_index = left_child_index
+            else:
+                self.nodes[parent_index], self.nodes[right_child_index] = self.nodes[right_child_index], self.nodes[parent_index]
+                parent_index = right_child_index
+
+            left_child_index = parent_index * 2
+            right_child_index = parent_index * 2 + 1
+        
+        return root
+
+    def getRoot(self):
+        return self.nodes[1]
+
 class Solution:
     def findKthLargest(self, nums: List[int], k: int) -> int:
-        nums = [-num for num in nums]
-        heapq.heapify(nums)
-        result = nums[0]
-        for _ in range(k):
-            result = heapq.heappop(nums)
-        return result * -1
+        heap = MinHeap(k)
+        for n in nums:
+            heap.push(n)
+        return heap.getRoot()
