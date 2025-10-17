@@ -30,7 +30,7 @@ class MinHeap:
         parent_index = 1
         left_child_index = 2
         right_child_index = 3
-        while (left_child_index < len(self.nodes) and self.nodes[parent_index] > self.nodes[left_child_index]) or (right_child_index < len(self.nodes) and self.nodes[parent_index] > self.nodes[right_child_index]):
+        while self.nodes[parent_index] > self.nodes[left_child_index] or (right_child_index < len(self.nodes) and self.nodes[parent_index] > self.nodes[right_child_index]):
             if right_child_index >= len(self.nodes) or self.nodes[left_child_index] < self.nodes[right_child_index]:
                 self.nodes[parent_index], self.nodes[left_child_index] = self.nodes[left_child_index], self.nodes[parent_index]
                 parent_index = left_child_index
