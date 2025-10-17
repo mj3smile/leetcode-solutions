@@ -4,13 +4,10 @@ class MinHeap:
         self.nodes = [0]
     
     def push(self, val):
-        # print("=======")
-        # print("push:", val)
-        # print("push before:", self.nodes)
         if len(self.nodes) - 1 == self.capacity:
-            if val < self.getRoot():
-                return
-            self.pop()
+            if val >= self.getRoot():
+                self.popAndReplaceWithValue(val)
+            return
         
         self.nodes.append(val)
         child_index = len(self.nodes) - 1
@@ -19,18 +16,17 @@ class MinHeap:
             self.nodes[parent_index], self.nodes[child_index] = self.nodes[child_index], self.nodes[parent_index]
             child_index = parent_index
             parent_index = parent_index // 2
-        # print("push after:", self.nodes)
-        # print("=======")
     
-    def pop(self):
+    def popAndReplaceWithValue(self, val):
         if len(self.nodes) < 2:
             return 0
         
-        if len(self.nodes) == 2:
-            return self.nodes.pop()
-        
         root = self.nodes[1]
-        self.nodes[1] = self.nodes.pop()
+        if len(self.nodes) == 2:
+            self.nodes[1] = val
+            return root
+        
+        self.nodes[1] = val
         parent_index = 1
         left_child_index = 2
         right_child_index = 3
