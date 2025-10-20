@@ -1,25 +1,25 @@
 class Solution:
     def longestPalindrome(self, s: str) -> str:
         result = ""
-        longest_sub = 0
-        
-        for i in range(len(s)):
-            def find_palindrome(left, right, longest_sub, result):
-                while left >= 0 and right < len(s) and s[left] == s[right]:
-                    if right - left + 1 > longest_sub:
-                        result = s[left:right + 1]
-                        longest_sub = right - left + 1
+        result_len = len(result)
 
-                    left -= 1
-                    right += 1
-                
-                return result, longest_sub
-                
-            ## odd substring length
-            result, longest_sub = find_palindrome(i, i, longest_sub, result)
-            
-            ## even
-            result, longest_sub = find_palindrome(i, i + 1, longest_sub, result)
-            
+        for i in range(len(s)):
+            odd = self.getPalindromeSubstring(i, i)
+            if len(odd) > result_len:
+                result, result_len = odd, len(odd)
+
+            even = self.getPalindromeSubstring(i, i + 1)
+            if len(even) > result_len:
+                result, result_len = even, len(even)
         
+        return result
+
+    def getPalindromeSubstring(self, left, right):
+        result = ""
+        while left >= 0 and right < len(self.s) and self.s[left] == self.s[right]:
+            result = self.s[left] + result
+            if left != right: result += self.s[right]
+            left -= 1
+            right += 1
+
         return result
