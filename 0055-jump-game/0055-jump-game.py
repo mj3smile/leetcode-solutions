@@ -1,34 +1,24 @@
 class Solution:
     def canJump(self, nums: List[int]) -> bool:
-#         result = False
+        self.nums = nums
+        self.cache = dict()
+
+        return self.jump(0)
+
+    def jump(self, index):
+        if index >= len(self.nums) - 1:
+            return True
         
-#         def jump(i):
-#             nonlocal result
-#             if result:
-#                 return
-            
-#             if i == len(nums) - 1:
-#                 result = True
-#                 return
-            
-#             if i >= len(nums) or nums[i] == 0:
-#                 return
-            
-#             # max_jump = nums[i]
-#             while nums[i] > 0 and not result:
-#                 jump(i + nums[i])
-#                 nums[i] -= 1
-#             # jump(i + 1)
+        if self.nums[index] == 0:
+            return False
         
-#         jump(0)
+        if index in self.cache:
+            return self.cache[index]
         
-        target = len(nums) - 1
-        result = True
-        for i in range(len(nums) - 2, -1, -1):
-            if i + nums[i] >= target:
-                target = i
-                result = True
-            else:
-                result = False
+        result = False
+        for i in range(index + self.nums[index], index, -1):
+            result = result or self.jump(i)
+            if result: break
         
-        return result
+        self.cache[index] = result
+        return self.cache[index]
