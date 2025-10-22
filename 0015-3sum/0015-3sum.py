@@ -1,24 +1,18 @@
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
         nums.sort()
-        
         result = list()
+
         for i in range(len(nums)):
-            if i > 0 and nums[i] == nums[i - 1]:
+            if i > 0 and nums[i - 1] == nums[i]:
                 continue
 
             target = 0 - nums[i]
-            subs = dict()
-            appeared = set()
+            pairs = dict()
 
-            for x in range(i + 1, len(nums)):
-                if x > i + 1 and nums[x] == nums[x - 1] and nums[x] in appeared:
-                    continue
-                
-                if nums[x] in subs:
-                    appeared.add(nums[x])
-                    result.append([nums[i], nums[x], nums[subs[nums[x]]]])
-                
-                subs[target - nums[x]] = x
+            for j in range(i + 1, len(nums)):
+                if nums[j] in pairs:
+                    result.append([nums[i], pairs[nums[j]], nums[j]])
+                pairs[target - nums[j]] = nums[j]
         
         return result
