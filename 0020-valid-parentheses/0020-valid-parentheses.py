@@ -1,18 +1,12 @@
 class Solution:
     def isValid(self, s: str) -> bool:
-        pairs = {')': '(', '}': '{', ']': '['}
-        open_parentheses = list()
-        
-        for c in s:
-            if c not in pairs:
-                open_parentheses.append(c)
-                continue
-            
-            last_stack_item = ''
-            if len(open_parentheses) > 0:
-                last_stack_item = open_parentheses.pop()
-                
-            if last_stack_item != pairs[c]:
+        close_parentheses = {")": "(", "}": "{", "]": "["}
+        open_parentheses = []
+
+        for char in s:
+            if char not in close_parentheses:
+                open_parentheses.append(char)
+            elif len(open_parentheses) == 0 or open_parentheses.pop() != close_parentheses[char]:
                 return False
         
-        return True if len(open_parentheses) == 0 else False
+        return len(open_parentheses) == 0
