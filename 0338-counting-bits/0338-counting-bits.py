@@ -1,12 +1,20 @@
 class Solution:
     def countBits(self, n: int) -> List[int]:
-        result = [0] * (n + 1)
-        
-        for i in range(1, n + 1):
-            x = i
-            while x > 0:
-                if x & 1 == 1:
-                    result[i] += 1
-                x = x >> 1
-        
+        result = list()
+        for i in range(n + 1):
+            if self.isPowerOfTwo(i):
+                result.append(1)
+            else:
+                result.append(self.countOneBit(i))
+        return result
+
+    def isPowerOfTwo(self, n):
+        return n > 0 and n & (n - 1) == 0
+    
+    def countOneBit(self, n):
+        result = 0
+        while n > 0:
+            if n & 1 == 1:
+                result += 1
+            n = n // 2
         return result
