@@ -1,20 +1,14 @@
 class Solution:
     def countSubstrings(self, s: str) -> int:
-        result = 0
-        
-        def find_palindrome(left, right, result):
-            while left >= 0 and right < len(s) and s[left] == s[right]:
-                result += 1
-                left -= 1
-                right += 1
-            return result
+        self.s = s
+        self.result = 0
+        for i in range(len(s)):
+            self.countPalindromeFromCenter(i, i)
+            if i < len(s) - 1: self.countPalindromeFromCenter(i, i + 1)
+        return self.result
 
-                        
-        for i in range(len(s)):    
-            ## odd substring length
-            result = find_palindrome(i, i, result)
-            
-            ## even
-            result = find_palindrome(i, i + 1, result)
-        
-        return result
+    def countPalindromeFromCenter(self, center_index_left, center_index_right):
+        while center_index_left >= 0 and center_index_right < len(self.s) and self.s[center_index_left] == self.s[center_index_right]:
+            self.result += 1
+            center_index_left -= 1
+            center_index_right += 1
