@@ -14,26 +14,29 @@ class Codec:
         :rtype: str
         """
         queue = deque()
-        queue.append(root)
+        if root:
+            queue.append(root)
         
         result = ""
-        while queue:
+        while len(queue) > 0:
             for _ in range(len(queue)):
+                node = queue.popleft()
                 comma = ","
                 if result == "":
                     comma = ""
 
-                node = queue.popleft()
-                if not node:
-                    result += comma + "null"
-                    continue
-                
-                result += comma + str(node.val)
-                queue.append(node.left)
-                queue.append(node.right)
+                if node:
+                    result = result + comma + str(node.val)
+                    queue.append(node.left)
+                    queue.append(node.right)
+                else:
+                    result = result + comma + "null"
+                    # queue.append(None)
+                    # queue.append(None)
+                # print("result:", result)
 
+        # print("result:", result)
         return result
-        
 
     def deserialize(self, data):
         """Decodes your encoded data to tree.
@@ -41,47 +44,42 @@ class Codec:
         :type data: str
         :rtype: TreeNode
         """
-
-        root = None
-        serialized_nodes = data.split(",")
-
-        if serialized_nodes:
-            root = self.deserialize_node(serialized_nodes[0])
         
-        roots = deque()
-        roots.append(root)
+        data_arr = data.split(",")
+        print("data_arr:", data_arr)
+        queue = deque()
+        root = None
+        if data_arr:
+            if data_arr[0] == "null" or data_arr[0] == "": return
+            root = TreeNode(int(data_arr[0])) 
+            queue.append(root)
+        
         i = 1
-        while roots and i < len(serialized_nodes) - 1:
-            current_root = roots.popleft()
-            if not current_root:
+        while i < len(data_arr):
+            # print(data_arr[i], data_arr[i + 1])
+            root_node = queue.popleft()
+            if not root_node:
+                # print("root node: null")
                 continue
+            # print("root node:", root_node.val)
+            left = data_arr[i]
+            if i < len(data_arr) - 1: right = data_arr[i + 1]
 
-            left = self.deserialize_node(serialized_nodes[i])
-            right = self.deserialize_node(serialized_nodes[i + 1])
-            current_root.left = left
-            current_root.right = right
-            roots.append(left)
-            roots.append(right)
+            left_node = None
+            if left != "null":
+                left_node = TreeNode(int(left))
+            
+            right_node = None
+            if right != "" and right != "null":
+                right_node = TreeNode(int(right))
+            
+            root_node.left = left_node
+            root_node.right = right_node
+            queue.append(left_node)
+            queue.append(right_node)
             i += 2
         
         return root
-
-    
-    def deserialize_node(self, serialized_node):
-        if serialized_node == "null":
-            return None
-        
-        value = 0
-        try:
-            value = int(serialized_node)
-        except:
-            return None
-        
-        return TreeNode(value)
-
-
-
-
 
 # Your Codec object will be instantiated and called as such:
 # ser = Codec()
