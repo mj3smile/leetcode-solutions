@@ -14,27 +14,10 @@ class Solution:
         if not root:
             return 0
 
-        # if root.left or root.right:
-        self.result = max(self.result, root.val)
-
+        # self.result = max(self.result, root.val)
         left = self.calculateMaxPath(root.left)
         right = self.calculateMaxPath(root.right)
-        self.result = max(self.result, root.val + left + right, root.val + left, root.val + right)
-
-        # if self.result:
-        #     self.result[0] = max(self.result[0], root.val + left + right, root.val, left, right)
-        # else:
-        #     self.result.append(max(root.val + left + right, root.val, left, right))
-        
-        # if left and right:
-        #     root.val = max(root.val, left.val, right.val, root.val + left.val + right.val, root.val + left.val, root.val + right.val)
-        # elif left:
-        #     root.val = max(root.val, left.val, root.val + left.val)
-        # elif right:
-        #     root.val = max(root.val, right.val, root.val + right.val)
+        self.result = max(self.result, root.val, root.val + left + right, root.val + left, root.val + right)
         
         root.val = max(root.val, root.val + max(left, right))
-        # self.result = max(self.result, root.val)
-        # else:
-        #     self.result = max(self.result, root.val)
         return root.val
