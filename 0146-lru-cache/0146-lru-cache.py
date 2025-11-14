@@ -29,6 +29,7 @@ class LRUCache:
             self.size += 1
 
         self.cache[key] = self.cache.get(key, Node(key, value))
+        self.cache[key].val = value
         self.updateMRU(key)
         # self.printList()
 
