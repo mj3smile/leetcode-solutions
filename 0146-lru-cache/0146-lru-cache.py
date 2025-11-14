@@ -1,64 +1,71 @@
 class Node:
-    def __init__(self, key = 0, value = 0):
+    def __init__(self, key, val):
         self.key = key
-        self.val = value
-        self.prev = None
+        self.val = val
         self.next = None
+        self.prev = None
 
 class LRUCache:
     def __init__(self, capacity: int):
         self.capacity = capacity
-        self.storage = dict()
-        self.cache_head = Node()
-        self.cache_tail = Node()
-        self.cache_head.next = self.cache_tail
-        self.cache_tail.prev = self.cache_head
+        self.size = 0
+        self.cache = dict()
+        self.cache_list_head = Node(0, 0)
+        self.cache_list_tail = Node(0, 0)
+        self.cache_list_head.next = self.cache_list_tail
+        self.cache_list_tail.prev = self.cache_list_head
 
     def get(self, key: int) -> int:
-        if key not in self.storage:
+        if key not in self.cache:
             return -1
-        self.update_mru(key)
-        return self.storage[key].val
+        self.updateMRU(key)
+        return self.cache[key].val    
 
     def put(self, key: int, value: int) -> None:
-        if key not in self.storage and len(self.storage) == self.capacity:
-            self.evict_lru()
+        if self.size == self.capacity and key not in self.cache:
+            self.evictLRU()
         
-        if key not in self.storage:
-            self.storage[key] = Node(key=key, value=value)
-        else:
-            self.storage[key].val = value
+        if key not in self.cache:
+            self.size += 1
 
-        self.update_mru(key)
+        self.cache[key] = self.cache.get(key, Node(key, value))
+        self.updateMRU(key)
+        # self.printList()
+
+    def evictLRU(self):
+        if self.size == 0:
+            return
+
+        lru_node = self.cache_list_head.next
+        self.cache_list_head.next = lru_node.next
+        lru_node.next.prev = self.cache_list_head
+        lru_node.next = None
+        lru_node.prev = None
+        del self.cache[lru_node.key]
+        self.size -= 1
     
-    def update_mru(self, key):
-        if key not in self.storage:
+    def updateMRU(self, key):
+        if key not in self.cache:
             return
         
-        node = self.storage[key]
-        if node.next == self.cache_tail:
-            return
+        mru_node = self.cache[key]
+        if mru_node.prev:
+            mru_node.prev.next = mru_node.next
+        if mru_node.next:
+            mru_node.next.prev = mru_node.prev
         
-        if node.next != None and node.prev != None:
-            node.prev.next = node.next
-            node.next.prev = node.prev
-
-        node.next = self.cache_tail
-        node.prev = self.cache_tail.prev
-        self.cache_tail.prev = node
-        node.prev.next = node
+        mru_node.next = self.cache_list_tail
+        self.cache_list_tail.prev.next = mru_node
+        mru_node.prev = self.cache_list_tail.prev
+        self.cache_list_tail.prev = mru_node
     
-    def evict_lru(self):
-        if len(self.storage) == 0:
-            return
-        
-        node = self.cache_head.next
-        self.cache_head.next = node.next
-        node.next.prev = self.cache_head
-        node.next, node.prev = None, None
-
-        del self.storage[node.key]
-
+    def printList(self):
+        curr = self.cache_list_head.next
+        nodes = ""
+        while curr != self.cache_list_tail:
+            nodes += " " + str(curr.val)
+            curr = curr.next
+        print(nodes)
 
 # Your LRUCache object will be instantiated and called as such:
 # obj = LRUCache(capacity)
