@@ -5,7 +5,6 @@ class Solution:
         for col in range(n):
             self.calcQueenPlace(0, col, list(), set(), set(), set())
         return self.result
-
     
     def calcQueenPlace(self, row, col, placement, visited_col, visited_diagonal_a, visited_diagonal_b):
         if col in visited_col or row - col in visited_diagonal_a or row + col in visited_diagonal_b:
