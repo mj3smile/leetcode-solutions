@@ -17,29 +17,21 @@ class Solution:
         
         self.queue = deque()
         self.visited = set()
-        self.calcFirstIslandLands(first_island_row, first_island_col)
+        self.calcFirstIslandLands(0, 0, first_island_row, first_island_col, set())
 
-        # print("queue:", self.queue, first_island_row, first_island_col)
         result = 0
-        visited = set()
         while self.queue:
             # print("queue:", self.queue)
             for _ in range(len(self.queue)):
                 coord = self.queue.popleft()
                 row, col = coord
-                
-                # if coord not in self.visited and grid[row][col] == 1:
-                #     return result
-                
-                # self.visited.add(coord)
-                for nr, nc in [[1,0],[-1,0],[0,-1],[0,1]]:
-                    new_row, new_col = row + nr, col + nc
-                    # print(new_row, new_col)
+                for r, c in [[1,0],[-1,0],[0,-1],[0,1]]:
+                    new_row, new_col = row + r, col + c
                     if new_row < 0 or new_row == self.rows or new_col < 0 or new_col == self.cols or (new_row, new_col) in self.visited:
                         continue
                     if grid[new_row][new_col] == 1:
                         return result
-                    # print("here")
+                    
                     self.visited.add((new_row, new_col))
                     self.queue.append((new_row, new_col))
                 
@@ -47,13 +39,20 @@ class Solution:
         
         return result
 
-    def calcFirstIslandLands(self, row, col):
-        if row < 0 or row == self.rows or col < 0 or col == self.cols or (row, col) in self.visited or self.grid[row][col] == 0:
+    def calcFirstIslandLands(self, prev_row, prev_col, row, col, cache):
+        if row < 0 or row == self.rows or col < 0 or col == self.cols or (row, col) in self.visited:
             return
         
-        self.queue.append((row, col))
+        if self.grid[row][col] == 0:
+            key = (prev_row, prev_col)
+            if key in cache:
+                return
+            cache.add(key)
+            self.queue.append(key)
+            # print("here")
+            return
+        
+        # self.queue.append((row, col))
         self.visited.add((row, col))
-        self.calcFirstIslandLands(row + 1, col)
-        self.calcFirstIslandLands(row - 1, col)
-        self.calcFirstIslandLands(row, col + 1)
-        self.calcFirstIslandLands(row, col - 1)
+        for r, c in [[1,0],[-1,0],[0,-1],[0,1]]:
+            self.calcFirstIslandLands(row, col, row + r, col + c, cache)
