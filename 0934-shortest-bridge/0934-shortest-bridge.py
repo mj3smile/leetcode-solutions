@@ -21,7 +21,6 @@ class Solution:
 
         result = 0
         while self.queue:
-            # print("queue:", self.queue)
             for _ in range(len(self.queue)):
                 coord = self.queue.popleft()
                 row, col = coord
@@ -49,10 +48,8 @@ class Solution:
                 return
             cache.add(key)
             self.queue.append(key)
-            # print("here")
             return
         
-        # self.queue.append((row, col))
         self.visited.add((row, col))
         for r, c in [[1,0],[-1,0],[0,-1],[0,1]]:
             self.calcFirstIslandLands(row, col, row + r, col + c, cache)
