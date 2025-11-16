@@ -1,24 +1,27 @@
 class Solution:
     def maxAreaOfIsland(self, grid: List[List[int]]) -> int:
-        result = 0
-        visited = set()
+        self.grid = grid
+        self.rows = len(grid)
+        self.cols = len(grid[0])
+        self.result = 0
+
+        for r in range(self.rows):
+            for c in range(self.cols):
+                if self.grid[r][c] == 1:
+                    # print("before",self.grid)
+                    self.countAreaOfIsland(r, c, [0])
+                    # print("after",self.grid)
+                    # print("result:", self.result)
+
+        return self.result
+
+    def countAreaOfIsland(self, row, col, area):
+        if row < 0 or row == self.rows or col < 0 or col == self.cols or self.grid[row][col] == 0:
+            return
         
-        def dfs(r, c):
-            rowlen, collen = len(grid), len(grid[0])
-            if min(r, c) < 0 or r == rowlen or c == collen or grid[r][c] == 0 or (r, c) in visited:
-                return 0
-            
-            visited.add((r, c))
-            land = 1
-            land += dfs(r, c + 1)
-            land += dfs(r, c - 1)
-            land += dfs(r + 1, c)
-            land += dfs(r - 1, c)
-            
-            return land
-        
-        for r in range(len(grid)):
-            for c in range(len(grid[r])):
-                result = max(result, dfs(r, c))
-        
-        return result
+        self.grid[row][col] = 0
+        area[0] += 1
+        self.result = max(self.result, area[0])
+
+        for r, c in [[0,1],[0,-1],[1,0],[-1,0]]:
+            self.countAreaOfIsland(row + r, col + c, area)
