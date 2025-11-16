@@ -14,8 +14,7 @@ class Solution:
         place_str = ""
         for i in range(self.n):
             char = "."
-            if i == col:
-                char = "Q"
+            if i == col: char = "Q"
             place_str += char
         
         placement.append(place_str)
