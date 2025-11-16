@@ -8,18 +8,9 @@ class Solution:
 
     
     def calcQueenPlace(self, row, col, placement, visited_col, visited_diagonal_a, visited_diagonal_b):
-        # if row == self.n:
-        #     cache_key = "".join(placement)
-        #     if cache_key in cache:
-        #         return
-        #     self.result.append(placement.copy())
-        #     cache.add(cache_key)
-        #     return
-        
         if col in visited_col or row - col in visited_diagonal_a or row + col in visited_diagonal_b:
             return
         
-
         place_str = ""
         for i in range(self.n):
             char = "."
