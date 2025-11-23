@@ -9,19 +9,12 @@ class Solution:
         return self.canReachTarget(0, target, dict())
         
     def canReachTarget(self, index, target, cache):
-        if index < 0 or index == len(self.nums) or target < 0:
+        if index == len(self.nums) or target < 0:
             return False
-        
         if target == 0:
             return True
-        
         if (index, target) in cache:
             return cache[(index, target)]
-        
-        result = self.canReachTarget(index + 1, target, cache)
-        newTarget = target - self.nums[index]
-        if newTarget >= 0:
-            result = result or self.canReachTarget(index + 1, newTarget, cache)
 
-        cache[(index, target)] = result
-        return result
+        cache[(index, target)] = self.canReachTarget(index + 1, target, cache) or self.canReachTarget(index + 1, target - self.nums[index], cache)
+        return cache[(index, target)]
