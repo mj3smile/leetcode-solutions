@@ -6,26 +6,22 @@ class Solution:
             return False
         
         target = total / 2
-        reached, numItems = self.canReachTarget(0, target, 0, dict())
-        return reached and numItems < len(nums)
-    
-    def canReachTarget(self, index, target, numItems, cache):
+        return self.canReachTarget(0, target, dict())
+        
+    def canReachTarget(self, index, target, cache):
         if index < 0 or index == len(self.nums) or target < 0:
-            return False, 0
+            return False
         
         if target == 0:
-            return True, numItems
+            return True
         
         if (index, target) in cache:
-            r, i = cache[(index, target)]
-            return r, i
+            return cache[(index, target)]
         
-        reachedTarget, items = self.canReachTarget(index + 1, target, numItems, cache)
+        result = self.canReachTarget(index + 1, target, cache)
         newTarget = target - self.nums[index]
         if newTarget >= 0:
-            reached, i = self.canReachTarget(index + 1, newTarget, numItems + 1, cache)
-            if reached:
-                reachedTarget, items = reached, i
-        
-        cache[(index, target)] = (reachedTarget, items)
-        return reachedTarget, items
+            result = result or self.canReachTarget(index + 1, newTarget, cache)
+
+        cache[(index, target)] = result
+        return result
