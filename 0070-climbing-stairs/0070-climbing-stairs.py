@@ -1,13 +1,14 @@
 class Solution:
     def climbStairs(self, n: int) -> int:
-        if n < 4: return n
+        return self.waysToClimb(n, dict())
+
+    def waysToClimb(self, n, cache):
+        if n < 0:
+            return 0
+        if n == 0:
+            return 1
+        if n in cache:
+            return cache[n]
         
-        # we only count when staircase >= 4
-        # steps[0] == steps to climb stair with 2 staircase
-        # steps[1] == steps to climb stair with 3 staircase
-        steps = [2, 3]
-        for _ in range(n + 1 - 4):
-            tmp = steps[1]
-            steps[1] = steps[0] + steps[1]
-            steps[0] = tmp
-        return steps[1]
+        cache[n] = self.waysToClimb(n - 2, cache) + self.waysToClimb(n - 1, cache)
+        return cache[n]
