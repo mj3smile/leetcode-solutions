@@ -1,31 +1,14 @@
 class Solution:
     def rob(self, nums: List[int]) -> int:
-        # dp bottom up
-        if len(nums) <= 2:
-            return max(nums)
-        
-        counts = [nums[0], nums[1]]
-        for i in range(2, len(nums)):
-            tmp = counts[1]
-            counts[1] = nums[i] + counts[0]
-            counts[0] = max(tmp, counts[0])
-        
-        return max(counts)
+        self.nums = nums
+        return self.maxProfit(0, dict())
     
-    
-        # dp top down
-        visited = set()
-        cache = dict()
-        def count(n):
-            if n >= len(nums):
-                return 0
-            if n in cache:
-                return cache[n]
-            
-            total = nums[n]
-            total += max(count(n + 2), count(n + 3))
-            cache[n] = total
-            
-            return total
+    def maxProfit(self, index, cache):
+        if index >= len(self.nums):
+            return 0
         
-        return max(count(0), count(1))
+        if index in cache:
+            return cache[index]
+        
+        cache[index] = max(self.nums[index] + self.maxProfit(index + 2, cache), self.maxProfit(index + 1, cache))
+        return cache[index]
