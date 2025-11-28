@@ -7,18 +7,11 @@ class Solution:
         for w in weights:
             sumWeights += w
             minCap = max(minCap, w)
-
-        # minCap = sumWeights // days
-        # if sumWeights % days > 0:
-        #     minCap += 1
         
         left, right = minCap, maxCap
         while left < right:
-            # print("==============")
-            # print("left:", left, "right:", right)
             mid = (left + right) // 2
             daysToShip = self.daysToShip(mid)
-            # print("cap:", mid, "daysToShip:", daysToShip)
 
             if daysToShip > days:
                 left = mid + 1
