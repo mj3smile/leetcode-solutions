@@ -1,12 +1,12 @@
 class Solution:
     def shipWithinDays(self, weights: List[int], days: int) -> int:
         self.weights = weights
-        sumWeights = sum(weights)
-        maxCap = sumWeights
+        maxCap = 0
         minCap = 0
         for w in weights:
-            sumWeights += w
+            maxCap += w
             minCap = max(minCap, w)
+
         
         left, right = minCap, maxCap
         while left < right:
