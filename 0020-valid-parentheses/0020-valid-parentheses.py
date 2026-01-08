@@ -1,12 +1,13 @@
 class Solution:
     def isValid(self, s: str) -> bool:
-        close_parentheses = {")": "(", "}": "{", "]": "["}
-        open_parentheses = []
+        closeParentheses = {"}": "{", "]": "[", ")": "("}
+        stack = list()
 
         for char in s:
-            if char not in close_parentheses:
-                open_parentheses.append(char)
-            elif len(open_parentheses) == 0 or open_parentheses.pop() != close_parentheses[char]:
+            if char not in closeParentheses:
+                stack.append(char)
+                continue
+            if not stack or stack.pop() != closeParentheses[char]:
                 return False
         
-        return len(open_parentheses) == 0
+        return len(stack) == 0
