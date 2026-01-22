@@ -1,25 +1,36 @@
 class Solution:
     def longestPalindrome(self, s: str) -> str:
+        self.s = s
         result = ""
-        result_len = len(result)
 
         for i in range(len(s)):
-            odd = self.getPalindromeSubstring(i, i)
-            if len(odd) > result_len:
-                result, result_len = odd, len(odd)
+            isPalindrome, word = self.isPalindrome(i, i)
+            if isPalindrome and len(result) < len(word):
+                result = word
+            
+            if i == len(self.s) - 1:
+                break
 
-            even = self.getPalindromeSubstring(i, i + 1)
-            if len(even) > result_len:
-                result, result_len = even, len(even)
+            isPalindrome, word = self.isPalindrome(i, i + 1)
+            if isPalindrome and len(result) < len(word):
+                result = word
         
         return result
 
-    def getPalindromeSubstring(self, left, right):
-        result = ""
-        while left >= 0 and right < len(self.s) and self.s[left] == self.s[right]:
-            result = self.s[left] + result
-            if left != right: result += self.s[right]
+    def isPalindrome(self, left, right):
+        if left != right and self.s[left] != self.s[right]:
+            return False, ""
+        
+        word = ""
+        while left <= right and left >= 0 and right < len(self.s):
+            if self.s[left] != self.s[right]:
+                break
+            if left == right:
+                word = self.s[left]
+            else:
+                word = self.s[left] + word + self.s[right]
+
             left -= 1
             right += 1
 
-        return result
+        return True, word
