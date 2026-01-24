@@ -10,9 +10,6 @@ class Solution:
             first = first.next
             if not first:
                 return head.next
-        
-        if first == None:
-            return None
 
         if first.next == None:
             head.next = head.next.next
