@@ -3,25 +3,23 @@ class Solution:
         self.nums = nums
         self.N = len(nums)
         result = 0
-        cache = dict()
+        self.cache = dict()
         for i in range(len(nums)):
-            a = self.countIncreasing(i, cache)
-            # print(i, a)
-            result = max(result, a)
+            result = max(result, self.countIncreasing(i))
         return result
 
-    def countIncreasing(self, index, cache):
+    def countIncreasing(self, index):
         if index >= self.N:
             return 0
         
-        if index in cache:
-            return cache[index]
+        if index in self.cache:
+            return self.cache[index]
         
         result = 0
         for i in range(index + 1, self.N):
             if self.nums[i] <= self.nums[index]:
                 continue
-            result = max(result, self.countIncreasing(i, cache))
+            result = max(result, self.countIncreasing(i))
         
-        cache[index] = 1 + result
-        return cache[index]
+        self.cache[index] = 1 + result
+        return self.cache[index]
