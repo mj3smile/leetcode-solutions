@@ -1,38 +1,44 @@
-class TrieNode:
-    def __init__(self, letter = ""):
-        self.letter = letter
-        self.children = dict() # key: letter, val: TrieNode
-        self.end_of_word = False
+class Node:
+    def __init__(self):
+        self.children = dict()
+        self.word = False
 
 class WordDictionary:
     def __init__(self):
-        self.root = TrieNode()
+        self.root = Node()
 
     def addWord(self, word: str) -> None:
+        if word == "":
+            return
         curr = self.root
         for char in word:
             if char not in curr.children:
-                curr.children[char] = TrieNode(char)
+                curr.children[char] = Node()
             curr = curr.children[char]
-        curr.end_of_word = True
+        curr.word = True
 
     def search(self, word: str) -> bool:
-        return self.searchWithIndex(word, 0, self.root)
+        if word == "":
+            return False
+        return self.searchWithRoot(word, 0, self.root)
+        
+    
+    def searchWithRoot(self, word, index, root):
+        if index == len(word):
+            return root.word
+        
+        if word[index] == ".":
+            for child in root.children.values():
+                if self.searchWithRoot(word, index + 1, child):
+                    return True
+            return False
+        elif word[index] not in root.children:
+            return False
+        else:
+            return self.searchWithRoot(word, index + 1, root.children[word[index]])
 
-    def searchWithIndex(self, word, start_index, root):
-        curr_root = root
-        for i in range(start_index, len(word)):
-            char = word[i]
-            if char == ".":
-                for child in curr_root.children.values():
-                    if self.searchWithIndex(word, i + 1, child):
-                        return True
-                return False
-            else:
-                if char not in curr_root.children:
-                    return False
-                curr_root = curr_root.children[char]
-        return curr_root.end_of_word
+        
+
 
 # Your WordDictionary object will be instantiated and called as such:
 # obj = WordDictionary()
