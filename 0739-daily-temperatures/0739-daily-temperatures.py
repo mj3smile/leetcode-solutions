@@ -1,11 +1,10 @@
 class Solution:
     def dailyTemperatures(self, temperatures: List[int]) -> List[int]:
         result = [0 for _ in temperatures]
-        heap = list()
-        heapq.heapify(heap)
+        stack = list()
         for i in range(len(temperatures)):
-            while heap and heap[0][0] < temperatures[i]:
-                pastTemp, index = heapq.heappop(heap)
+            while stack and stack[-1][0] < temperatures[i]:
+                pastTemp, index = stack.pop()
                 result[index] = i - index
-            heapq.heappush(heap, (temperatures[i], i))
+            stack.append((temperatures[i], i))
         return result
