@@ -1,19 +1,16 @@
 class Solution:
     def productExceptSelf(self, nums: List[int]) -> List[int]:
-        right_to_left_prefix = [nums[-1]] * len(nums)
+        rightToLeftProduct = [nums[-1] for _ in range(len(nums))]
         for i in range(len(nums) - 2, -1, -1):
-            right_to_left_prefix[i] = right_to_left_prefix[i + 1] * nums[i]
+            rightToLeftProduct[i] = nums[i] * rightToLeftProduct[i + 1]
         
-        result = []
+        result = list()
+        prefix = 1
         for i in range(len(nums)):
-            if i == 0:
-                result.append(right_to_left_prefix[i + 1])
-                continue
-            if i == len(nums) - 1:
-                result.append(nums[i - 1])
-                continue
-            
-            nums[i] *= nums[i - 1]
-            result.append(nums[i - 1] * right_to_left_prefix[i + 1])
+            suffix = 1
+            if i < len(nums) - 1:
+                suffix = rightToLeftProduct[i + 1]
+            result.append(prefix * suffix)
+            prefix *= nums[i]
         
         return result
