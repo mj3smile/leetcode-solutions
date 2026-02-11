@@ -1,35 +1,24 @@
 class Solution:
     def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
-        self.candidates = candidates
-        self.target = target
-        self.cache = set()
-        self.result = list()
-
-        for i in range(len(self.candidates)):
-            self.findCombination(i, [], 0)
-
-        return self.result
-    
-    def findCombination(self, index, combination, total): 
-        length = len(self.candidates)
-        if index < 0 or index == length:
-            return
+        result = list()
+        cache = set()
+        def calculate(combination, itemFreq, total):
+            if total > target:
+                return
+            nonlocal result
+            if total == target:
+                key = tuple(itemFreq)
+                if key in cache:
+                    return
+                result.append(combination.copy())
+                cache.add(key)
+                return
+            for i in range(len(candidates)):
+                combination.append(candidates[i])
+                itemFreq[i] += 1
+                calculate(combination, itemFreq, total + candidates[i])
+                itemFreq[i] -= 1
+                combination.pop()
         
-        if total > self.target:
-            return
-        
-        if total == self.target:
-            item = combination.copy()
-            key = tuple(item)
-            if key not in self.cache:
-                self.result.append(item)
-                self.cache.add(key)
-            return
-        
-        total += self.candidates[index]
-        combination.append(self.candidates[index])
-        self.findCombination(index, combination, total)
-        for i in range(index + 1, length):
-            self.findCombination(i, combination, total)
-        combination.pop()
-        
+        calculate(list(), [0 for _ in range(len(candidates))], 0)
+        return result
