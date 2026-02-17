@@ -1,30 +1,17 @@
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
-        self.n = n
-        self.cache = set()
-        self.result = list()
-        self.generatePairs("(", "", [], 0)
+        result = list()
 
-        return self.result
-    
-    def generatePairs(self, char, pairs, stack, count):
-        if len(pairs) == self.n * 2:
-            if pairs not in self.cache: 
-                self.result.append(pairs)
-                self.cache.add(pairs)
-            return
-        
-        if (char == "(" and count == self.n) or (char == ")" and len(stack) == 0):
-            return
+        def combination(openCount, closeCount, currCombination):
+            if openCount > n or closeCount > n or closeCount > openCount:
+                return
 
-        stack = stack.copy()
-        if char == "(":
-            stack.append(char)
-            count += 1
-        else:
-            stack.pop()
-        
-        pairs += char
-        self.generatePairs("(", pairs, stack, count)
-        self.generatePairs(")", pairs, stack, count)
+            nonlocal result
+            if openCount == n and closeCount == n:
+                result.append(currCombination)
+                return
+            combination(openCount + 1, closeCount, currCombination + "(")
+            combination(openCount, closeCount + 1, currCombination + ")")
             
+        combination(0, 0, "")
+        return result
