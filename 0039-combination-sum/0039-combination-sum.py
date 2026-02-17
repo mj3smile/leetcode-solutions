@@ -2,23 +2,22 @@ class Solution:
     def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
         result = list()
         cache = set()
-        def calculate(combination, itemFreq, total):
+
+        def combination(total, currCombination, freq):
             if total > target:
                 return
-            nonlocal result
             if total == target:
-                key = tuple(itemFreq)
-                if key in cache:
-                    return
-                result.append(combination.copy())
-                cache.add(key)
+                key = tuple(freq)
+                if key not in cache:
+                    cache.add(key)
+                    result.append(currCombination.copy())
                 return
             for i in range(len(candidates)):
-                combination.append(candidates[i])
-                itemFreq[i] += 1
-                calculate(combination, itemFreq, total + candidates[i])
-                itemFreq[i] -= 1
-                combination.pop()
+                freq[i] += 1
+                currCombination.append(candidates[i])
+                combination(total + candidates[i], currCombination, freq)
+                freq[i] -= 1
+                currCombination.pop()
         
-        calculate(list(), [0 for _ in range(len(candidates))], 0)
+        combination(0, list(), [0 for _ in range(len(candidates))])
         return result
