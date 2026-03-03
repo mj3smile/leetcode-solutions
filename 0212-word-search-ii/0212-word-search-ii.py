@@ -1,53 +1,63 @@
-class Trie:
+class Letter:
     def __init__(self):
         self.children = dict()
         self.word = False
-        self.childs = 0
-    
-    def insert(self, word: str) -> None:
-        curr = self
-        curr.childs += 1
-        for c in word:
-            if c not in curr.children:
-                curr.children[c] = Trie()
-            curr = curr.children[c]
-            curr.childs += 1
-        curr.word = True
-    
-    def remove(self, word: str) -> None:
-        curr = self
-        curr.childs -= 1
-        for c in word:
-            if c in curr.children:
+
+class Trie:
+    def __init__(self, words):
+        self.root = Letter()
+        for word in words:
+            curr = self.root
+            for c in word:
+                if c not in curr.children:
+                    curr.children[c] = Letter()
                 curr = curr.children[c]
-                curr.childs -= 1
-        curr.word = False
+            curr.word = True
 
 class Solution:
-    def findWords(self, board: List[List[str]], words: List[str]) -> List[str]:   
-        root = Trie()
-        for w in words:
-            root.insert(w)
-        result, visited = set(), set()
+    def findWords(self, board: List[List[str]], words: List[str]) -> List[str]:
+        groupByFirstLetter = dict()
+        for word in words:
+            groupByFirstLetter[word[0]] = groupByFirstLetter.get(word[0], set())
+            groupByFirstLetter[word[0]].add(word)
         
-        def find(r, c, node, word):
-            if r < 0 or c < 0 or r == len(board) or c == len(board[0]) or (r, c) in visited or node.childs < 1 or board[r][c] not in node.children:
-                return
-            
-            visited.add((r, c))
-            node = node.children[board[r][c]]
-            word += board[r][c]
-            if node.word:
-                result.add(word)
-                root.remove(word)
-            
-            find(r, c + 1, node, word)
-            find(r, c - 1, node, word)
-            find(r + 1, c, node, word)
-            find(r - 1, c, node, word)
-            visited.remove((r, c))
-        
+        self.trie = Trie(words)
+        self.ROWS = len(board)
+        self.COLS = len(board[0])
+        self.board = board
+        result = list()
         for r in range(len(board)):
-            for c in range(len(board[0])):
-                find(r, c, root, '')
-        return list(result)
+            for c in range(len(board[r])):
+                if len(groupByFirstLetter) == 0:
+                    return result
+
+                if board[r][c] not in groupByFirstLetter:
+                    continue
+                
+                for word in self.existWords(r, c, self.trie.root, "", set(), set()):
+                    if word in groupByFirstLetter[board[r][c]]:
+                        groupByFirstLetter[board[r][c]].remove(word)
+                        result.append(word)
+
+                if len(groupByFirstLetter[board[r][c]]) == 0:
+                    del groupByFirstLetter[board[r][c]]
+        
+        return result
+
+    
+    def existWords(self, row, col, root, word, visited, result):
+        if root.word:
+            result.add(word)
+
+        if row < 0 or row == self.ROWS or col < 0 or col == self.COLS or self.board[row][col] not in root.children or (row, col) in visited:
+            return result
+        
+        char = self.board[row][col]
+        visited.add((row, col))
+        self.existWords(row + 1, col, root.children[char], word + char, visited, result) 
+        self.existWords(row - 1, col, root.children[char], word + char, visited, result) 
+        self.existWords(row, col - 1, root.children[char], word + char, visited, result)
+        self.existWords(row, col + 1, root.children[char], word + char, visited, result)
+        visited.remove((row, col))
+        return result
+        
