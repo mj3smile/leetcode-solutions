@@ -12,12 +12,10 @@ class Solution:
             leftSide = matrix[bottom][left:right+1]
             topSide = list()
             bottomSide = list()
-            for i in range(top, bottom + 1):
+            for i in range(bottom, top - 1, -1):
                 topSide.append(matrix[i][left])
                 bottomSide.append(matrix[i][right])
-            topSide = topSide[::-1]
-            bottomSide = bottomSide[::-1]
-
+            
             counter = 0
             for i in range(left, right + 1):
                 matrix[top][i] = topSide[counter]
