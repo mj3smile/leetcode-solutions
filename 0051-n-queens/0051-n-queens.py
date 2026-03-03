@@ -2,32 +2,43 @@ class Solution:
     def solveNQueens(self, n: int) -> List[List[str]]:
         self.n = n
         self.result = list()
-        for col in range(n):
-            self.calcQueenPlace(0, col, list(), set(), set(), set())
+        self.generate(list(), set(), set())
         return self.result
     
-    def calcQueenPlace(self, row, col, placement, visited_col, visited_diagonal_a, visited_diagonal_b):
-        if col in visited_col or row - col in visited_diagonal_a or row + col in visited_diagonal_b:
+    def generate(self, combinations, pickedColumn, pickedDiagonal):
+        if len(combinations) == self.n:
+            self.result.append(combinations.copy())
             return
         
-        place_str = ""
-        for i in range(self.n):
-            char = "."
-            if i == col: char = "Q"
-            place_str += char
+        for col in range(self.n):
+            row = len(combinations)
+            if self.isSafe(row, col, pickedColumn, pickedDiagonal):
+                place = ""
+                for j in range(self.n):
+                    if j == col:
+                        place += "Q"
+                    else:
+                        place += "."
+
+                pickedColumn.add(col)
+                pickedDiagonal.add((row, col))
+                combinations.append(place)
+                self.generate(combinations, pickedColumn, pickedDiagonal)
+                pickedColumn.remove(col)
+                pickedDiagonal.remove((row, col))
+                combinations.pop()
+
+    
+    def isSafe(self, row, col, pickedColumn, pickedDiagonal):
+        if col in pickedColumn:
+            return False
         
-        placement.append(place_str)
-        visited_col.add(col)
-        visited_diagonal_a.add(row - col)
-        visited_diagonal_b.add(row + col)
+        iteration = 1
+        while row - iteration >= 0:
+            if (row - iteration, col - iteration) in pickedDiagonal or (row - iteration, col + iteration) in pickedDiagonal:
+                return False
+            iteration += 1
+        
+        return True
 
-        if row < self.n - 1:
-            for next_col in range(self.n):
-                self.calcQueenPlace(row + 1, next_col, placement, visited_col, visited_diagonal_a, visited_diagonal_b)
-        else:
-            self.result.append(placement.copy())
-
-        placement.pop()
-        visited_col.remove(col)
-        visited_diagonal_a.remove(row - col)
-        visited_diagonal_b.remove(row + col)
+        
