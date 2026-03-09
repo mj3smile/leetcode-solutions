@@ -14,4 +14,3 @@ class Solution:
             return cache[(index, total)]
         
         return targetSum(0, 0, dict())
-        # return result
