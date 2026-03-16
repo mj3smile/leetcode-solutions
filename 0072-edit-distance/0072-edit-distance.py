@@ -1,23 +1,24 @@
 class Solution:
     def minDistance(self, word1: str, word2: str) -> int:
-        rows, cols = len(word1), len(word2)
-        dp = [[0 for _ in range(cols + 1)] for _ in range(rows + 1)]
+        def minOperations(index1, index2, cache):
+            if index2 == len(word2):
+                return len(word1) - index1
 
-        for row in range(len(dp)):
-            dp[row][-1] = rows - row
+            if index1 == len(word1):
+                return len(word2) - index2
+            
+            if (index1, index2) in cache:
+                return cache[(index1, index2)]
+            
+            if word1[index1] == word2[index2]:
+                cache[(index1, index2)] = minOperations(index1 + 1, index2 + 1, cache)
+                return cache[(index1, index2)]
+            
+            cache[(index1, index2)] = 1 + min(
+                minOperations(index1, index2 + 1, cache), # insert
+                minOperations(index1 + 1, index2 + 1, cache), # replace
+                minOperations(index1 + 1, index2, cache) # delete
+            )
+            return cache[(index1, index2)]
         
-        for col in range(len(dp[-1])):
-            dp[-1][col] = cols - col
-        
-        for row in range(rows - 1, -1, -1):
-            for col in range(cols - 1, -1, -1):
-                if word1[row] == word2[col]:
-                    dp[row][col] = dp[row + 1][col + 1]
-                else:
-                    dp[row][col] = 1 + min(
-                        dp[row + 1][col + 1],
-                        dp[row][col + 1],
-                        dp[row + 1][col]
-                    )
-        
-        return dp[0][0]
+        return minOperations(0, 0, dict())
