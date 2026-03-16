@@ -4,10 +4,8 @@ class Solution:
         prev = prices[0]
 
         for i in range(1, len(prices)):
-            if prev > prices[i]:
-                prev = prices[i]
-
-            result += (prices[i] - prev)
+            if prev < prices[i]:
+                result += (prices[i] - prev)
             prev = prices[i]
         
         return result
