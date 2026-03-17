@@ -1,21 +1,20 @@
 class Solution:
     def partitionLabels(self, s: str) -> List[int]:
+        rightestIndex = dict()
+        for i in range(len(s) - 1, -1, -1):
+            if s[i] not in rightestIndex:
+                rightestIndex[s[i]] = i
+        
         result = []
-
-        first_appereance = dict()
-        for i in range(len(s)):
-            char = s[i]
-            # if not result:
-            #     result.append(0)
+        while i < len(s):
+            length = rightestIndex[s[i]]
+            j = i + 1
+            while j < length:
+                length = max(length, rightestIndex[s[j]])
+                j += 1
             
-            if char not in first_appereance:
-                first_appereance[char] = i
-                result.append(1)
-            else:
-                total = i - first_appereance[char] + 1
-                curr = 1
-                while curr < total and result:
-                    curr += result.pop()
-                result.append(curr)
+            result.append(length - i + 1)
+            i = length + 1
+            
         
         return result
