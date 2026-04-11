@@ -1,17 +1,22 @@
 class Solution:
     def reverse(self, x: int) -> int:
-        result = 0
         sign = 1
-        
         if x < 0:
+            x = x * -1
             sign = -1
-            x *= -1
         
+        min_limit = 2**31 * -1
+        max_limit = 2**31 - 1
+
+        reversed = 0
         while x > 0:
-            result = result * 10 + x % 10
+            reversed = reversed * 10 + (x % 10)
             x = x // 10
         
-        if result < -2**31 or result > 2**31 - 1:
+        reversed = reversed * sign
+        # print(f"result: {reversed}, min limit: {min_limit}, max limit: {max_limit}")
+        if reversed < min_limit or reversed > max_limit:
             return 0
         
-        return result * sign
+        return reversed
+        
