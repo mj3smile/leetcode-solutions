@@ -14,6 +14,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [0150-evaluate-reverse-polish-notation](https://github.com/mj3smile/leetcode-solutions/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
 | [0152-maximum-product-subarray](https://github.com/mj3smile/leetcode-solutions/tree/main/0152-maximum-product-subarray/) | Medium |
 | [0212-word-search-ii](https://github.com/mj3smile/leetcode-solutions/tree/main/0212-word-search-ii/) | Hard |
+| [0229-majority-element-ii](https://github.com/mj3smile/leetcode-solutions/tree/main/0229-majority-element-ii/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/mj3smile/leetcode-solutions/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0416-partition-equal-subset-sum](https://github.com/mj3smile/leetcode-solutions/tree/main/0416-partition-equal-subset-sum/) | Medium |
 | [0494-target-sum](https://github.com/mj3smile/leetcode-solutions/tree/main/0494-target-sum/) | Medium |
@@ -103,6 +104,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0229-majority-element-ii](https://github.com/mj3smile/leetcode-solutions/tree/main/0229-majority-element-ii/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/mj3smile/leetcode-solutions/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0560-subarray-sum-equals-k](https://github.com/mj3smile/leetcode-solutions/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0763-partition-labels](https://github.com/mj3smile/leetcode-solutions/tree/main/0763-partition-labels/) | Medium |
@@ -117,6 +119,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0229-majority-element-ii](https://github.com/mj3smile/leetcode-solutions/tree/main/0229-majority-element-ii/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/mj3smile/leetcode-solutions/tree/main/0347-top-k-frequent-elements/) | Medium |
 ## Bucket Sort
 | Problem Name | Difficulty |
@@ -125,6 +128,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 ## Counting
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0229-majority-element-ii](https://github.com/mj3smile/leetcode-solutions/tree/main/0229-majority-element-ii/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/mj3smile/leetcode-solutions/tree/main/0347-top-k-frequent-elements/) | Medium |
 ## Quickselect
 | Problem Name | Difficulty |
