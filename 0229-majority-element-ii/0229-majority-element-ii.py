@@ -1,14 +1,16 @@
 class Solution:
     def majorityElement(self, nums: List[int]) -> List[int]:
-        result = list()
-        frequency = dict()
-        min_frequency = len(nums) // 3
-
-        cache = set()
-        for n in nums:
-            frequency[n] = frequency.get(n, 0) + 1
-            if frequency[n] > min_frequency and n not in cache:
-                result.append(n)
-                cache.add(n)
+        n = len(nums)
+        if n < 3:
+            return list(set(nums))
         
-        return result
+        appereanceLimit = n / 3
+        appereances = dict()
+
+        result = set()
+        for n in nums:
+            appereances[n] = appereances.get(n, 0) + 1
+            if appereances[n] > appereanceLimit:
+                result.add(n)
+        
+        return list(result)
