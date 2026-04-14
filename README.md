@@ -6,6 +6,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0001-two-sum](https://github.com/mj3smile/leetcode-solutions/tree/main/0001-two-sum/) | Easy |
 | [0048-rotate-image](https://github.com/mj3smile/leetcode-solutions/tree/main/0048-rotate-image/) | Medium |
 | [0051-n-queens](https://github.com/mj3smile/leetcode-solutions/tree/main/0051-n-queens/) | Hard |
 | [0055-jump-game](https://github.com/mj3smile/leetcode-solutions/tree/main/0055-jump-game/) | Medium |
@@ -111,6 +112,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0001-two-sum](https://github.com/mj3smile/leetcode-solutions/tree/main/0001-two-sum/) | Easy |
 | [0229-majority-element-ii](https://github.com/mj3smile/leetcode-solutions/tree/main/0229-majority-element-ii/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/mj3smile/leetcode-solutions/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0560-subarray-sum-equals-k](https://github.com/mj3smile/leetcode-solutions/tree/main/0560-subarray-sum-equals-k/) | Medium |
