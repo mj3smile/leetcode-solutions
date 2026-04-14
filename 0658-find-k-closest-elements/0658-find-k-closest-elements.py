@@ -16,12 +16,14 @@ class Solution:
         while right - left + 1 < k and (left >= 0 or right < len(arr)):
             if left - 1 < 0 and right + 1 < len(arr):
                 right += 1
+                continue
             elif left - 1 >= 0 and right + 1 == len(arr):
                 left -= 1
+                continue
+            
+            if arr[right + 1] - x < x - arr[left - 1]:
+                right += 1
             else:
-                if arr[right + 1] - x < x - arr[left - 1]:
-                    right += 1
-                else:
-                    left -= 1
+                left -= 1
 
         return arr[left:right+1]
