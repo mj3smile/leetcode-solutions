@@ -1,19 +1,20 @@
 class Solution:
     def minSubArrayLen(self, target: int, nums: List[int]) -> int:
-        result = len(nums)
-        found = False
+        result = len(nums) + 1
         left = 0
         curSum = 0
-
         for right in range(len(nums)):
             curSum += nums[right]
-
-            while curSum >= target:
-                print(f"left: {left}, right: {right}, curSum: {curSum}")
-                found = True
+            
+            # if curSum >= target:
+            #     result = min(result, right - left + 1)
+            
+            while curSum >= target and left < len(nums):
                 result = min(result, right - left + 1)
                 curSum -= nums[left]
                 left += 1
         
-        if not found: return 0
+        if result == len(nums) + 1:
+            return 0
         return result
+            
