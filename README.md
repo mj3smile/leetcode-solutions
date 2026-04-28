@@ -23,6 +23,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [0560-subarray-sum-equals-k](https://github.com/mj3smile/leetcode-solutions/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0658-find-k-closest-elements](https://github.com/mj3smile/leetcode-solutions/tree/main/0658-find-k-closest-elements/) | Medium |
 | [0881-boats-to-save-people](https://github.com/mj3smile/leetcode-solutions/tree/main/0881-boats-to-save-people/) | Medium |
+| [2013-detect-squares](https://github.com/mj3smile/leetcode-solutions/tree/main/2013-detect-squares/) | Medium |
 ## Backtracking
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -37,6 +38,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0703-kth-largest-element-in-a-stream](https://github.com/mj3smile/leetcode-solutions/tree/main/0703-kth-largest-element-in-a-stream/) | Easy |
+| [2013-detect-squares](https://github.com/mj3smile/leetcode-solutions/tree/main/2013-detect-squares/) | Medium |
 ## Binary Search Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -58,6 +60,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0703-kth-largest-element-in-a-stream](https://github.com/mj3smile/leetcode-solutions/tree/main/0703-kth-largest-element-in-a-stream/) | Easy |
+| [2013-detect-squares](https://github.com/mj3smile/leetcode-solutions/tree/main/2013-detect-squares/) | Medium |
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -124,6 +127,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [0347-top-k-frequent-elements](https://github.com/mj3smile/leetcode-solutions/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0560-subarray-sum-equals-k](https://github.com/mj3smile/leetcode-solutions/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0763-partition-labels](https://github.com/mj3smile/leetcode-solutions/tree/main/0763-partition-labels/) | Medium |
+| [2013-detect-squares](https://github.com/mj3smile/leetcode-solutions/tree/main/2013-detect-squares/) | Medium |
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -151,6 +155,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | ------- | ------- |
 | [0229-majority-element-ii](https://github.com/mj3smile/leetcode-solutions/tree/main/0229-majority-element-ii/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/mj3smile/leetcode-solutions/tree/main/0347-top-k-frequent-elements/) | Medium |
+| [2013-detect-squares](https://github.com/mj3smile/leetcode-solutions/tree/main/2013-detect-squares/) | Medium |
 ## Quickselect
 | Problem Name | Difficulty |
 | ------- | ------- |
