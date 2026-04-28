@@ -29,20 +29,16 @@ class DetectSquares:
         ymax, ymin = y2, y1
         if y1 > y2:
             ymax, ymin = y1, y2
-        
-        multiplier = 1
-        # if x1 in self.xs and y1 in self.xs[x1]:
-        #     multiplier = self.xs[x1][y1]
 
         length = ymax - ymin
         if length == 0:
             return 0
 
         if x1 - length in self.xs and ymax in self.xs[x1 - length] and ymin in self.xs[x1 - length]:
-            result += (self.xs[x1 - length][ymin] * self.xs[x1 - length][ymax] * self.xs[x2][y2] * multiplier)
+            result += (self.xs[x1 - length][ymin] * self.xs[x1 - length][ymax] * self.xs[x2][y2])
         
         if x1 + length in self.xs and ymax in self.xs[x1 + length] and ymin in self.xs[x1 + length]:
-            result += (self.xs[x1 + length][ymin] * self.xs[x1 + length][ymax] * self.xs[x2][y2] * multiplier)
+            result += (self.xs[x1 + length][ymin] * self.xs[x1 + length][ymax] * self.xs[x2][y2])
         
         return result
 
