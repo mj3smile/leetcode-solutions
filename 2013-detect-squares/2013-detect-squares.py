@@ -8,12 +8,9 @@ class DetectSquares:
         self.xs[x] = self.xs.get(x, dict())
         self.xs[x][y] = self.xs[x].get(y, 0) + 1
 
-        self.ys[y] = self.ys.get(y, dict())
-        self.ys[y][x] = self.ys[y].get(x, 0) + 1
-
     def count(self, point: List[int]) -> int:
         x, y = point
-        if x not in self.xs or y not in self.ys:
+        if x not in self.xs:
             return 0
 
         result = 0
