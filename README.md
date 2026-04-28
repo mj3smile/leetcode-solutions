@@ -41,6 +41,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/mj3smile/leetcode-solutions/tree/main/0209-minimum-size-subarray-sum/) | Medium |
+| [0374-guess-number-higher-or-lower](https://github.com/mj3smile/leetcode-solutions/tree/main/0374-guess-number-higher-or-lower/) | Easy |
 | [0658-find-k-closest-elements](https://github.com/mj3smile/leetcode-solutions/tree/main/0658-find-k-closest-elements/) | Medium |
 | [0703-kth-largest-element-in-a-stream](https://github.com/mj3smile/leetcode-solutions/tree/main/0703-kth-largest-element-in-a-stream/) | Easy |
 ## Heap (Priority Queue)
@@ -165,4 +166,8 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [0003-longest-substring-without-repeating-characters](https://github.com/mj3smile/leetcode-solutions/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0209-minimum-size-subarray-sum](https://github.com/mj3smile/leetcode-solutions/tree/main/0209-minimum-size-subarray-sum/) | Medium |
 | [0658-find-k-closest-elements](https://github.com/mj3smile/leetcode-solutions/tree/main/0658-find-k-closest-elements/) | Medium |
+## Interactive
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0374-guess-number-higher-or-lower](https://github.com/mj3smile/leetcode-solutions/tree/main/0374-guess-number-higher-or-lower/) | Easy |
 <!---LeetCode Topics End-->
