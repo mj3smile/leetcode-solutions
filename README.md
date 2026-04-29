@@ -68,6 +68,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [0072-edit-distance](https://github.com/mj3smile/leetcode-solutions/tree/main/0072-edit-distance/) | Medium |
 | [0091-decode-ways](https://github.com/mj3smile/leetcode-solutions/tree/main/0091-decode-ways/) | Medium |
 | [0212-word-search-ii](https://github.com/mj3smile/leetcode-solutions/tree/main/0212-word-search-ii/) | Hard |
+| [0647-palindromic-substrings](https://github.com/mj3smile/leetcode-solutions/tree/main/0647-palindromic-substrings/) | Medium |
 | [0763-partition-labels](https://github.com/mj3smile/leetcode-solutions/tree/main/0763-partition-labels/) | Medium |
 ## Trie
 | Problem Name | Difficulty |
@@ -101,6 +102,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [0152-maximum-product-subarray](https://github.com/mj3smile/leetcode-solutions/tree/main/0152-maximum-product-subarray/) | Medium |
 | [0416-partition-equal-subset-sum](https://github.com/mj3smile/leetcode-solutions/tree/main/0416-partition-equal-subset-sum/) | Medium |
 | [0494-target-sum](https://github.com/mj3smile/leetcode-solutions/tree/main/0494-target-sum/) | Medium |
+| [0647-palindromic-substrings](https://github.com/mj3smile/leetcode-solutions/tree/main/0647-palindromic-substrings/) | Medium |
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -132,6 +134,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0141-linked-list-cycle](https://github.com/mj3smile/leetcode-solutions/tree/main/0141-linked-list-cycle/) | Easy |
+| [0647-palindromic-substrings](https://github.com/mj3smile/leetcode-solutions/tree/main/0647-palindromic-substrings/) | Medium |
 | [0658-find-k-closest-elements](https://github.com/mj3smile/leetcode-solutions/tree/main/0658-find-k-closest-elements/) | Medium |
 | [0763-partition-labels](https://github.com/mj3smile/leetcode-solutions/tree/main/0763-partition-labels/) | Medium |
 | [0881-boats-to-save-people](https://github.com/mj3smile/leetcode-solutions/tree/main/0881-boats-to-save-people/) | Medium |
