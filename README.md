@@ -23,6 +23,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [0560-subarray-sum-equals-k](https://github.com/mj3smile/leetcode-solutions/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0658-find-k-closest-elements](https://github.com/mj3smile/leetcode-solutions/tree/main/0658-find-k-closest-elements/) | Medium |
 | [0881-boats-to-save-people](https://github.com/mj3smile/leetcode-solutions/tree/main/0881-boats-to-save-people/) | Medium |
+| [1046-last-stone-weight](https://github.com/mj3smile/leetcode-solutions/tree/main/1046-last-stone-weight/) | Easy |
 | [2013-detect-squares](https://github.com/mj3smile/leetcode-solutions/tree/main/2013-detect-squares/) | Medium |
 ## Backtracking
 | Problem Name | Difficulty |
@@ -52,6 +53,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [0347-top-k-frequent-elements](https://github.com/mj3smile/leetcode-solutions/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0658-find-k-closest-elements](https://github.com/mj3smile/leetcode-solutions/tree/main/0658-find-k-closest-elements/) | Medium |
 | [0703-kth-largest-element-in-a-stream](https://github.com/mj3smile/leetcode-solutions/tree/main/0703-kth-largest-element-in-a-stream/) | Easy |
+| [1046-last-stone-weight](https://github.com/mj3smile/leetcode-solutions/tree/main/1046-last-stone-weight/) | Easy |
 ## Binary Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
