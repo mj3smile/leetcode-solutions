@@ -9,5 +9,9 @@ class Solution:
             heaviest = heapq.heappop(heap) * -1
             if not heap:
                 return heaviest
+            
             secondHeaviest = heapq.heappop(heap) * -1
-            heapq.heappush(heap, (heaviest - secondHeaviest) * -1)
+            newStone = heaviest - secondHeaviest
+            if newStone == 0:
+                continue
+            heapq.heappush(heap, -newStone)
