@@ -115,10 +115,12 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | ------- | ------- |
 | [0002-add-two-numbers](https://github.com/mj3smile/leetcode-solutions/tree/main/0002-add-two-numbers/) | Medium |
 | [0141-linked-list-cycle](https://github.com/mj3smile/leetcode-solutions/tree/main/0141-linked-list-cycle/) | Easy |
+| [0206-reverse-linked-list](https://github.com/mj3smile/leetcode-solutions/tree/main/0206-reverse-linked-list/) | Easy |
 ## Recursion
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0002-add-two-numbers](https://github.com/mj3smile/leetcode-solutions/tree/main/0002-add-two-numbers/) | Medium |
+| [0206-reverse-linked-list](https://github.com/mj3smile/leetcode-solutions/tree/main/0206-reverse-linked-list/) | Easy |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
