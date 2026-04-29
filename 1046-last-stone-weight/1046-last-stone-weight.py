@@ -14,4 +14,7 @@ class Solution:
             newStone = heaviest - secondHeaviest
             if newStone == 0:
                 continue
+
             heapq.heappush(heap, -newStone)
+        
+        return 0
