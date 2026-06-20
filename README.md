@@ -25,6 +25,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [0658-find-k-closest-elements](https://github.com/mj3smile/leetcode-solutions/tree/main/0658-find-k-closest-elements/) | Medium |
 | [0881-boats-to-save-people](https://github.com/mj3smile/leetcode-solutions/tree/main/0881-boats-to-save-people/) | Medium |
 | [1046-last-stone-weight](https://github.com/mj3smile/leetcode-solutions/tree/main/1046-last-stone-weight/) | Easy |
+| [1929-concatenation-of-array](https://github.com/mj3smile/leetcode-solutions/tree/main/1929-concatenation-of-array/) | Easy |
 | [2013-detect-squares](https://github.com/mj3smile/leetcode-solutions/tree/main/2013-detect-squares/) | Medium |
 ## Backtracking
 | Problem Name | Difficulty |
@@ -191,4 +192,8 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1137-n-th-tribonacci-number](https://github.com/mj3smile/leetcode-solutions/tree/main/1137-n-th-tribonacci-number/) | Easy |
+## Simulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1929-concatenation-of-array](https://github.com/mj3smile/leetcode-solutions/tree/main/1929-concatenation-of-array/) | Easy |
 <!---LeetCode Topics End-->
