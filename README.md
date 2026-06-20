@@ -7,6 +7,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0001-two-sum](https://github.com/mj3smile/leetcode-solutions/tree/main/0001-two-sum/) | Easy |
+| [0014-longest-common-prefix](https://github.com/mj3smile/leetcode-solutions/tree/main/0014-longest-common-prefix/) | Easy |
 | [0048-rotate-image](https://github.com/mj3smile/leetcode-solutions/tree/main/0048-rotate-image/) | Medium |
 | [0051-n-queens](https://github.com/mj3smile/leetcode-solutions/tree/main/0051-n-queens/) | Hard |
 | [0055-jump-game](https://github.com/mj3smile/leetcode-solutions/tree/main/0055-jump-game/) | Medium |
@@ -67,6 +68,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/mj3smile/leetcode-solutions/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
+| [0014-longest-common-prefix](https://github.com/mj3smile/leetcode-solutions/tree/main/0014-longest-common-prefix/) | Easy |
 | [0072-edit-distance](https://github.com/mj3smile/leetcode-solutions/tree/main/0072-edit-distance/) | Medium |
 | [0091-decode-ways](https://github.com/mj3smile/leetcode-solutions/tree/main/0091-decode-ways/) | Medium |
 | [0212-word-search-ii](https://github.com/mj3smile/leetcode-solutions/tree/main/0212-word-search-ii/) | Hard |
@@ -75,6 +77,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 ## Trie
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0014-longest-common-prefix](https://github.com/mj3smile/leetcode-solutions/tree/main/0014-longest-common-prefix/) | Easy |
 | [0212-word-search-ii](https://github.com/mj3smile/leetcode-solutions/tree/main/0212-word-search-ii/) | Hard |
 ## Matrix
 | Problem Name | Difficulty |
