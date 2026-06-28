@@ -24,4 +24,4 @@ class Solution:
             if size < groupSize:
                 return False
         
-        return len(freq) == 0
+        return True
