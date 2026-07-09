@@ -76,6 +76,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/mj3smile/leetcode-solutions/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0014-longest-common-prefix](https://github.com/mj3smile/leetcode-solutions/tree/main/0014-longest-common-prefix/) | Easy |
+| [0071-simplify-path](https://github.com/mj3smile/leetcode-solutions/tree/main/0071-simplify-path/) | Medium |
 | [0072-edit-distance](https://github.com/mj3smile/leetcode-solutions/tree/main/0072-edit-distance/) | Medium |
 | [0091-decode-ways](https://github.com/mj3smile/leetcode-solutions/tree/main/0091-decode-ways/) | Medium |
 | [0212-word-search-ii](https://github.com/mj3smile/leetcode-solutions/tree/main/0212-word-search-ii/) | Hard |
@@ -106,6 +107,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0071-simplify-path](https://github.com/mj3smile/leetcode-solutions/tree/main/0071-simplify-path/) | Medium |
 | [0150-evaluate-reverse-polish-notation](https://github.com/mj3smile/leetcode-solutions/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
 ## Dynamic Programming
 | Problem Name | Difficulty |
