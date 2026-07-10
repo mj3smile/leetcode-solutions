@@ -38,6 +38,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [0051-n-queens](https://github.com/mj3smile/leetcode-solutions/tree/main/0051-n-queens/) | Hard |
 | [0212-word-search-ii](https://github.com/mj3smile/leetcode-solutions/tree/main/0212-word-search-ii/) | Hard |
 | [0494-target-sum](https://github.com/mj3smile/leetcode-solutions/tree/main/0494-target-sum/) | Medium |
+| [1079-letter-tile-possibilities](https://github.com/mj3smile/leetcode-solutions/tree/main/1079-letter-tile-possibilities/) | Medium |
 ## Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -82,6 +83,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [0212-word-search-ii](https://github.com/mj3smile/leetcode-solutions/tree/main/0212-word-search-ii/) | Hard |
 | [0647-palindromic-substrings](https://github.com/mj3smile/leetcode-solutions/tree/main/0647-palindromic-substrings/) | Medium |
 | [0763-partition-labels](https://github.com/mj3smile/leetcode-solutions/tree/main/0763-partition-labels/) | Medium |
+| [1079-letter-tile-possibilities](https://github.com/mj3smile/leetcode-solutions/tree/main/1079-letter-tile-possibilities/) | Medium |
 ## Trie
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -156,6 +158,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [0560-subarray-sum-equals-k](https://github.com/mj3smile/leetcode-solutions/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0763-partition-labels](https://github.com/mj3smile/leetcode-solutions/tree/main/0763-partition-labels/) | Medium |
 | [0846-hand-of-straights](https://github.com/mj3smile/leetcode-solutions/tree/main/0846-hand-of-straights/) | Medium |
+| [1079-letter-tile-possibilities](https://github.com/mj3smile/leetcode-solutions/tree/main/1079-letter-tile-possibilities/) | Medium |
 | [2013-detect-squares](https://github.com/mj3smile/leetcode-solutions/tree/main/2013-detect-squares/) | Medium |
 ## Two Pointers
 | Problem Name | Difficulty |
@@ -191,6 +194,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [0169-majority-element](https://github.com/mj3smile/leetcode-solutions/tree/main/0169-majority-element/) | Easy |
 | [0229-majority-element-ii](https://github.com/mj3smile/leetcode-solutions/tree/main/0229-majority-element-ii/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/mj3smile/leetcode-solutions/tree/main/0347-top-k-frequent-elements/) | Medium |
+| [1079-letter-tile-possibilities](https://github.com/mj3smile/leetcode-solutions/tree/main/1079-letter-tile-possibilities/) | Medium |
 | [2013-detect-squares](https://github.com/mj3smile/leetcode-solutions/tree/main/2013-detect-squares/) | Medium |
 ## Quickselect
 | Problem Name | Difficulty |
