@@ -27,6 +27,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [0494-target-sum](https://github.com/mj3smile/leetcode-solutions/tree/main/0494-target-sum/) | Medium |
 | [0560-subarray-sum-equals-k](https://github.com/mj3smile/leetcode-solutions/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0658-find-k-closest-elements](https://github.com/mj3smile/leetcode-solutions/tree/main/0658-find-k-closest-elements/) | Medium |
+| [0698-partition-to-k-equal-sum-subsets](https://github.com/mj3smile/leetcode-solutions/tree/main/0698-partition-to-k-equal-sum-subsets/) | Medium |
 | [0846-hand-of-straights](https://github.com/mj3smile/leetcode-solutions/tree/main/0846-hand-of-straights/) | Medium |
 | [0881-boats-to-save-people](https://github.com/mj3smile/leetcode-solutions/tree/main/0881-boats-to-save-people/) | Medium |
 | [0973-k-closest-points-to-origin](https://github.com/mj3smile/leetcode-solutions/tree/main/0973-k-closest-points-to-origin/) | Medium |
@@ -40,6 +41,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [0212-word-search-ii](https://github.com/mj3smile/leetcode-solutions/tree/main/0212-word-search-ii/) | Hard |
 | [0473-matchsticks-to-square](https://github.com/mj3smile/leetcode-solutions/tree/main/0473-matchsticks-to-square/) | Medium |
 | [0494-target-sum](https://github.com/mj3smile/leetcode-solutions/tree/main/0494-target-sum/) | Medium |
+| [0698-partition-to-k-equal-sum-subsets](https://github.com/mj3smile/leetcode-solutions/tree/main/0698-partition-to-k-equal-sum-subsets/) | Medium |
 | [1079-letter-tile-possibilities](https://github.com/mj3smile/leetcode-solutions/tree/main/1079-letter-tile-possibilities/) | Medium |
 ## Tree
 | Problem Name | Difficulty |
@@ -127,6 +129,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [0473-matchsticks-to-square](https://github.com/mj3smile/leetcode-solutions/tree/main/0473-matchsticks-to-square/) | Medium |
 | [0494-target-sum](https://github.com/mj3smile/leetcode-solutions/tree/main/0494-target-sum/) | Medium |
 | [0647-palindromic-substrings](https://github.com/mj3smile/leetcode-solutions/tree/main/0647-palindromic-substrings/) | Medium |
+| [0698-partition-to-k-equal-sum-subsets](https://github.com/mj3smile/leetcode-solutions/tree/main/0698-partition-to-k-equal-sum-subsets/) | Medium |
 | [1137-n-th-tribonacci-number](https://github.com/mj3smile/leetcode-solutions/tree/main/1137-n-th-tribonacci-number/) | Easy |
 ## Greedy
 | Problem Name | Difficulty |
@@ -222,6 +225,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 ## Memoization
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0698-partition-to-k-equal-sum-subsets](https://github.com/mj3smile/leetcode-solutions/tree/main/0698-partition-to-k-equal-sum-subsets/) | Medium |
 | [1137-n-th-tribonacci-number](https://github.com/mj3smile/leetcode-solutions/tree/main/1137-n-th-tribonacci-number/) | Easy |
 ## Simulation
 | Problem Name | Difficulty |
@@ -247,8 +251,10 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0473-matchsticks-to-square](https://github.com/mj3smile/leetcode-solutions/tree/main/0473-matchsticks-to-square/) | Medium |
+| [0698-partition-to-k-equal-sum-subsets](https://github.com/mj3smile/leetcode-solutions/tree/main/0698-partition-to-k-equal-sum-subsets/) | Medium |
 ## Bitmask
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0473-matchsticks-to-square](https://github.com/mj3smile/leetcode-solutions/tree/main/0473-matchsticks-to-square/) | Medium |
+| [0698-partition-to-k-equal-sum-subsets](https://github.com/mj3smile/leetcode-solutions/tree/main/0698-partition-to-k-equal-sum-subsets/) | Medium |
 <!---LeetCode Topics End-->
