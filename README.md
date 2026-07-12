@@ -81,6 +81,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/mj3smile/leetcode-solutions/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0014-longest-common-prefix](https://github.com/mj3smile/leetcode-solutions/tree/main/0014-longest-common-prefix/) | Easy |
+| [0043-multiply-strings](https://github.com/mj3smile/leetcode-solutions/tree/main/0043-multiply-strings/) | Medium |
 | [0071-simplify-path](https://github.com/mj3smile/leetcode-solutions/tree/main/0071-simplify-path/) | Medium |
 | [0072-edit-distance](https://github.com/mj3smile/leetcode-solutions/tree/main/0072-edit-distance/) | Medium |
 | [0091-decode-ways](https://github.com/mj3smile/leetcode-solutions/tree/main/0091-decode-ways/) | Medium |
@@ -106,6 +107,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [0002-add-two-numbers](https://github.com/mj3smile/leetcode-solutions/tree/main/0002-add-two-numbers/) | Medium |
 | [0007-reverse-integer](https://github.com/mj3smile/leetcode-solutions/tree/main/0007-reverse-integer/) | Medium |
 | [0009-palindrome-number](https://github.com/mj3smile/leetcode-solutions/tree/main/0009-palindrome-number/) | Easy |
+| [0043-multiply-strings](https://github.com/mj3smile/leetcode-solutions/tree/main/0043-multiply-strings/) | Medium |
 | [0048-rotate-image](https://github.com/mj3smile/leetcode-solutions/tree/main/0048-rotate-image/) | Medium |
 | [0150-evaluate-reverse-polish-notation](https://github.com/mj3smile/leetcode-solutions/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
 | [0973-k-closest-points-to-origin](https://github.com/mj3smile/leetcode-solutions/tree/main/0973-k-closest-points-to-origin/) | Medium |
@@ -231,6 +233,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 ## Simulation
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0043-multiply-strings](https://github.com/mj3smile/leetcode-solutions/tree/main/0043-multiply-strings/) | Medium |
 | [1929-concatenation-of-array](https://github.com/mj3smile/leetcode-solutions/tree/main/1929-concatenation-of-array/) | Easy |
 ## Geometry
 | Problem Name | Difficulty |
