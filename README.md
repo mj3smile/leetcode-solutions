@@ -110,6 +110,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [0150-evaluate-reverse-polish-notation](https://github.com/mj3smile/leetcode-solutions/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
 | [0973-k-closest-points-to-origin](https://github.com/mj3smile/leetcode-solutions/tree/main/0973-k-closest-points-to-origin/) | Medium |
 | [1137-n-th-tribonacci-number](https://github.com/mj3smile/leetcode-solutions/tree/main/1137-n-th-tribonacci-number/) | Easy |
+| [2523-closest-prime-numbers-in-range](https://github.com/mj3smile/leetcode-solutions/tree/main/2523-closest-prime-numbers-in-range/) | Medium |
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -257,4 +258,8 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | ------- | ------- |
 | [0473-matchsticks-to-square](https://github.com/mj3smile/leetcode-solutions/tree/main/0473-matchsticks-to-square/) | Medium |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/mj3smile/leetcode-solutions/tree/main/0698-partition-to-k-equal-sum-subsets/) | Medium |
+## Number Theory
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2523-closest-prime-numbers-in-range](https://github.com/mj3smile/leetcode-solutions/tree/main/2523-closest-prime-numbers-in-range/) | Medium |
 <!---LeetCode Topics End-->
