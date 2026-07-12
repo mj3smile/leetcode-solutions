@@ -18,6 +18,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [0152-maximum-product-subarray](https://github.com/mj3smile/leetcode-solutions/tree/main/0152-maximum-product-subarray/) | Medium |
 | [0169-majority-element](https://github.com/mj3smile/leetcode-solutions/tree/main/0169-majority-element/) | Easy |
 | [0200-number-of-islands](https://github.com/mj3smile/leetcode-solutions/tree/main/0200-number-of-islands/) | Medium |
+| [0204-count-primes](https://github.com/mj3smile/leetcode-solutions/tree/main/0204-count-primes/) | Medium |
 | [0209-minimum-size-subarray-sum](https://github.com/mj3smile/leetcode-solutions/tree/main/0209-minimum-size-subarray-sum/) | Medium |
 | [0212-word-search-ii](https://github.com/mj3smile/leetcode-solutions/tree/main/0212-word-search-ii/) | Hard |
 | [0229-majority-element-ii](https://github.com/mj3smile/leetcode-solutions/tree/main/0229-majority-element-ii/) | Medium |
@@ -114,6 +115,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [0043-multiply-strings](https://github.com/mj3smile/leetcode-solutions/tree/main/0043-multiply-strings/) | Medium |
 | [0048-rotate-image](https://github.com/mj3smile/leetcode-solutions/tree/main/0048-rotate-image/) | Medium |
 | [0150-evaluate-reverse-polish-notation](https://github.com/mj3smile/leetcode-solutions/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
+| [0204-count-primes](https://github.com/mj3smile/leetcode-solutions/tree/main/0204-count-primes/) | Medium |
 | [0973-k-closest-points-to-origin](https://github.com/mj3smile/leetcode-solutions/tree/main/0973-k-closest-points-to-origin/) | Medium |
 | [1137-n-th-tribonacci-number](https://github.com/mj3smile/leetcode-solutions/tree/main/1137-n-th-tribonacci-number/) | Easy |
 | [2523-closest-prime-numbers-in-range](https://github.com/mj3smile/leetcode-solutions/tree/main/2523-closest-prime-numbers-in-range/) | Medium |
@@ -274,6 +276,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 ## Number Theory
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0204-count-primes](https://github.com/mj3smile/leetcode-solutions/tree/main/0204-count-primes/) | Medium |
 | [2523-closest-prime-numbers-in-range](https://github.com/mj3smile/leetcode-solutions/tree/main/2523-closest-prime-numbers-in-range/) | Medium |
 ## Graph Theory
 | Problem Name | Difficulty |
@@ -283,4 +286,8 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [2115-find-all-possible-recipes-from-given-supplies](https://github.com/mj3smile/leetcode-solutions/tree/main/2115-find-all-possible-recipes-from-given-supplies/) | Medium |
+## Enumeration
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0204-count-primes](https://github.com/mj3smile/leetcode-solutions/tree/main/0204-count-primes/) | Medium |
 <!---LeetCode Topics End-->
