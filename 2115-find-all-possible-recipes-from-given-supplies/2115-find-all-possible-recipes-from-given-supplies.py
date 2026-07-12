@@ -22,7 +22,7 @@ class Solution:
                     need_from.add(recipes[index])    
                     print("need:", ing)
                     r = doRecipe(recipes_index[ing], need_from)
-                    need_from.remove(recipes[index])
+                    # need_from.remove(recipes[index])
                     if not r:
                         cache[index] = False
                         return False
