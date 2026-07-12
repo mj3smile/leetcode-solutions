@@ -11,10 +11,10 @@ class Solution:
                     primes[j - 2] = False
             i += 1
         
-        result = 0
-        for p in primes:
-            if p:
-                result += 1
+        # result = 0
+        # for p in primes:
+        #     if p:
+        #         result += 1
         
-        return result
+        return sum(primes)
             
