@@ -33,6 +33,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [0881-boats-to-save-people](https://github.com/mj3smile/leetcode-solutions/tree/main/0881-boats-to-save-people/) | Medium |
 | [0973-k-closest-points-to-origin](https://github.com/mj3smile/leetcode-solutions/tree/main/0973-k-closest-points-to-origin/) | Medium |
 | [1046-last-stone-weight](https://github.com/mj3smile/leetcode-solutions/tree/main/1046-last-stone-weight/) | Easy |
+| [1048-longest-string-chain](https://github.com/mj3smile/leetcode-solutions/tree/main/1048-longest-string-chain/) | Medium |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/mj3smile/leetcode-solutions/tree/main/1423-maximum-points-you-can-obtain-from-cards/) | Medium |
 | [1929-concatenation-of-array](https://github.com/mj3smile/leetcode-solutions/tree/main/1929-concatenation-of-array/) | Easy |
 | [2013-detect-squares](https://github.com/mj3smile/leetcode-solutions/tree/main/2013-detect-squares/) | Medium |
@@ -91,6 +92,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [0212-word-search-ii](https://github.com/mj3smile/leetcode-solutions/tree/main/0212-word-search-ii/) | Hard |
 | [0647-palindromic-substrings](https://github.com/mj3smile/leetcode-solutions/tree/main/0647-palindromic-substrings/) | Medium |
 | [0763-partition-labels](https://github.com/mj3smile/leetcode-solutions/tree/main/0763-partition-labels/) | Medium |
+| [1048-longest-string-chain](https://github.com/mj3smile/leetcode-solutions/tree/main/1048-longest-string-chain/) | Medium |
 | [1079-letter-tile-possibilities](https://github.com/mj3smile/leetcode-solutions/tree/main/1079-letter-tile-possibilities/) | Medium |
 | [1647-minimum-deletions-to-make-character-frequencies-unique](https://github.com/mj3smile/leetcode-solutions/tree/main/1647-minimum-deletions-to-make-character-frequencies-unique/) | Medium |
 | [2115-find-all-possible-recipes-from-given-supplies](https://github.com/mj3smile/leetcode-solutions/tree/main/2115-find-all-possible-recipes-from-given-supplies/) | Medium |
@@ -139,6 +141,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [0494-target-sum](https://github.com/mj3smile/leetcode-solutions/tree/main/0494-target-sum/) | Medium |
 | [0647-palindromic-substrings](https://github.com/mj3smile/leetcode-solutions/tree/main/0647-palindromic-substrings/) | Medium |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/mj3smile/leetcode-solutions/tree/main/0698-partition-to-k-equal-sum-subsets/) | Medium |
+| [1048-longest-string-chain](https://github.com/mj3smile/leetcode-solutions/tree/main/1048-longest-string-chain/) | Medium |
 | [1137-n-th-tribonacci-number](https://github.com/mj3smile/leetcode-solutions/tree/main/1137-n-th-tribonacci-number/) | Easy |
 ## Greedy
 | Problem Name | Difficulty |
@@ -174,6 +177,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [0560-subarray-sum-equals-k](https://github.com/mj3smile/leetcode-solutions/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0763-partition-labels](https://github.com/mj3smile/leetcode-solutions/tree/main/0763-partition-labels/) | Medium |
 | [0846-hand-of-straights](https://github.com/mj3smile/leetcode-solutions/tree/main/0846-hand-of-straights/) | Medium |
+| [1048-longest-string-chain](https://github.com/mj3smile/leetcode-solutions/tree/main/1048-longest-string-chain/) | Medium |
 | [1079-letter-tile-possibilities](https://github.com/mj3smile/leetcode-solutions/tree/main/1079-letter-tile-possibilities/) | Medium |
 | [1647-minimum-deletions-to-make-character-frequencies-unique](https://github.com/mj3smile/leetcode-solutions/tree/main/1647-minimum-deletions-to-make-character-frequencies-unique/) | Medium |
 | [2013-detect-squares](https://github.com/mj3smile/leetcode-solutions/tree/main/2013-detect-squares/) | Medium |
@@ -186,6 +190,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [0658-find-k-closest-elements](https://github.com/mj3smile/leetcode-solutions/tree/main/0658-find-k-closest-elements/) | Medium |
 | [0763-partition-labels](https://github.com/mj3smile/leetcode-solutions/tree/main/0763-partition-labels/) | Medium |
 | [0881-boats-to-save-people](https://github.com/mj3smile/leetcode-solutions/tree/main/0881-boats-to-save-people/) | Medium |
+| [1048-longest-string-chain](https://github.com/mj3smile/leetcode-solutions/tree/main/1048-longest-string-chain/) | Medium |
 ## Divide and Conquer
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -202,6 +207,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [0846-hand-of-straights](https://github.com/mj3smile/leetcode-solutions/tree/main/0846-hand-of-straights/) | Medium |
 | [0881-boats-to-save-people](https://github.com/mj3smile/leetcode-solutions/tree/main/0881-boats-to-save-people/) | Medium |
 | [0973-k-closest-points-to-origin](https://github.com/mj3smile/leetcode-solutions/tree/main/0973-k-closest-points-to-origin/) | Medium |
+| [1048-longest-string-chain](https://github.com/mj3smile/leetcode-solutions/tree/main/1048-longest-string-chain/) | Medium |
 | [1647-minimum-deletions-to-make-character-frequencies-unique](https://github.com/mj3smile/leetcode-solutions/tree/main/1647-minimum-deletions-to-make-character-frequencies-unique/) | Medium |
 ## Bucket Sort
 | Problem Name | Difficulty |
