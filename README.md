@@ -97,6 +97,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [1079-letter-tile-possibilities](https://github.com/mj3smile/leetcode-solutions/tree/main/1079-letter-tile-possibilities/) | Medium |
 | [1647-minimum-deletions-to-make-character-frequencies-unique](https://github.com/mj3smile/leetcode-solutions/tree/main/1647-minimum-deletions-to-make-character-frequencies-unique/) | Medium |
 | [2115-find-all-possible-recipes-from-given-supplies](https://github.com/mj3smile/leetcode-solutions/tree/main/2115-find-all-possible-recipes-from-given-supplies/) | Medium |
+| [2486-append-characters-to-string-to-make-subsequence](https://github.com/mj3smile/leetcode-solutions/tree/main/2486-append-characters-to-string-to-make-subsequence/) | Medium |
 ## Trie
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -154,6 +155,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [0846-hand-of-straights](https://github.com/mj3smile/leetcode-solutions/tree/main/0846-hand-of-straights/) | Medium |
 | [0881-boats-to-save-people](https://github.com/mj3smile/leetcode-solutions/tree/main/0881-boats-to-save-people/) | Medium |
 | [1647-minimum-deletions-to-make-character-frequencies-unique](https://github.com/mj3smile/leetcode-solutions/tree/main/1647-minimum-deletions-to-make-character-frequencies-unique/) | Medium |
+| [2486-append-characters-to-string-to-make-subsequence](https://github.com/mj3smile/leetcode-solutions/tree/main/2486-append-characters-to-string-to-make-subsequence/) | Medium |
 ## Linked List
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -193,6 +195,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [0763-partition-labels](https://github.com/mj3smile/leetcode-solutions/tree/main/0763-partition-labels/) | Medium |
 | [0881-boats-to-save-people](https://github.com/mj3smile/leetcode-solutions/tree/main/0881-boats-to-save-people/) | Medium |
 | [1048-longest-string-chain](https://github.com/mj3smile/leetcode-solutions/tree/main/1048-longest-string-chain/) | Medium |
+| [2486-append-characters-to-string-to-make-subsequence](https://github.com/mj3smile/leetcode-solutions/tree/main/2486-append-characters-to-string-to-make-subsequence/) | Medium |
 ## Divide and Conquer
 | Problem Name | Difficulty |
 | ------- | ------- |
