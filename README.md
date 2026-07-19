@@ -68,6 +68,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [0374-guess-number-higher-or-lower](https://github.com/mj3smile/leetcode-solutions/tree/main/0374-guess-number-higher-or-lower/) | Easy |
 | [0658-find-k-closest-elements](https://github.com/mj3smile/leetcode-solutions/tree/main/0658-find-k-closest-elements/) | Medium |
 | [0703-kth-largest-element-in-a-stream](https://github.com/mj3smile/leetcode-solutions/tree/main/0703-kth-largest-element-in-a-stream/) | Easy |
+| [1208-get-equal-substrings-within-budget](https://github.com/mj3smile/leetcode-solutions/tree/main/1208-get-equal-substrings-within-budget/) | Medium |
 ## Heap (Priority Queue)
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -100,6 +101,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [0763-partition-labels](https://github.com/mj3smile/leetcode-solutions/tree/main/0763-partition-labels/) | Medium |
 | [1048-longest-string-chain](https://github.com/mj3smile/leetcode-solutions/tree/main/1048-longest-string-chain/) | Medium |
 | [1079-letter-tile-possibilities](https://github.com/mj3smile/leetcode-solutions/tree/main/1079-letter-tile-possibilities/) | Medium |
+| [1208-get-equal-substrings-within-budget](https://github.com/mj3smile/leetcode-solutions/tree/main/1208-get-equal-substrings-within-budget/) | Medium |
 | [1647-minimum-deletions-to-make-character-frequencies-unique](https://github.com/mj3smile/leetcode-solutions/tree/main/1647-minimum-deletions-to-make-character-frequencies-unique/) | Medium |
 | [2115-find-all-possible-recipes-from-given-supplies](https://github.com/mj3smile/leetcode-solutions/tree/main/2115-find-all-possible-recipes-from-given-supplies/) | Medium |
 | [2486-append-characters-to-string-to-make-subsequence](https://github.com/mj3smile/leetcode-solutions/tree/main/2486-append-characters-to-string-to-make-subsequence/) | Medium |
@@ -247,6 +249,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | ------- | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/mj3smile/leetcode-solutions/tree/main/0209-minimum-size-subarray-sum/) | Medium |
 | [0560-subarray-sum-equals-k](https://github.com/mj3smile/leetcode-solutions/tree/main/0560-subarray-sum-equals-k/) | Medium |
+| [1208-get-equal-substrings-within-budget](https://github.com/mj3smile/leetcode-solutions/tree/main/1208-get-equal-substrings-within-budget/) | Medium |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/mj3smile/leetcode-solutions/tree/main/1423-maximum-points-you-can-obtain-from-cards/) | Medium |
 ## Sliding Window
 | Problem Name | Difficulty |
@@ -254,6 +257,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [0003-longest-substring-without-repeating-characters](https://github.com/mj3smile/leetcode-solutions/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0209-minimum-size-subarray-sum](https://github.com/mj3smile/leetcode-solutions/tree/main/0209-minimum-size-subarray-sum/) | Medium |
 | [0658-find-k-closest-elements](https://github.com/mj3smile/leetcode-solutions/tree/main/0658-find-k-closest-elements/) | Medium |
+| [1208-get-equal-substrings-within-budget](https://github.com/mj3smile/leetcode-solutions/tree/main/1208-get-equal-substrings-within-budget/) | Medium |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/mj3smile/leetcode-solutions/tree/main/1423-maximum-points-you-can-obtain-from-cards/) | Medium |
 ## Interactive
 | Problem Name | Difficulty |
