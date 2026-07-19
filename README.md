@@ -37,6 +37,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [0973-k-closest-points-to-origin](https://github.com/mj3smile/leetcode-solutions/tree/main/0973-k-closest-points-to-origin/) | Medium |
 | [1046-last-stone-weight](https://github.com/mj3smile/leetcode-solutions/tree/main/1046-last-stone-weight/) | Easy |
 | [1048-longest-string-chain](https://github.com/mj3smile/leetcode-solutions/tree/main/1048-longest-string-chain/) | Medium |
+| [1248-count-number-of-nice-subarrays](https://github.com/mj3smile/leetcode-solutions/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
 | [1260-shift-2d-grid](https://github.com/mj3smile/leetcode-solutions/tree/main/1260-shift-2d-grid/) | Easy |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/mj3smile/leetcode-solutions/tree/main/1423-maximum-points-you-can-obtain-from-cards/) | Medium |
 | [1929-concatenation-of-array](https://github.com/mj3smile/leetcode-solutions/tree/main/1929-concatenation-of-array/) | Easy |
@@ -130,6 +131,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [0204-count-primes](https://github.com/mj3smile/leetcode-solutions/tree/main/0204-count-primes/) | Medium |
 | [0973-k-closest-points-to-origin](https://github.com/mj3smile/leetcode-solutions/tree/main/0973-k-closest-points-to-origin/) | Medium |
 | [1137-n-th-tribonacci-number](https://github.com/mj3smile/leetcode-solutions/tree/main/1137-n-th-tribonacci-number/) | Easy |
+| [1248-count-number-of-nice-subarrays](https://github.com/mj3smile/leetcode-solutions/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
 | [2523-closest-prime-numbers-in-range](https://github.com/mj3smile/leetcode-solutions/tree/main/2523-closest-prime-numbers-in-range/) | Medium |
 ## Stack
 | Problem Name | Difficulty |
@@ -194,6 +196,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [0846-hand-of-straights](https://github.com/mj3smile/leetcode-solutions/tree/main/0846-hand-of-straights/) | Medium |
 | [1048-longest-string-chain](https://github.com/mj3smile/leetcode-solutions/tree/main/1048-longest-string-chain/) | Medium |
 | [1079-letter-tile-possibilities](https://github.com/mj3smile/leetcode-solutions/tree/main/1079-letter-tile-possibilities/) | Medium |
+| [1248-count-number-of-nice-subarrays](https://github.com/mj3smile/leetcode-solutions/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
 | [1647-minimum-deletions-to-make-character-frequencies-unique](https://github.com/mj3smile/leetcode-solutions/tree/main/1647-minimum-deletions-to-make-character-frequencies-unique/) | Medium |
 | [2013-detect-squares](https://github.com/mj3smile/leetcode-solutions/tree/main/2013-detect-squares/) | Medium |
 | [2115-find-all-possible-recipes-from-given-supplies](https://github.com/mj3smile/leetcode-solutions/tree/main/2115-find-all-possible-recipes-from-given-supplies/) | Medium |
@@ -250,6 +253,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [0209-minimum-size-subarray-sum](https://github.com/mj3smile/leetcode-solutions/tree/main/0209-minimum-size-subarray-sum/) | Medium |
 | [0560-subarray-sum-equals-k](https://github.com/mj3smile/leetcode-solutions/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [1208-get-equal-substrings-within-budget](https://github.com/mj3smile/leetcode-solutions/tree/main/1208-get-equal-substrings-within-budget/) | Medium |
+| [1248-count-number-of-nice-subarrays](https://github.com/mj3smile/leetcode-solutions/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/mj3smile/leetcode-solutions/tree/main/1423-maximum-points-you-can-obtain-from-cards/) | Medium |
 ## Sliding Window
 | Problem Name | Difficulty |
@@ -258,6 +262,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [0209-minimum-size-subarray-sum](https://github.com/mj3smile/leetcode-solutions/tree/main/0209-minimum-size-subarray-sum/) | Medium |
 | [0658-find-k-closest-elements](https://github.com/mj3smile/leetcode-solutions/tree/main/0658-find-k-closest-elements/) | Medium |
 | [1208-get-equal-substrings-within-budget](https://github.com/mj3smile/leetcode-solutions/tree/main/1208-get-equal-substrings-within-budget/) | Medium |
+| [1248-count-number-of-nice-subarrays](https://github.com/mj3smile/leetcode-solutions/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/mj3smile/leetcode-solutions/tree/main/1423-maximum-points-you-can-obtain-from-cards/) | Medium |
 ## Interactive
 | Problem Name | Difficulty |
