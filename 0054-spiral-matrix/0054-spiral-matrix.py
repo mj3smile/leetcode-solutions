@@ -9,7 +9,6 @@ class Solution:
             return r >= 0 and r < ROWS and c >= 0 and c < COLS and (r, c) not in visited
 
         def trace(r, c, direction):
-            # print(r, c)
             result.append(matrix[r][c])
             visited.add((r,c))
 
