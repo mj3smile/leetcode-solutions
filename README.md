@@ -38,6 +38,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [0973-k-closest-points-to-origin](https://github.com/mj3smile/leetcode-solutions/tree/main/0973-k-closest-points-to-origin/) | Medium |
 | [1046-last-stone-weight](https://github.com/mj3smile/leetcode-solutions/tree/main/1046-last-stone-weight/) | Easy |
 | [1048-longest-string-chain](https://github.com/mj3smile/leetcode-solutions/tree/main/1048-longest-string-chain/) | Medium |
+| [1094-car-pooling](https://github.com/mj3smile/leetcode-solutions/tree/main/1094-car-pooling/) | Medium |
 | [1248-count-number-of-nice-subarrays](https://github.com/mj3smile/leetcode-solutions/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
 | [1260-shift-2d-grid](https://github.com/mj3smile/leetcode-solutions/tree/main/1260-shift-2d-grid/) | Easy |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/mj3smile/leetcode-solutions/tree/main/1423-maximum-points-you-can-obtain-from-cards/) | Medium |
@@ -79,6 +80,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [0703-kth-largest-element-in-a-stream](https://github.com/mj3smile/leetcode-solutions/tree/main/0703-kth-largest-element-in-a-stream/) | Easy |
 | [0973-k-closest-points-to-origin](https://github.com/mj3smile/leetcode-solutions/tree/main/0973-k-closest-points-to-origin/) | Medium |
 | [1046-last-stone-weight](https://github.com/mj3smile/leetcode-solutions/tree/main/1046-last-stone-weight/) | Easy |
+| [1094-car-pooling](https://github.com/mj3smile/leetcode-solutions/tree/main/1094-car-pooling/) | Medium |
 ## Binary Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -233,6 +235,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [0948-bag-of-tokens](https://github.com/mj3smile/leetcode-solutions/tree/main/0948-bag-of-tokens/) | Medium |
 | [0973-k-closest-points-to-origin](https://github.com/mj3smile/leetcode-solutions/tree/main/0973-k-closest-points-to-origin/) | Medium |
 | [1048-longest-string-chain](https://github.com/mj3smile/leetcode-solutions/tree/main/1048-longest-string-chain/) | Medium |
+| [1094-car-pooling](https://github.com/mj3smile/leetcode-solutions/tree/main/1094-car-pooling/) | Medium |
 | [1647-minimum-deletions-to-make-character-frequencies-unique](https://github.com/mj3smile/leetcode-solutions/tree/main/1647-minimum-deletions-to-make-character-frequencies-unique/) | Medium |
 ## Bucket Sort
 | Problem Name | Difficulty |
@@ -256,6 +259,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | ------- | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/mj3smile/leetcode-solutions/tree/main/0209-minimum-size-subarray-sum/) | Medium |
 | [0560-subarray-sum-equals-k](https://github.com/mj3smile/leetcode-solutions/tree/main/0560-subarray-sum-equals-k/) | Medium |
+| [1094-car-pooling](https://github.com/mj3smile/leetcode-solutions/tree/main/1094-car-pooling/) | Medium |
 | [1208-get-equal-substrings-within-budget](https://github.com/mj3smile/leetcode-solutions/tree/main/1208-get-equal-substrings-within-budget/) | Medium |
 | [1248-count-number-of-nice-subarrays](https://github.com/mj3smile/leetcode-solutions/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/mj3smile/leetcode-solutions/tree/main/1423-maximum-points-you-can-obtain-from-cards/) | Medium |
@@ -284,6 +288,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [0054-spiral-matrix](https://github.com/mj3smile/leetcode-solutions/tree/main/0054-spiral-matrix/) | Medium |
 | [0735-asteroid-collision](https://github.com/mj3smile/leetcode-solutions/tree/main/0735-asteroid-collision/) | Medium |
 | [0946-validate-stack-sequences](https://github.com/mj3smile/leetcode-solutions/tree/main/0946-validate-stack-sequences/) | Medium |
+| [1094-car-pooling](https://github.com/mj3smile/leetcode-solutions/tree/main/1094-car-pooling/) | Medium |
 | [1260-shift-2d-grid](https://github.com/mj3smile/leetcode-solutions/tree/main/1260-shift-2d-grid/) | Easy |
 | [1929-concatenation-of-array](https://github.com/mj3smile/leetcode-solutions/tree/main/1929-concatenation-of-array/) | Easy |
 ## Geometry
