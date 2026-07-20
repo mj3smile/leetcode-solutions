@@ -1,25 +1,38 @@
 class Solution:
     def spiralOrder(self, matrix: List[List[int]]) -> List[int]:
-        visited = set()
+        ROWS = len(matrix)
+        COLS = len(matrix[0])
         result = list()
+
+        visited = set()
+        def canMoveTo(r, c):
+            return r >= 0 and r < ROWS and c >= 0 and c < COLS and (r, c) not in visited
+
+        def trace(r, c, direction):
+            # print(r, c)
+            result.append(matrix[r][c])
+            visited.add((r,c))
+
+            if direction == "right":
+                if canMoveTo(r, c + 1):
+                    trace(r, c + 1, "right")
+                elif canMoveTo(r + 1, c):
+                    trace(r + 1, c, "down")
+            elif direction == "left":
+                if canMoveTo(r, c - 1):
+                    trace(r, c - 1, "left")
+                elif canMoveTo(r - 1, c):
+                    trace(r - 1, c, "up")
+            elif direction == "up":
+                if canMoveTo(r - 1, c):
+                    trace(r - 1, c, "up")
+                elif canMoveTo(r, c + 1):
+                    trace(r, c + 1, "right")
+            else:
+                if canMoveTo(r + 1, c):
+                    trace(r + 1, c, "down")
+                elif canMoveTo(r, c - 1):
+                    trace(r, c - 1, "left")
         
-        def walk(x, y, is_go_up):
-            if x < 0 or x >= len(matrix):
-                return
-            if y < 0 or y >= len(matrix[0]):
-                return
-            if (x,y) in visited:
-                return
-            
-            visited.add((x,y))
-            result.append(matrix[x][y])
-            
-            if is_go_up:
-                walk(x - 1, y, True)
-            walk(x, y + 1, False)
-            walk(x + 1, y, False)
-            walk(x, y - 1, False)
-            walk(x - 1, y, True)
-        
-        walk(0, 0, False)
+        trace(0, 0, "right")
         return result
