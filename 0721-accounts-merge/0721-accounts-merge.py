@@ -26,25 +26,14 @@ class Solution:
             else:
                 parent[p2] = p1
                 ranks[p1] = getRanks(p1) + 1
-            # print(a1, ":", getRootParent(a1), a2, ":", getRootParent(a2))
-        
-        groups = dict()
-        first_names = dict()
+            
         for i in accounts:
             a1 = i[1]
             for j in range(1, len(i)):
-                # first_names[i[j]] = a[0]
                 merge(a1, i[j])
-
-            # p = getRootParent(a1)
-            # groups[p] = groups.get(p, set())
-            # first_names[p] = i[0]
-            
-            # for j in range(1, len(i)):
-            #     groups[p].add(i[j])
         
-        result = list()
-        account_indexes = dict()
+        groups = dict()
+        first_names = dict()
         for i in accounts:
             first_name = i[0]
             p = getRootParent(i[1])
@@ -53,11 +42,9 @@ class Solution:
 
             for j in range(1, len(i)):
                 groups[p].add(i[j])
-
+        
+        result = list()
         for p, accounts in groups.items():
-            # for a in accounts:
-            #     r.append(sorted(list(accounts)))
-            # r.sort()
             a = sorted(list(accounts))
             a[0] = first_names[p]
             result.append(a)
