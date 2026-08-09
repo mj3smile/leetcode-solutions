@@ -44,6 +44,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [1248-count-number-of-nice-subarrays](https://github.com/mj3smile/leetcode-solutions/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
 | [1260-shift-2d-grid](https://github.com/mj3smile/leetcode-solutions/tree/main/1260-shift-2d-grid/) | Easy |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/mj3smile/leetcode-solutions/tree/main/1423-maximum-points-you-can-obtain-from-cards/) | Medium |
+| [1578-minimum-time-to-make-rope-colorful](https://github.com/mj3smile/leetcode-solutions/tree/main/1578-minimum-time-to-make-rope-colorful/) | Medium |
 | [1929-concatenation-of-array](https://github.com/mj3smile/leetcode-solutions/tree/main/1929-concatenation-of-array/) | Easy |
 | [2013-detect-squares](https://github.com/mj3smile/leetcode-solutions/tree/main/2013-detect-squares/) | Medium |
 | [2115-find-all-possible-recipes-from-given-supplies](https://github.com/mj3smile/leetcode-solutions/tree/main/2115-find-all-possible-recipes-from-given-supplies/) | Medium |
@@ -110,6 +111,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [1048-longest-string-chain](https://github.com/mj3smile/leetcode-solutions/tree/main/1048-longest-string-chain/) | Medium |
 | [1079-letter-tile-possibilities](https://github.com/mj3smile/leetcode-solutions/tree/main/1079-letter-tile-possibilities/) | Medium |
 | [1208-get-equal-substrings-within-budget](https://github.com/mj3smile/leetcode-solutions/tree/main/1208-get-equal-substrings-within-budget/) | Medium |
+| [1578-minimum-time-to-make-rope-colorful](https://github.com/mj3smile/leetcode-solutions/tree/main/1578-minimum-time-to-make-rope-colorful/) | Medium |
 | [1647-minimum-deletions-to-make-character-frequencies-unique](https://github.com/mj3smile/leetcode-solutions/tree/main/1647-minimum-deletions-to-make-character-frequencies-unique/) | Medium |
 | [2115-find-all-possible-recipes-from-given-supplies](https://github.com/mj3smile/leetcode-solutions/tree/main/2115-find-all-possible-recipes-from-given-supplies/) | Medium |
 | [2486-append-characters-to-string-to-make-subsequence](https://github.com/mj3smile/leetcode-solutions/tree/main/2486-append-characters-to-string-to-make-subsequence/) | Medium |
@@ -169,6 +171,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/mj3smile/leetcode-solutions/tree/main/0698-partition-to-k-equal-sum-subsets/) | Medium |
 | [1048-longest-string-chain](https://github.com/mj3smile/leetcode-solutions/tree/main/1048-longest-string-chain/) | Medium |
 | [1137-n-th-tribonacci-number](https://github.com/mj3smile/leetcode-solutions/tree/main/1137-n-th-tribonacci-number/) | Easy |
+| [1578-minimum-time-to-make-rope-colorful](https://github.com/mj3smile/leetcode-solutions/tree/main/1578-minimum-time-to-make-rope-colorful/) | Medium |
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -180,6 +183,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [0861-score-after-flipping-matrix](https://github.com/mj3smile/leetcode-solutions/tree/main/0861-score-after-flipping-matrix/) | Medium |
 | [0881-boats-to-save-people](https://github.com/mj3smile/leetcode-solutions/tree/main/0881-boats-to-save-people/) | Medium |
 | [0948-bag-of-tokens](https://github.com/mj3smile/leetcode-solutions/tree/main/0948-bag-of-tokens/) | Medium |
+| [1578-minimum-time-to-make-rope-colorful](https://github.com/mj3smile/leetcode-solutions/tree/main/1578-minimum-time-to-make-rope-colorful/) | Medium |
 | [1647-minimum-deletions-to-make-character-frequencies-unique](https://github.com/mj3smile/leetcode-solutions/tree/main/1647-minimum-deletions-to-make-character-frequencies-unique/) | Medium |
 | [2486-append-characters-to-string-to-make-subsequence](https://github.com/mj3smile/leetcode-solutions/tree/main/2486-append-characters-to-string-to-make-subsequence/) | Medium |
 ## Linked List
