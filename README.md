@@ -25,6 +25,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [0229-majority-element-ii](https://github.com/mj3smile/leetcode-solutions/tree/main/0229-majority-element-ii/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/mj3smile/leetcode-solutions/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0416-partition-equal-subset-sum](https://github.com/mj3smile/leetcode-solutions/tree/main/0416-partition-equal-subset-sum/) | Medium |
+| [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/mj3smile/leetcode-solutions/tree/main/0452-minimum-number-of-arrows-to-burst-balloons/) | Medium |
 | [0473-matchsticks-to-square](https://github.com/mj3smile/leetcode-solutions/tree/main/0473-matchsticks-to-square/) | Medium |
 | [0494-target-sum](https://github.com/mj3smile/leetcode-solutions/tree/main/0494-target-sum/) | Medium |
 | [0560-subarray-sum-equals-k](https://github.com/mj3smile/leetcode-solutions/tree/main/0560-subarray-sum-equals-k/) | Medium |
@@ -177,6 +178,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | ------- | ------- |
 | [0055-jump-game](https://github.com/mj3smile/leetcode-solutions/tree/main/0055-jump-game/) | Medium |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/mj3smile/leetcode-solutions/tree/main/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
+| [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/mj3smile/leetcode-solutions/tree/main/0452-minimum-number-of-arrows-to-burst-balloons/) | Medium |
 | [0678-valid-parenthesis-string](https://github.com/mj3smile/leetcode-solutions/tree/main/0678-valid-parenthesis-string/) | Medium |
 | [0763-partition-labels](https://github.com/mj3smile/leetcode-solutions/tree/main/0763-partition-labels/) | Medium |
 | [0846-hand-of-straights](https://github.com/mj3smile/leetcode-solutions/tree/main/0846-hand-of-straights/) | Medium |
@@ -243,6 +245,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [0169-majority-element](https://github.com/mj3smile/leetcode-solutions/tree/main/0169-majority-element/) | Easy |
 | [0229-majority-element-ii](https://github.com/mj3smile/leetcode-solutions/tree/main/0229-majority-element-ii/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/mj3smile/leetcode-solutions/tree/main/0347-top-k-frequent-elements/) | Medium |
+| [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/mj3smile/leetcode-solutions/tree/main/0452-minimum-number-of-arrows-to-burst-balloons/) | Medium |
 | [0658-find-k-closest-elements](https://github.com/mj3smile/leetcode-solutions/tree/main/0658-find-k-closest-elements/) | Medium |
 | [0721-accounts-merge](https://github.com/mj3smile/leetcode-solutions/tree/main/0721-accounts-merge/) | Medium |
 | [0846-hand-of-straights](https://github.com/mj3smile/leetcode-solutions/tree/main/0846-hand-of-straights/) | Medium |
