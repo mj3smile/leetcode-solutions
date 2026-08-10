@@ -7,13 +7,12 @@ class Solution:
         while i < len(points):
             s, e = points[i]
 
-            j = i + 1
-            while j < len(points) and s <= points[j][0] <= e:
-                s = max(s, points[j][0])
-                e = min(e, points[j][1])
-                j += 1
+            i = i + 1
+            while i < len(points) and s <= points[i][0] <= e:
+                s = max(s, points[i][0])
+                e = min(e, points[i][1])
+                i += 1
 
-            i = j     
             result += 1
         
         return result
