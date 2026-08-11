@@ -348,6 +348,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 ## Graph Theory
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1557-minimum-number-of-vertices-to-reach-all-nodes](https://github.com/mj3smile/leetcode-solutions/tree/main/1557-minimum-number-of-vertices-to-reach-all-nodes/) | Medium |
 | [2115-find-all-possible-recipes-from-given-supplies](https://github.com/mj3smile/leetcode-solutions/tree/main/2115-find-all-possible-recipes-from-given-supplies/) | Medium |
 ## Topological Sort
 | Problem Name | Difficulty |
@@ -357,4 +358,8 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0204-count-primes](https://github.com/mj3smile/leetcode-solutions/tree/main/0204-count-primes/) | Medium |
+## Directed Acyclic Graph
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1557-minimum-number-of-vertices-to-reach-all-nodes](https://github.com/mj3smile/leetcode-solutions/tree/main/1557-minimum-number-of-vertices-to-reach-all-nodes/) | Medium |
 <!---LeetCode Topics End-->
