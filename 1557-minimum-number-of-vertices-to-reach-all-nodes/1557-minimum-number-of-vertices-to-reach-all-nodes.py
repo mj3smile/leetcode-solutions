@@ -1,12 +1,8 @@
 class Solution:
     def findSmallestSetOfVertices(self, n: int, edges: List[List[int]]) -> List[int]:
-        reachableFrom = set()
+        unreachable = set(list(range(n)))
         for s, d in edges:
-            reachableFrom.add(d)
+            if d in unreachable:
+                unreachable.remove(d)
         
-        result = list()
-        for i in range(n):
-            if i not in reachableFrom:
-                result.append(i)
-        
-        return result
+        return list(unreachable)
