@@ -15,6 +15,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [0063-unique-paths-ii](https://github.com/mj3smile/leetcode-solutions/tree/main/0063-unique-paths-ii/) | Medium |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/mj3smile/leetcode-solutions/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/mj3smile/leetcode-solutions/tree/main/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
+| [0130-surrounded-regions](https://github.com/mj3smile/leetcode-solutions/tree/main/0130-surrounded-regions/) | Medium |
 | [0150-evaluate-reverse-polish-notation](https://github.com/mj3smile/leetcode-solutions/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
 | [0152-maximum-product-subarray](https://github.com/mj3smile/leetcode-solutions/tree/main/0152-maximum-product-subarray/) | Medium |
 | [0169-majority-element](https://github.com/mj3smile/leetcode-solutions/tree/main/0169-majority-element/) | Easy |
@@ -127,6 +128,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [0048-rotate-image](https://github.com/mj3smile/leetcode-solutions/tree/main/0048-rotate-image/) | Medium |
 | [0054-spiral-matrix](https://github.com/mj3smile/leetcode-solutions/tree/main/0054-spiral-matrix/) | Medium |
 | [0063-unique-paths-ii](https://github.com/mj3smile/leetcode-solutions/tree/main/0063-unique-paths-ii/) | Medium |
+| [0130-surrounded-regions](https://github.com/mj3smile/leetcode-solutions/tree/main/0130-surrounded-regions/) | Medium |
 | [0200-number-of-islands](https://github.com/mj3smile/leetcode-solutions/tree/main/0200-number-of-islands/) | Medium |
 | [0212-word-search-ii](https://github.com/mj3smile/leetcode-solutions/tree/main/0212-word-search-ii/) | Hard |
 | [0861-score-after-flipping-matrix](https://github.com/mj3smile/leetcode-solutions/tree/main/0861-score-after-flipping-matrix/) | Medium |
@@ -316,17 +318,20 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0130-surrounded-regions](https://github.com/mj3smile/leetcode-solutions/tree/main/0130-surrounded-regions/) | Medium |
 | [0200-number-of-islands](https://github.com/mj3smile/leetcode-solutions/tree/main/0200-number-of-islands/) | Medium |
 | [0337-house-robber-iii](https://github.com/mj3smile/leetcode-solutions/tree/main/0337-house-robber-iii/) | Medium |
 | [0721-accounts-merge](https://github.com/mj3smile/leetcode-solutions/tree/main/0721-accounts-merge/) | Medium |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0130-surrounded-regions](https://github.com/mj3smile/leetcode-solutions/tree/main/0130-surrounded-regions/) | Medium |
 | [0200-number-of-islands](https://github.com/mj3smile/leetcode-solutions/tree/main/0200-number-of-islands/) | Medium |
 | [0721-accounts-merge](https://github.com/mj3smile/leetcode-solutions/tree/main/0721-accounts-merge/) | Medium |
 ## Union-Find
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0130-surrounded-regions](https://github.com/mj3smile/leetcode-solutions/tree/main/0130-surrounded-regions/) | Medium |
 | [0200-number-of-islands](https://github.com/mj3smile/leetcode-solutions/tree/main/0200-number-of-islands/) | Medium |
 | [0721-accounts-merge](https://github.com/mj3smile/leetcode-solutions/tree/main/0721-accounts-merge/) | Medium |
 ## Bit Manipulation
