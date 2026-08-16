@@ -86,6 +86,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [0973-k-closest-points-to-origin](https://github.com/mj3smile/leetcode-solutions/tree/main/0973-k-closest-points-to-origin/) | Medium |
 | [1046-last-stone-weight](https://github.com/mj3smile/leetcode-solutions/tree/main/1046-last-stone-weight/) | Easy |
 | [1094-car-pooling](https://github.com/mj3smile/leetcode-solutions/tree/main/1094-car-pooling/) | Medium |
+| [2285-maximum-total-importance-of-roads](https://github.com/mj3smile/leetcode-solutions/tree/main/2285-maximum-total-importance-of-roads/) | Medium |
 ## Binary Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -189,6 +190,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [0948-bag-of-tokens](https://github.com/mj3smile/leetcode-solutions/tree/main/0948-bag-of-tokens/) | Medium |
 | [1578-minimum-time-to-make-rope-colorful](https://github.com/mj3smile/leetcode-solutions/tree/main/1578-minimum-time-to-make-rope-colorful/) | Medium |
 | [1647-minimum-deletions-to-make-character-frequencies-unique](https://github.com/mj3smile/leetcode-solutions/tree/main/1647-minimum-deletions-to-make-character-frequencies-unique/) | Medium |
+| [2285-maximum-total-importance-of-roads](https://github.com/mj3smile/leetcode-solutions/tree/main/2285-maximum-total-importance-of-roads/) | Medium |
 | [2486-append-characters-to-string-to-make-subsequence](https://github.com/mj3smile/leetcode-solutions/tree/main/2486-append-characters-to-string-to-make-subsequence/) | Medium |
 ## Linked List
 | Problem Name | Difficulty |
@@ -257,6 +259,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [1048-longest-string-chain](https://github.com/mj3smile/leetcode-solutions/tree/main/1048-longest-string-chain/) | Medium |
 | [1094-car-pooling](https://github.com/mj3smile/leetcode-solutions/tree/main/1094-car-pooling/) | Medium |
 | [1647-minimum-deletions-to-make-character-frequencies-unique](https://github.com/mj3smile/leetcode-solutions/tree/main/1647-minimum-deletions-to-make-character-frequencies-unique/) | Medium |
+| [2285-maximum-total-importance-of-roads](https://github.com/mj3smile/leetcode-solutions/tree/main/2285-maximum-total-importance-of-roads/) | Medium |
 ## Bucket Sort
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -355,6 +358,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | ------- | ------- |
 | [1557-minimum-number-of-vertices-to-reach-all-nodes](https://github.com/mj3smile/leetcode-solutions/tree/main/1557-minimum-number-of-vertices-to-reach-all-nodes/) | Medium |
 | [2115-find-all-possible-recipes-from-given-supplies](https://github.com/mj3smile/leetcode-solutions/tree/main/2115-find-all-possible-recipes-from-given-supplies/) | Medium |
+| [2285-maximum-total-importance-of-roads](https://github.com/mj3smile/leetcode-solutions/tree/main/2285-maximum-total-importance-of-roads/) | Medium |
 ## Topological Sort
 | Problem Name | Difficulty |
 | ------- | ------- |
