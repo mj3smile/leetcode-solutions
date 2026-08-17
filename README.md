@@ -51,6 +51,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [1929-concatenation-of-array](https://github.com/mj3smile/leetcode-solutions/tree/main/1929-concatenation-of-array/) | Easy |
 | [2013-detect-squares](https://github.com/mj3smile/leetcode-solutions/tree/main/2013-detect-squares/) | Medium |
 | [2115-find-all-possible-recipes-from-given-supplies](https://github.com/mj3smile/leetcode-solutions/tree/main/2115-find-all-possible-recipes-from-given-supplies/) | Medium |
+| [2134-minimum-swaps-to-group-all-1s-together-ii](https://github.com/mj3smile/leetcode-solutions/tree/main/2134-minimum-swaps-to-group-all-1s-together-ii/) | Medium |
 ## Backtracking
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -298,6 +299,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [1208-get-equal-substrings-within-budget](https://github.com/mj3smile/leetcode-solutions/tree/main/1208-get-equal-substrings-within-budget/) | Medium |
 | [1248-count-number-of-nice-subarrays](https://github.com/mj3smile/leetcode-solutions/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/mj3smile/leetcode-solutions/tree/main/1423-maximum-points-you-can-obtain-from-cards/) | Medium |
+| [2134-minimum-swaps-to-group-all-1s-together-ii](https://github.com/mj3smile/leetcode-solutions/tree/main/2134-minimum-swaps-to-group-all-1s-together-ii/) | Medium |
 ## Interactive
 | Problem Name | Difficulty |
 | ------- | ------- |
