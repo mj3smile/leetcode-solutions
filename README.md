@@ -45,6 +45,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [1094-car-pooling](https://github.com/mj3smile/leetcode-solutions/tree/main/1094-car-pooling/) | Medium |
 | [1248-count-number-of-nice-subarrays](https://github.com/mj3smile/leetcode-solutions/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
 | [1260-shift-2d-grid](https://github.com/mj3smile/leetcode-solutions/tree/main/1260-shift-2d-grid/) | Easy |
+| [1267-count-servers-that-communicate](https://github.com/mj3smile/leetcode-solutions/tree/main/1267-count-servers-that-communicate/) | Medium |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/mj3smile/leetcode-solutions/tree/main/1423-maximum-points-you-can-obtain-from-cards/) | Medium |
 | [1578-minimum-time-to-make-rope-colorful](https://github.com/mj3smile/leetcode-solutions/tree/main/1578-minimum-time-to-make-rope-colorful/) | Medium |
 | [1929-concatenation-of-array](https://github.com/mj3smile/leetcode-solutions/tree/main/1929-concatenation-of-array/) | Easy |
@@ -134,6 +135,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [0212-word-search-ii](https://github.com/mj3smile/leetcode-solutions/tree/main/0212-word-search-ii/) | Hard |
 | [0861-score-after-flipping-matrix](https://github.com/mj3smile/leetcode-solutions/tree/main/0861-score-after-flipping-matrix/) | Medium |
 | [1260-shift-2d-grid](https://github.com/mj3smile/leetcode-solutions/tree/main/1260-shift-2d-grid/) | Easy |
+| [1267-count-servers-that-communicate](https://github.com/mj3smile/leetcode-solutions/tree/main/1267-count-servers-that-communicate/) | Medium |
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -271,6 +273,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [0229-majority-element-ii](https://github.com/mj3smile/leetcode-solutions/tree/main/0229-majority-element-ii/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/mj3smile/leetcode-solutions/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [1079-letter-tile-possibilities](https://github.com/mj3smile/leetcode-solutions/tree/main/1079-letter-tile-possibilities/) | Medium |
+| [1267-count-servers-that-communicate](https://github.com/mj3smile/leetcode-solutions/tree/main/1267-count-servers-that-communicate/) | Medium |
 | [2013-detect-squares](https://github.com/mj3smile/leetcode-solutions/tree/main/2013-detect-squares/) | Medium |
 ## Quickselect
 | Problem Name | Difficulty |
@@ -325,18 +328,21 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [0200-number-of-islands](https://github.com/mj3smile/leetcode-solutions/tree/main/0200-number-of-islands/) | Medium |
 | [0337-house-robber-iii](https://github.com/mj3smile/leetcode-solutions/tree/main/0337-house-robber-iii/) | Medium |
 | [0721-accounts-merge](https://github.com/mj3smile/leetcode-solutions/tree/main/0721-accounts-merge/) | Medium |
+| [1267-count-servers-that-communicate](https://github.com/mj3smile/leetcode-solutions/tree/main/1267-count-servers-that-communicate/) | Medium |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0130-surrounded-regions](https://github.com/mj3smile/leetcode-solutions/tree/main/0130-surrounded-regions/) | Medium |
 | [0200-number-of-islands](https://github.com/mj3smile/leetcode-solutions/tree/main/0200-number-of-islands/) | Medium |
 | [0721-accounts-merge](https://github.com/mj3smile/leetcode-solutions/tree/main/0721-accounts-merge/) | Medium |
+| [1267-count-servers-that-communicate](https://github.com/mj3smile/leetcode-solutions/tree/main/1267-count-servers-that-communicate/) | Medium |
 ## Union-Find
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0130-surrounded-regions](https://github.com/mj3smile/leetcode-solutions/tree/main/0130-surrounded-regions/) | Medium |
 | [0200-number-of-islands](https://github.com/mj3smile/leetcode-solutions/tree/main/0200-number-of-islands/) | Medium |
 | [0721-accounts-merge](https://github.com/mj3smile/leetcode-solutions/tree/main/0721-accounts-merge/) | Medium |
+| [1267-count-servers-that-communicate](https://github.com/mj3smile/leetcode-solutions/tree/main/1267-count-servers-that-communicate/) | Medium |
 ## Bit Manipulation
 | Problem Name | Difficulty |
 | ------- | ------- |
