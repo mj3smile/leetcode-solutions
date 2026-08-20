@@ -27,15 +27,12 @@ class Solution:
             if j == i:
                 continue
             
-            if prev1:
-                prev1.next = next1
-            
+            prev1.next = next1
             prev2, next2 = items[j - 1], None
             if j < len(items) - 1:
                 next2 = items[j + 1]
             
-            if prev2:
-                prev2.next = items[j]
+            prev2.next = items[j]
             items[j].next = next2
         
         return new.next
