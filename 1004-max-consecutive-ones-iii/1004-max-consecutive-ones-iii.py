@@ -4,11 +4,6 @@ class Solution:
         result = 0
         curr_k = k
         for r in range(len(nums)):
-            # while nums[r] == 0 and curr_k == 0 and curr_k < k:
-            #     if nums[l] == 0:
-            #         curr_k += 1
-            #     l += 1
-            
             if nums[r] == 0:
                 if k == 0:
                     l = r + 1
