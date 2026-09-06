@@ -52,6 +52,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [2013-detect-squares](https://github.com/mj3smile/leetcode-solutions/tree/main/2013-detect-squares/) | Medium |
 | [2115-find-all-possible-recipes-from-given-supplies](https://github.com/mj3smile/leetcode-solutions/tree/main/2115-find-all-possible-recipes-from-given-supplies/) | Medium |
 | [2134-minimum-swaps-to-group-all-1s-together-ii](https://github.com/mj3smile/leetcode-solutions/tree/main/2134-minimum-swaps-to-group-all-1s-together-ii/) | Medium |
+| [2530-maximal-score-after-applying-k-operations](https://github.com/mj3smile/leetcode-solutions/tree/main/2530-maximal-score-after-applying-k-operations/) | Medium |
 ## Backtracking
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -89,6 +90,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [1046-last-stone-weight](https://github.com/mj3smile/leetcode-solutions/tree/main/1046-last-stone-weight/) | Easy |
 | [1094-car-pooling](https://github.com/mj3smile/leetcode-solutions/tree/main/1094-car-pooling/) | Medium |
 | [2285-maximum-total-importance-of-roads](https://github.com/mj3smile/leetcode-solutions/tree/main/2285-maximum-total-importance-of-roads/) | Medium |
+| [2530-maximal-score-after-applying-k-operations](https://github.com/mj3smile/leetcode-solutions/tree/main/2530-maximal-score-after-applying-k-operations/) | Medium |
 ## Binary Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -195,6 +197,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [1647-minimum-deletions-to-make-character-frequencies-unique](https://github.com/mj3smile/leetcode-solutions/tree/main/1647-minimum-deletions-to-make-character-frequencies-unique/) | Medium |
 | [2285-maximum-total-importance-of-roads](https://github.com/mj3smile/leetcode-solutions/tree/main/2285-maximum-total-importance-of-roads/) | Medium |
 | [2486-append-characters-to-string-to-make-subsequence](https://github.com/mj3smile/leetcode-solutions/tree/main/2486-append-characters-to-string-to-make-subsequence/) | Medium |
+| [2530-maximal-score-after-applying-k-operations](https://github.com/mj3smile/leetcode-solutions/tree/main/2530-maximal-score-after-applying-k-operations/) | Medium |
 ## Linked List
 | Problem Name | Difficulty |
 | ------- | ------- |
