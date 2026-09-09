@@ -153,6 +153,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [0048-rotate-image](https://github.com/mj3smile/leetcode-solutions/tree/main/0048-rotate-image/) | Medium |
 | [0150-evaluate-reverse-polish-notation](https://github.com/mj3smile/leetcode-solutions/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
 | [0204-count-primes](https://github.com/mj3smile/leetcode-solutions/tree/main/0204-count-primes/) | Medium |
+| [0445-add-two-numbers-ii](https://github.com/mj3smile/leetcode-solutions/tree/main/0445-add-two-numbers-ii/) | Medium |
 | [0973-k-closest-points-to-origin](https://github.com/mj3smile/leetcode-solutions/tree/main/0973-k-closest-points-to-origin/) | Medium |
 | [1137-n-th-tribonacci-number](https://github.com/mj3smile/leetcode-solutions/tree/main/1137-n-th-tribonacci-number/) | Easy |
 | [1248-count-number-of-nice-subarrays](https://github.com/mj3smile/leetcode-solutions/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
@@ -162,6 +163,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | ------- | ------- |
 | [0071-simplify-path](https://github.com/mj3smile/leetcode-solutions/tree/main/0071-simplify-path/) | Medium |
 | [0150-evaluate-reverse-polish-notation](https://github.com/mj3smile/leetcode-solutions/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
+| [0445-add-two-numbers-ii](https://github.com/mj3smile/leetcode-solutions/tree/main/0445-add-two-numbers-ii/) | Medium |
 | [0678-valid-parenthesis-string](https://github.com/mj3smile/leetcode-solutions/tree/main/0678-valid-parenthesis-string/) | Medium |
 | [0735-asteroid-collision](https://github.com/mj3smile/leetcode-solutions/tree/main/0735-asteroid-collision/) | Medium |
 | [0946-validate-stack-sequences](https://github.com/mj3smile/leetcode-solutions/tree/main/0946-validate-stack-sequences/) | Medium |
@@ -212,6 +214,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [0147-insertion-sort-list](https://github.com/mj3smile/leetcode-solutions/tree/main/0147-insertion-sort-list/) | Medium |
 | [0203-remove-linked-list-elements](https://github.com/mj3smile/leetcode-solutions/tree/main/0203-remove-linked-list-elements/) | Easy |
 | [0206-reverse-linked-list](https://github.com/mj3smile/leetcode-solutions/tree/main/0206-reverse-linked-list/) | Easy |
+| [0445-add-two-numbers-ii](https://github.com/mj3smile/leetcode-solutions/tree/main/0445-add-two-numbers-ii/) | Medium |
 ## Recursion
 | Problem Name | Difficulty |
 | ------- | ------- |
