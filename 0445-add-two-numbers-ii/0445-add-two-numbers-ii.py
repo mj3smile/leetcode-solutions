@@ -27,7 +27,6 @@ class Solution:
                 n = l2_nodes.pop()
                 two = n.val
             
-            # print(one, two)
             add = one+two+remainder
             if add > 9:
                 remainder = add // 10
