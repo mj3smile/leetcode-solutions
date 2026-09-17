@@ -55,6 +55,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [2013-detect-squares](https://github.com/mj3smile/leetcode-solutions/tree/main/2013-detect-squares/) | Medium |
 | [2115-find-all-possible-recipes-from-given-supplies](https://github.com/mj3smile/leetcode-solutions/tree/main/2115-find-all-possible-recipes-from-given-supplies/) | Medium |
 | [2134-minimum-swaps-to-group-all-1s-together-ii](https://github.com/mj3smile/leetcode-solutions/tree/main/2134-minimum-swaps-to-group-all-1s-together-ii/) | Medium |
+| [2196-create-binary-tree-from-descriptions](https://github.com/mj3smile/leetcode-solutions/tree/main/2196-create-binary-tree-from-descriptions/) | Medium |
 | [2530-maximal-score-after-applying-k-operations](https://github.com/mj3smile/leetcode-solutions/tree/main/2530-maximal-score-after-applying-k-operations/) | Medium |
 ## Backtracking
 | Problem Name | Difficulty |
@@ -70,6 +71,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | ------- | ------- |
 | [0337-house-robber-iii](https://github.com/mj3smile/leetcode-solutions/tree/main/0337-house-robber-iii/) | Medium |
 | [0703-kth-largest-element-in-a-stream](https://github.com/mj3smile/leetcode-solutions/tree/main/0703-kth-largest-element-in-a-stream/) | Easy |
+| [2196-create-binary-tree-from-descriptions](https://github.com/mj3smile/leetcode-solutions/tree/main/2196-create-binary-tree-from-descriptions/) | Medium |
 ## Design
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -100,6 +102,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | ------- | ------- |
 | [0337-house-robber-iii](https://github.com/mj3smile/leetcode-solutions/tree/main/0337-house-robber-iii/) | Medium |
 | [0703-kth-largest-element-in-a-stream](https://github.com/mj3smile/leetcode-solutions/tree/main/0703-kth-largest-element-in-a-stream/) | Easy |
+| [2196-create-binary-tree-from-descriptions](https://github.com/mj3smile/leetcode-solutions/tree/main/2196-create-binary-tree-from-descriptions/) | Medium |
 ## Data Stream
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -244,6 +247,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [1647-minimum-deletions-to-make-character-frequencies-unique](https://github.com/mj3smile/leetcode-solutions/tree/main/1647-minimum-deletions-to-make-character-frequencies-unique/) | Medium |
 | [2013-detect-squares](https://github.com/mj3smile/leetcode-solutions/tree/main/2013-detect-squares/) | Medium |
 | [2115-find-all-possible-recipes-from-given-supplies](https://github.com/mj3smile/leetcode-solutions/tree/main/2115-find-all-possible-recipes-from-given-supplies/) | Medium |
+| [2196-create-binary-tree-from-descriptions](https://github.com/mj3smile/leetcode-solutions/tree/main/2196-create-binary-tree-from-descriptions/) | Medium |
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
