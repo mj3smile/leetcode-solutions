@@ -43,7 +43,6 @@ class Solution:
             prime = pickPrimes(diff + 1, nums[i])
             nums[i] -= prime
         
-        # print(nums)
         for i in range(len(nums) - 2, -1, -1):
             if nums[i] >= nums[i + 1]:
                 return False
