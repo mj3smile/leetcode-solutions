@@ -14,20 +14,20 @@ class Solution:
             if isPrimes[i]:
                 primes.append(i)
         
-        def pickPrimes(n, shouldLessThan):
+        def pickPrimes(startRange, endRange):
             l, r = 0, len(primes) - 1
             while l < r:
                 mid = (l + r) // 2
 
-                if primes[mid] == n:
+                if primes[mid] == startRange:
                     l = mid
                     break
-                elif primes[mid] > n:
+                elif primes[mid] > startRange:
                     r = mid
                 else:
                     l = mid + 1
             
-            if primes[l] >= shouldLessThan:
+            if primes[l] >= endRange:
                 return primes[l - 1]
 
             return primes[l]
