@@ -57,6 +57,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [2134-minimum-swaps-to-group-all-1s-together-ii](https://github.com/mj3smile/leetcode-solutions/tree/main/2134-minimum-swaps-to-group-all-1s-together-ii/) | Medium |
 | [2196-create-binary-tree-from-descriptions](https://github.com/mj3smile/leetcode-solutions/tree/main/2196-create-binary-tree-from-descriptions/) | Medium |
 | [2530-maximal-score-after-applying-k-operations](https://github.com/mj3smile/leetcode-solutions/tree/main/2530-maximal-score-after-applying-k-operations/) | Medium |
+| [2601-prime-subtraction-operation](https://github.com/mj3smile/leetcode-solutions/tree/main/2601-prime-subtraction-operation/) | Medium |
 ## Backtracking
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -86,6 +87,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [0703-kth-largest-element-in-a-stream](https://github.com/mj3smile/leetcode-solutions/tree/main/0703-kth-largest-element-in-a-stream/) | Easy |
 | [1004-max-consecutive-ones-iii](https://github.com/mj3smile/leetcode-solutions/tree/main/1004-max-consecutive-ones-iii/) | Medium |
 | [1208-get-equal-substrings-within-budget](https://github.com/mj3smile/leetcode-solutions/tree/main/1208-get-equal-substrings-within-budget/) | Medium |
+| [2601-prime-subtraction-operation](https://github.com/mj3smile/leetcode-solutions/tree/main/2601-prime-subtraction-operation/) | Medium |
 ## Heap (Priority Queue)
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -162,6 +164,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [1137-n-th-tribonacci-number](https://github.com/mj3smile/leetcode-solutions/tree/main/1137-n-th-tribonacci-number/) | Easy |
 | [1248-count-number-of-nice-subarrays](https://github.com/mj3smile/leetcode-solutions/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
 | [2523-closest-prime-numbers-in-range](https://github.com/mj3smile/leetcode-solutions/tree/main/2523-closest-prime-numbers-in-range/) | Medium |
+| [2601-prime-subtraction-operation](https://github.com/mj3smile/leetcode-solutions/tree/main/2601-prime-subtraction-operation/) | Medium |
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -210,6 +213,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [2285-maximum-total-importance-of-roads](https://github.com/mj3smile/leetcode-solutions/tree/main/2285-maximum-total-importance-of-roads/) | Medium |
 | [2486-append-characters-to-string-to-make-subsequence](https://github.com/mj3smile/leetcode-solutions/tree/main/2486-append-characters-to-string-to-make-subsequence/) | Medium |
 | [2530-maximal-score-after-applying-k-operations](https://github.com/mj3smile/leetcode-solutions/tree/main/2530-maximal-score-after-applying-k-operations/) | Medium |
+| [2601-prime-subtraction-operation](https://github.com/mj3smile/leetcode-solutions/tree/main/2601-prime-subtraction-operation/) | Medium |
 ## Linked List
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -385,6 +389,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | ------- | ------- |
 | [0204-count-primes](https://github.com/mj3smile/leetcode-solutions/tree/main/0204-count-primes/) | Medium |
 | [2523-closest-prime-numbers-in-range](https://github.com/mj3smile/leetcode-solutions/tree/main/2523-closest-prime-numbers-in-range/) | Medium |
+| [2601-prime-subtraction-operation](https://github.com/mj3smile/leetcode-solutions/tree/main/2601-prime-subtraction-operation/) | Medium |
 ## Graph Theory
 | Problem Name | Difficulty |
 | ------- | ------- |
