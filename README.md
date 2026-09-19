@@ -117,6 +117,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/mj3smile/leetcode-solutions/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
+| [0006-zigzag-conversion](https://github.com/mj3smile/leetcode-solutions/tree/main/0006-zigzag-conversion/) | Medium |
 | [0014-longest-common-prefix](https://github.com/mj3smile/leetcode-solutions/tree/main/0014-longest-common-prefix/) | Easy |
 | [0043-multiply-strings](https://github.com/mj3smile/leetcode-solutions/tree/main/0043-multiply-strings/) | Medium |
 | [0071-simplify-path](https://github.com/mj3smile/leetcode-solutions/tree/main/0071-simplify-path/) | Medium |
