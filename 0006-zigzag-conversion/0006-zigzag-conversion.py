@@ -9,10 +9,8 @@ class Solution:
             if r == numRows - 1 or direction == "up":
                 next_r = max(0, r - 1)
                 next_c = c + 1
-                # next_direction = "up"
             elif r == 0 or direction == "down":
                 next_r = min(numRows - 1, r + 1)
-                # next_direction = "down"
 
             if next_r == 0:
                 next_direction = "down"
