@@ -72,11 +72,13 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0337-house-robber-iii](https://github.com/mj3smile/leetcode-solutions/tree/main/0337-house-robber-iii/) | Medium |
+| [0341-flatten-nested-list-iterator](https://github.com/mj3smile/leetcode-solutions/tree/main/0341-flatten-nested-list-iterator/) | Medium |
 | [0703-kth-largest-element-in-a-stream](https://github.com/mj3smile/leetcode-solutions/tree/main/0703-kth-largest-element-in-a-stream/) | Easy |
 | [2196-create-binary-tree-from-descriptions](https://github.com/mj3smile/leetcode-solutions/tree/main/2196-create-binary-tree-from-descriptions/) | Medium |
 ## Design
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0341-flatten-nested-list-iterator](https://github.com/mj3smile/leetcode-solutions/tree/main/0341-flatten-nested-list-iterator/) | Medium |
 | [0703-kth-largest-element-in-a-stream](https://github.com/mj3smile/leetcode-solutions/tree/main/0703-kth-largest-element-in-a-stream/) | Easy |
 | [2013-detect-squares](https://github.com/mj3smile/leetcode-solutions/tree/main/2013-detect-squares/) | Medium |
 ## Binary Search Tree
@@ -172,6 +174,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | ------- | ------- |
 | [0071-simplify-path](https://github.com/mj3smile/leetcode-solutions/tree/main/0071-simplify-path/) | Medium |
 | [0150-evaluate-reverse-polish-notation](https://github.com/mj3smile/leetcode-solutions/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
+| [0341-flatten-nested-list-iterator](https://github.com/mj3smile/leetcode-solutions/tree/main/0341-flatten-nested-list-iterator/) | Medium |
 | [0445-add-two-numbers-ii](https://github.com/mj3smile/leetcode-solutions/tree/main/0445-add-two-numbers-ii/) | Medium |
 | [0678-valid-parenthesis-string](https://github.com/mj3smile/leetcode-solutions/tree/main/0678-valid-parenthesis-string/) | Medium |
 | [0735-asteroid-collision](https://github.com/mj3smile/leetcode-solutions/tree/main/0735-asteroid-collision/) | Medium |
@@ -360,6 +363,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [0130-surrounded-regions](https://github.com/mj3smile/leetcode-solutions/tree/main/0130-surrounded-regions/) | Medium |
 | [0200-number-of-islands](https://github.com/mj3smile/leetcode-solutions/tree/main/0200-number-of-islands/) | Medium |
 | [0337-house-robber-iii](https://github.com/mj3smile/leetcode-solutions/tree/main/0337-house-robber-iii/) | Medium |
+| [0341-flatten-nested-list-iterator](https://github.com/mj3smile/leetcode-solutions/tree/main/0341-flatten-nested-list-iterator/) | Medium |
 | [0721-accounts-merge](https://github.com/mj3smile/leetcode-solutions/tree/main/0721-accounts-merge/) | Medium |
 | [1267-count-servers-that-communicate](https://github.com/mj3smile/leetcode-solutions/tree/main/1267-count-servers-that-communicate/) | Medium |
 ## Breadth-First Search
@@ -411,4 +415,12 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1557-minimum-number-of-vertices-to-reach-all-nodes](https://github.com/mj3smile/leetcode-solutions/tree/main/1557-minimum-number-of-vertices-to-reach-all-nodes/) | Medium |
+## Queue
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0341-flatten-nested-list-iterator](https://github.com/mj3smile/leetcode-solutions/tree/main/0341-flatten-nested-list-iterator/) | Medium |
+## Iterator
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0341-flatten-nested-list-iterator](https://github.com/mj3smile/leetcode-solutions/tree/main/0341-flatten-nested-list-iterator/) | Medium |
 <!---LeetCode Topics End-->
