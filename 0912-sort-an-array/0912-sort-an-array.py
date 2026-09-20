@@ -4,8 +4,6 @@ class Solution:
             return (p + 1) * 2 - 1
         def getRight(p):
             return (p + 1) * 2
-        def getParent(i):
-            return (i + 1) // 2 - 1
         
         n = len(nums)
         for i in range(len(nums) - 1, -1, -1):
