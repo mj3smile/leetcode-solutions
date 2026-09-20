@@ -7,28 +7,28 @@ class Solution:
         
         n = len(nums)
         for i in range(len(nums) - 1, -1, -1):
-            j = i
-            l, r = getLeft(j), getRight(j)
-            while l < n and nums[j] < nums[l] or r < n and nums[j] < nums[r]:
+            p = i
+            l, r = getLeft(p), getRight(p)
+            while l < n and nums[p] < nums[l] or r < n and nums[p] < nums[r]:
                 if r >= n or nums[l] >= nums[r]:
-                    nums[j], nums[l] = nums[l], nums[j]
-                    j = l
+                    nums[p], nums[l] = nums[l], nums[p]
+                    p = l
                 else:
-                    nums[j], nums[r] = nums[r], nums[j]
-                    j = r
-                l, r = getLeft(j), getRight(j)
+                    nums[p], nums[r] = nums[r], nums[p]
+                    p = r
+                l, r = getLeft(p), getRight(p)
         
         nums[len(nums) - 1], nums[0] = nums[0], nums[len(nums) - 1]
         newLen = len(nums) - 1
         while newLen > 1:
             p = 0
             l, r = getLeft(p), getRight(p)
-            while l < newLen and nums[l] > nums[p] or r < newLen and nums[r] > nums[p]:
+            while l < newLen and nums[p] < nums[l] or r < newLen and nums[p] < nums[r]:
                 if r >= newLen or nums[l] >= nums[r]:
-                    nums[l], nums[p] = nums[p], nums[l]
+                    nums[p], nums[l] = nums[l], nums[p]
                     p = l
                 else:
-                    nums[r], nums[p] = nums[p], nums[r]
+                    nums[p], nums[r] = nums[r], nums[p]
                     p = r
                 l, r = getLeft(p), getRight(p)
 
