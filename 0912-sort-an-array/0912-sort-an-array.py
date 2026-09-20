@@ -9,7 +9,6 @@ class Solution:
         
         n = len(nums)
         for i in range(len(nums) - 1, -1, -1):
-            p = getParent(i)
             j = i
             l, r = getLeft(j), getRight(j)
             while l < n and nums[j] < nums[l] or r < n and nums[j] < nums[r]:
