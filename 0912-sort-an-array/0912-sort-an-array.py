@@ -1,23 +1,41 @@
 class Solution:
-    def merge(self, original, arr1, arr2):
-        j, k = 0, 0
-        for i in range(len(original)):
-            if k >= len(arr2) or j < len(arr1) and arr1[j] <= arr2[k]:
-                original[i] = arr1[j]
-                j += 1
-            else:
-                original[i] = arr2[k]
-                k += 1
-
     def sortArray(self, nums: list[int]) -> list[int]:
-        if len(nums) < 2:
-            return nums
+        def getLeft(p):
+            return (p + 1) * 2 - 1
+        def getRight(p):
+            return (p + 1) * 2
+        def getParent(i):
+            return (i + 1) // 2 - 1
         
-        start, end = 0, len(nums)
-        mid = (start + end) // 2
+        n = len(nums)
+        for i in range(len(nums) - 1, -1, -1):
+            p = getParent(i)
+            j = i
+            l, r = getLeft(j), getRight(j)
+            while l < n and nums[j] < nums[l] or r < n and nums[j] < nums[r]:
+                if r >= n or nums[l] >= nums[r]:
+                    nums[j], nums[l] = nums[l], nums[j]
+                    j = l
+                else:
+                    nums[j], nums[r] = nums[r], nums[j]
+                    j = r
+                l, r = getLeft(j), getRight(j)
+        
+        nums[len(nums) - 1], nums[0] = nums[0], nums[len(nums) - 1]
+        newLen = len(nums) - 1
+        while newLen > 1:
+            p = 0
+            l, r = getLeft(p), getRight(p)
+            while l < newLen and nums[l] > nums[p] or r < newLen and nums[r] > nums[p]:
+                if r >= newLen or nums[l] >= nums[r]:
+                    nums[l], nums[p] = nums[p], nums[l]
+                    p = l
+                else:
+                    nums[r], nums[p] = nums[p], nums[r]
+                    p = r
+                l, r = getLeft(p), getRight(p)
 
-        half1 = self.sortArray(nums[start:mid])
-        half2 = self.sortArray(nums[mid:end])
-
-        self.merge(nums, half1, half2)
+            newLen -= 1
+            nums[newLen], nums[0] = nums[0], nums[newLen]
+        
         return nums
