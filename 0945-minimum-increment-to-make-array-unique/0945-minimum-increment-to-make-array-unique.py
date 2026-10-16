@@ -10,8 +10,8 @@ class Solution:
             if nums[r - 1] < nums[r]:
                 continue
 
-            prev = nums[r]
-            nums[r] += (nums[r - 1] - nums[r] + 1)
-            result += (nums[r] - prev)
+            increase_by = nums[r - 1] - nums[r] + 1
+            nums[r] += increase_by
+            result += increase_by
         
         return result    
