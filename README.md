@@ -39,6 +39,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [0881-boats-to-save-people](https://github.com/mj3smile/leetcode-solutions/tree/main/0881-boats-to-save-people/) | Medium |
 | [0912-sort-an-array](https://github.com/mj3smile/leetcode-solutions/tree/main/0912-sort-an-array/) | Medium |
 | [0931-minimum-falling-path-sum](https://github.com/mj3smile/leetcode-solutions/tree/main/0931-minimum-falling-path-sum/) | Medium |
+| [0945-minimum-increment-to-make-array-unique](https://github.com/mj3smile/leetcode-solutions/tree/main/0945-minimum-increment-to-make-array-unique/) | Medium |
 | [0946-validate-stack-sequences](https://github.com/mj3smile/leetcode-solutions/tree/main/0946-validate-stack-sequences/) | Medium |
 | [0948-bag-of-tokens](https://github.com/mj3smile/leetcode-solutions/tree/main/0948-bag-of-tokens/) | Medium |
 | [0973-k-closest-points-to-origin](https://github.com/mj3smile/leetcode-solutions/tree/main/0973-k-closest-points-to-origin/) | Medium |
@@ -215,6 +216,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [0846-hand-of-straights](https://github.com/mj3smile/leetcode-solutions/tree/main/0846-hand-of-straights/) | Medium |
 | [0861-score-after-flipping-matrix](https://github.com/mj3smile/leetcode-solutions/tree/main/0861-score-after-flipping-matrix/) | Medium |
 | [0881-boats-to-save-people](https://github.com/mj3smile/leetcode-solutions/tree/main/0881-boats-to-save-people/) | Medium |
+| [0945-minimum-increment-to-make-array-unique](https://github.com/mj3smile/leetcode-solutions/tree/main/0945-minimum-increment-to-make-array-unique/) | Medium |
 | [0948-bag-of-tokens](https://github.com/mj3smile/leetcode-solutions/tree/main/0948-bag-of-tokens/) | Medium |
 | [1481-least-number-of-unique-integers-after-k-removals](https://github.com/mj3smile/leetcode-solutions/tree/main/1481-least-number-of-unique-integers-after-k-removals/) | Medium |
 | [1578-minimum-time-to-make-rope-colorful](https://github.com/mj3smile/leetcode-solutions/tree/main/1578-minimum-time-to-make-rope-colorful/) | Medium |
@@ -293,6 +295,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [0846-hand-of-straights](https://github.com/mj3smile/leetcode-solutions/tree/main/0846-hand-of-straights/) | Medium |
 | [0881-boats-to-save-people](https://github.com/mj3smile/leetcode-solutions/tree/main/0881-boats-to-save-people/) | Medium |
 | [0912-sort-an-array](https://github.com/mj3smile/leetcode-solutions/tree/main/0912-sort-an-array/) | Medium |
+| [0945-minimum-increment-to-make-array-unique](https://github.com/mj3smile/leetcode-solutions/tree/main/0945-minimum-increment-to-make-array-unique/) | Medium |
 | [0948-bag-of-tokens](https://github.com/mj3smile/leetcode-solutions/tree/main/0948-bag-of-tokens/) | Medium |
 | [0973-k-closest-points-to-origin](https://github.com/mj3smile/leetcode-solutions/tree/main/0973-k-closest-points-to-origin/) | Medium |
 | [1048-longest-string-chain](https://github.com/mj3smile/leetcode-solutions/tree/main/1048-longest-string-chain/) | Medium |
@@ -311,6 +314,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [0169-majority-element](https://github.com/mj3smile/leetcode-solutions/tree/main/0169-majority-element/) | Easy |
 | [0229-majority-element-ii](https://github.com/mj3smile/leetcode-solutions/tree/main/0229-majority-element-ii/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/mj3smile/leetcode-solutions/tree/main/0347-top-k-frequent-elements/) | Medium |
+| [0945-minimum-increment-to-make-array-unique](https://github.com/mj3smile/leetcode-solutions/tree/main/0945-minimum-increment-to-make-array-unique/) | Medium |
 | [1079-letter-tile-possibilities](https://github.com/mj3smile/leetcode-solutions/tree/main/1079-letter-tile-possibilities/) | Medium |
 | [1267-count-servers-that-communicate](https://github.com/mj3smile/leetcode-solutions/tree/main/1267-count-servers-that-communicate/) | Medium |
 | [1481-least-number-of-unique-integers-after-k-removals](https://github.com/mj3smile/leetcode-solutions/tree/main/1481-least-number-of-unique-integers-after-k-removals/) | Medium |
