@@ -53,6 +53,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/mj3smile/leetcode-solutions/tree/main/1423-maximum-points-you-can-obtain-from-cards/) | Medium |
 | [1481-least-number-of-unique-integers-after-k-removals](https://github.com/mj3smile/leetcode-solutions/tree/main/1481-least-number-of-unique-integers-after-k-removals/) | Medium |
 | [1578-minimum-time-to-make-rope-colorful](https://github.com/mj3smile/leetcode-solutions/tree/main/1578-minimum-time-to-make-rope-colorful/) | Medium |
+| [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/mj3smile/leetcode-solutions/tree/main/1846-maximum-element-after-decreasing-and-rearranging/) | Medium |
 | [1929-concatenation-of-array](https://github.com/mj3smile/leetcode-solutions/tree/main/1929-concatenation-of-array/) | Easy |
 | [2013-detect-squares](https://github.com/mj3smile/leetcode-solutions/tree/main/2013-detect-squares/) | Medium |
 | [2017-grid-game](https://github.com/mj3smile/leetcode-solutions/tree/main/2017-grid-game/) | Medium |
@@ -221,6 +222,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [1481-least-number-of-unique-integers-after-k-removals](https://github.com/mj3smile/leetcode-solutions/tree/main/1481-least-number-of-unique-integers-after-k-removals/) | Medium |
 | [1578-minimum-time-to-make-rope-colorful](https://github.com/mj3smile/leetcode-solutions/tree/main/1578-minimum-time-to-make-rope-colorful/) | Medium |
 | [1647-minimum-deletions-to-make-character-frequencies-unique](https://github.com/mj3smile/leetcode-solutions/tree/main/1647-minimum-deletions-to-make-character-frequencies-unique/) | Medium |
+| [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/mj3smile/leetcode-solutions/tree/main/1846-maximum-element-after-decreasing-and-rearranging/) | Medium |
 | [2285-maximum-total-importance-of-roads](https://github.com/mj3smile/leetcode-solutions/tree/main/2285-maximum-total-importance-of-roads/) | Medium |
 | [2486-append-characters-to-string-to-make-subsequence](https://github.com/mj3smile/leetcode-solutions/tree/main/2486-append-characters-to-string-to-make-subsequence/) | Medium |
 | [2530-maximal-score-after-applying-k-operations](https://github.com/mj3smile/leetcode-solutions/tree/main/2530-maximal-score-after-applying-k-operations/) | Medium |
@@ -302,6 +304,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [1094-car-pooling](https://github.com/mj3smile/leetcode-solutions/tree/main/1094-car-pooling/) | Medium |
 | [1481-least-number-of-unique-integers-after-k-removals](https://github.com/mj3smile/leetcode-solutions/tree/main/1481-least-number-of-unique-integers-after-k-removals/) | Medium |
 | [1647-minimum-deletions-to-make-character-frequencies-unique](https://github.com/mj3smile/leetcode-solutions/tree/main/1647-minimum-deletions-to-make-character-frequencies-unique/) | Medium |
+| [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/mj3smile/leetcode-solutions/tree/main/1846-maximum-element-after-decreasing-and-rearranging/) | Medium |
 | [2285-maximum-total-importance-of-roads](https://github.com/mj3smile/leetcode-solutions/tree/main/2285-maximum-total-importance-of-roads/) | Medium |
 ## Bucket Sort
 | Problem Name | Difficulty |
