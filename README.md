@@ -13,6 +13,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [0054-spiral-matrix](https://github.com/mj3smile/leetcode-solutions/tree/main/0054-spiral-matrix/) | Medium |
 | [0055-jump-game](https://github.com/mj3smile/leetcode-solutions/tree/main/0055-jump-game/) | Medium |
 | [0063-unique-paths-ii](https://github.com/mj3smile/leetcode-solutions/tree/main/0063-unique-paths-ii/) | Medium |
+| [0078-subsets](https://github.com/mj3smile/leetcode-solutions/tree/main/0078-subsets/) | Medium |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/mj3smile/leetcode-solutions/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/mj3smile/leetcode-solutions/tree/main/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
 | [0130-surrounded-regions](https://github.com/mj3smile/leetcode-solutions/tree/main/0130-surrounded-regions/) | Medium |
@@ -67,6 +68,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0051-n-queens](https://github.com/mj3smile/leetcode-solutions/tree/main/0051-n-queens/) | Hard |
+| [0078-subsets](https://github.com/mj3smile/leetcode-solutions/tree/main/0078-subsets/) | Medium |
 | [0212-word-search-ii](https://github.com/mj3smile/leetcode-solutions/tree/main/0212-word-search-ii/) | Hard |
 | [0473-matchsticks-to-square](https://github.com/mj3smile/leetcode-solutions/tree/main/0473-matchsticks-to-square/) | Medium |
 | [0494-target-sum](https://github.com/mj3smile/leetcode-solutions/tree/main/0494-target-sum/) | Medium |
@@ -399,6 +401,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 ## Bit Manipulation
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0078-subsets](https://github.com/mj3smile/leetcode-solutions/tree/main/0078-subsets/) | Medium |
 | [0473-matchsticks-to-square](https://github.com/mj3smile/leetcode-solutions/tree/main/0473-matchsticks-to-square/) | Medium |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/mj3smile/leetcode-solutions/tree/main/0698-partition-to-k-equal-sum-subsets/) | Medium |
 | [0861-score-after-flipping-matrix](https://github.com/mj3smile/leetcode-solutions/tree/main/0861-score-after-flipping-matrix/) | Medium |
