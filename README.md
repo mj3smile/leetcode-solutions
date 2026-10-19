@@ -82,6 +82,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [0341-flatten-nested-list-iterator](https://github.com/mj3smile/leetcode-solutions/tree/main/0341-flatten-nested-list-iterator/) | Medium |
 | [0703-kth-largest-element-in-a-stream](https://github.com/mj3smile/leetcode-solutions/tree/main/0703-kth-largest-element-in-a-stream/) | Easy |
 | [2196-create-binary-tree-from-descriptions](https://github.com/mj3smile/leetcode-solutions/tree/main/2196-create-binary-tree-from-descriptions/) | Medium |
+| [2415-reverse-odd-levels-of-binary-tree](https://github.com/mj3smile/leetcode-solutions/tree/main/2415-reverse-odd-levels-of-binary-tree/) | Medium |
 ## Design
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -116,6 +117,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [0337-house-robber-iii](https://github.com/mj3smile/leetcode-solutions/tree/main/0337-house-robber-iii/) | Medium |
 | [0703-kth-largest-element-in-a-stream](https://github.com/mj3smile/leetcode-solutions/tree/main/0703-kth-largest-element-in-a-stream/) | Easy |
 | [2196-create-binary-tree-from-descriptions](https://github.com/mj3smile/leetcode-solutions/tree/main/2196-create-binary-tree-from-descriptions/) | Medium |
+| [2415-reverse-odd-levels-of-binary-tree](https://github.com/mj3smile/leetcode-solutions/tree/main/2415-reverse-odd-levels-of-binary-tree/) | Medium |
 ## Data Stream
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -388,6 +390,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [0341-flatten-nested-list-iterator](https://github.com/mj3smile/leetcode-solutions/tree/main/0341-flatten-nested-list-iterator/) | Medium |
 | [0721-accounts-merge](https://github.com/mj3smile/leetcode-solutions/tree/main/0721-accounts-merge/) | Medium |
 | [1267-count-servers-that-communicate](https://github.com/mj3smile/leetcode-solutions/tree/main/1267-count-servers-that-communicate/) | Medium |
+| [2415-reverse-odd-levels-of-binary-tree](https://github.com/mj3smile/leetcode-solutions/tree/main/2415-reverse-odd-levels-of-binary-tree/) | Medium |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -395,6 +398,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [0200-number-of-islands](https://github.com/mj3smile/leetcode-solutions/tree/main/0200-number-of-islands/) | Medium |
 | [0721-accounts-merge](https://github.com/mj3smile/leetcode-solutions/tree/main/0721-accounts-merge/) | Medium |
 | [1267-count-servers-that-communicate](https://github.com/mj3smile/leetcode-solutions/tree/main/1267-count-servers-that-communicate/) | Medium |
+| [2415-reverse-odd-levels-of-binary-tree](https://github.com/mj3smile/leetcode-solutions/tree/main/2415-reverse-odd-levels-of-binary-tree/) | Medium |
 ## Union-Find
 | Problem Name | Difficulty |
 | ------- | ------- |
