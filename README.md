@@ -20,6 +20,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [0150-evaluate-reverse-polish-notation](https://github.com/mj3smile/leetcode-solutions/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
 | [0152-maximum-product-subarray](https://github.com/mj3smile/leetcode-solutions/tree/main/0152-maximum-product-subarray/) | Medium |
 | [0169-majority-element](https://github.com/mj3smile/leetcode-solutions/tree/main/0169-majority-element/) | Easy |
+| [0179-largest-number](https://github.com/mj3smile/leetcode-solutions/tree/main/0179-largest-number/) | Medium |
 | [0200-number-of-islands](https://github.com/mj3smile/leetcode-solutions/tree/main/0200-number-of-islands/) | Medium |
 | [0204-count-primes](https://github.com/mj3smile/leetcode-solutions/tree/main/0204-count-primes/) | Medium |
 | [0209-minimum-size-subarray-sum](https://github.com/mj3smile/leetcode-solutions/tree/main/0209-minimum-size-subarray-sum/) | Medium |
@@ -130,6 +131,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [0071-simplify-path](https://github.com/mj3smile/leetcode-solutions/tree/main/0071-simplify-path/) | Medium |
 | [0072-edit-distance](https://github.com/mj3smile/leetcode-solutions/tree/main/0072-edit-distance/) | Medium |
 | [0091-decode-ways](https://github.com/mj3smile/leetcode-solutions/tree/main/0091-decode-ways/) | Medium |
+| [0179-largest-number](https://github.com/mj3smile/leetcode-solutions/tree/main/0179-largest-number/) | Medium |
 | [0212-word-search-ii](https://github.com/mj3smile/leetcode-solutions/tree/main/0212-word-search-ii/) | Hard |
 | [0647-palindromic-substrings](https://github.com/mj3smile/leetcode-solutions/tree/main/0647-palindromic-substrings/) | Medium |
 | [0678-valid-parenthesis-string](https://github.com/mj3smile/leetcode-solutions/tree/main/0678-valid-parenthesis-string/) | Medium |
@@ -213,6 +215,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | ------- | ------- |
 | [0055-jump-game](https://github.com/mj3smile/leetcode-solutions/tree/main/0055-jump-game/) | Medium |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/mj3smile/leetcode-solutions/tree/main/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
+| [0179-largest-number](https://github.com/mj3smile/leetcode-solutions/tree/main/0179-largest-number/) | Medium |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/mj3smile/leetcode-solutions/tree/main/0452-minimum-number-of-arrows-to-burst-balloons/) | Medium |
 | [0678-valid-parenthesis-string](https://github.com/mj3smile/leetcode-solutions/tree/main/0678-valid-parenthesis-string/) | Medium |
 | [0763-partition-labels](https://github.com/mj3smile/leetcode-solutions/tree/main/0763-partition-labels/) | Medium |
@@ -291,6 +294,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | ------- | ------- |
 | [0147-insertion-sort-list](https://github.com/mj3smile/leetcode-solutions/tree/main/0147-insertion-sort-list/) | Medium |
 | [0169-majority-element](https://github.com/mj3smile/leetcode-solutions/tree/main/0169-majority-element/) | Easy |
+| [0179-largest-number](https://github.com/mj3smile/leetcode-solutions/tree/main/0179-largest-number/) | Medium |
 | [0229-majority-element-ii](https://github.com/mj3smile/leetcode-solutions/tree/main/0229-majority-element-ii/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/mj3smile/leetcode-solutions/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/mj3smile/leetcode-solutions/tree/main/0452-minimum-number-of-arrows-to-burst-balloons/) | Medium |
