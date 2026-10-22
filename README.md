@@ -135,6 +135,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [0091-decode-ways](https://github.com/mj3smile/leetcode-solutions/tree/main/0091-decode-ways/) | Medium |
 | [0179-largest-number](https://github.com/mj3smile/leetcode-solutions/tree/main/0179-largest-number/) | Medium |
 | [0212-word-search-ii](https://github.com/mj3smile/leetcode-solutions/tree/main/0212-word-search-ii/) | Hard |
+| [0402-remove-k-digits](https://github.com/mj3smile/leetcode-solutions/tree/main/0402-remove-k-digits/) | Medium |
 | [0647-palindromic-substrings](https://github.com/mj3smile/leetcode-solutions/tree/main/0647-palindromic-substrings/) | Medium |
 | [0678-valid-parenthesis-string](https://github.com/mj3smile/leetcode-solutions/tree/main/0678-valid-parenthesis-string/) | Medium |
 | [0721-accounts-merge](https://github.com/mj3smile/leetcode-solutions/tree/main/0721-accounts-merge/) | Medium |
@@ -187,6 +188,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [0071-simplify-path](https://github.com/mj3smile/leetcode-solutions/tree/main/0071-simplify-path/) | Medium |
 | [0150-evaluate-reverse-polish-notation](https://github.com/mj3smile/leetcode-solutions/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
 | [0341-flatten-nested-list-iterator](https://github.com/mj3smile/leetcode-solutions/tree/main/0341-flatten-nested-list-iterator/) | Medium |
+| [0402-remove-k-digits](https://github.com/mj3smile/leetcode-solutions/tree/main/0402-remove-k-digits/) | Medium |
 | [0445-add-two-numbers-ii](https://github.com/mj3smile/leetcode-solutions/tree/main/0445-add-two-numbers-ii/) | Medium |
 | [0678-valid-parenthesis-string](https://github.com/mj3smile/leetcode-solutions/tree/main/0678-valid-parenthesis-string/) | Medium |
 | [0735-asteroid-collision](https://github.com/mj3smile/leetcode-solutions/tree/main/0735-asteroid-collision/) | Medium |
@@ -218,6 +220,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [0055-jump-game](https://github.com/mj3smile/leetcode-solutions/tree/main/0055-jump-game/) | Medium |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/mj3smile/leetcode-solutions/tree/main/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
 | [0179-largest-number](https://github.com/mj3smile/leetcode-solutions/tree/main/0179-largest-number/) | Medium |
+| [0402-remove-k-digits](https://github.com/mj3smile/leetcode-solutions/tree/main/0402-remove-k-digits/) | Medium |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/mj3smile/leetcode-solutions/tree/main/0452-minimum-number-of-arrows-to-burst-balloons/) | Medium |
 | [0678-valid-parenthesis-string](https://github.com/mj3smile/leetcode-solutions/tree/main/0678-valid-parenthesis-string/) | Medium |
 | [0763-partition-labels](https://github.com/mj3smile/leetcode-solutions/tree/main/0763-partition-labels/) | Medium |
@@ -462,4 +465,8 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0912-sort-an-array](https://github.com/mj3smile/leetcode-solutions/tree/main/0912-sort-an-array/) | Medium |
+## Monotonic Stack
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0402-remove-k-digits](https://github.com/mj3smile/leetcode-solutions/tree/main/0402-remove-k-digits/) | Medium |
 <!---LeetCode Topics End-->
