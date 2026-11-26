@@ -146,6 +146,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [1578-minimum-time-to-make-rope-colorful](https://github.com/mj3smile/leetcode-solutions/tree/main/1578-minimum-time-to-make-rope-colorful/) | Medium |
 | [1647-minimum-deletions-to-make-character-frequencies-unique](https://github.com/mj3smile/leetcode-solutions/tree/main/1647-minimum-deletions-to-make-character-frequencies-unique/) | Medium |
 | [2115-find-all-possible-recipes-from-given-supplies](https://github.com/mj3smile/leetcode-solutions/tree/main/2115-find-all-possible-recipes-from-given-supplies/) | Medium |
+| [2405-optimal-partition-of-string](https://github.com/mj3smile/leetcode-solutions/tree/main/2405-optimal-partition-of-string/) | Medium |
 | [2486-append-characters-to-string-to-make-subsequence](https://github.com/mj3smile/leetcode-solutions/tree/main/2486-append-characters-to-string-to-make-subsequence/) | Medium |
 ## Trie
 | Problem Name | Difficulty |
@@ -234,6 +235,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [1647-minimum-deletions-to-make-character-frequencies-unique](https://github.com/mj3smile/leetcode-solutions/tree/main/1647-minimum-deletions-to-make-character-frequencies-unique/) | Medium |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/mj3smile/leetcode-solutions/tree/main/1846-maximum-element-after-decreasing-and-rearranging/) | Medium |
 | [2285-maximum-total-importance-of-roads](https://github.com/mj3smile/leetcode-solutions/tree/main/2285-maximum-total-importance-of-roads/) | Medium |
+| [2405-optimal-partition-of-string](https://github.com/mj3smile/leetcode-solutions/tree/main/2405-optimal-partition-of-string/) | Medium |
 | [2486-append-characters-to-string-to-make-subsequence](https://github.com/mj3smile/leetcode-solutions/tree/main/2486-append-characters-to-string-to-make-subsequence/) | Medium |
 | [2530-maximal-score-after-applying-k-operations](https://github.com/mj3smile/leetcode-solutions/tree/main/2530-maximal-score-after-applying-k-operations/) | Medium |
 | [2601-prime-subtraction-operation](https://github.com/mj3smile/leetcode-solutions/tree/main/2601-prime-subtraction-operation/) | Medium |
@@ -275,6 +277,7 @@ Collection of my LeetCode problem solutions to ace the coding interview! - Creat
 | [2013-detect-squares](https://github.com/mj3smile/leetcode-solutions/tree/main/2013-detect-squares/) | Medium |
 | [2115-find-all-possible-recipes-from-given-supplies](https://github.com/mj3smile/leetcode-solutions/tree/main/2115-find-all-possible-recipes-from-given-supplies/) | Medium |
 | [2196-create-binary-tree-from-descriptions](https://github.com/mj3smile/leetcode-solutions/tree/main/2196-create-binary-tree-from-descriptions/) | Medium |
+| [2405-optimal-partition-of-string](https://github.com/mj3smile/leetcode-solutions/tree/main/2405-optimal-partition-of-string/) | Medium |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/mj3smile/leetcode-solutions/tree/main/2958-length-of-longest-subarray-with-at-most-k-frequency/) | Medium |
 ## Two Pointers
 | Problem Name | Difficulty |
